@@ -2,7 +2,7 @@
 Đây là đề án phiên dịch giao diện phần mềm nguồn mở 
 [Blender](https://www.blender.org/download/) sang tiếng Việt. 
 Các bạn có thể lấy bản 
-[blender.mo](blender_ui/3x/blender.mo) này về máy và nạp vào thư mục tương ứng (xem dưới đây) để có thể đổi giao diện phần mềm sang tiếng Việt và sử dụng nó trong ngôn ngữ mẹ đẻ của mình. 
+[blender.mo](https://github.com/hoangduytran/blender_ui/blob/main/3x/blender.mo) này về máy và nạp vào thư mục tương ứng (xem dưới đây) để có thể đổi giao diện phần mềm sang tiếng Việt và sử dụng nó trong ngôn ngữ mẹ đẻ của mình. 
 Đương nhiên, bản này hiện cũng đang trên đà được tiến hành, và hằng ngày sẽ có bản cập nhật các thay đổi mới nhất.
 Mong các bạn để ý ngày và giờ xuất xưởng mà tôi đăng lên đây để xem và lấy bản mới nhất về máy.
 
