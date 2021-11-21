@@ -1,4 +1,4 @@
-# blender_ui
+# blender_ui - Giao Diện Người Dùng của Blender trong Tiếng Việt
 Đây là đề án phiên dịch giao diện phần mềm nguồn mở 
 [Blender](https://www.blender.org/download/) sang tiếng Việt. 
 Các bạn có thể lấy bản 
