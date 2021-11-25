@@ -12,6 +12,8 @@ Tôi sử dụng phiên bản 2.93 trong các ví dụ dưới đây. Nếu bạ
 
 Nếu thư mục 'datafiles' của bạn không có thư mục 'locale' (Địa phương) và các thư mục con ở bên dưới thì các bạn phải tìm một bản cũ, có các thư mục con cho các quốc gia, và sao chép toàn bộ 'locale' ở bản cũ sang thư mục 'datafiles' của bạn, rồi sao bản 'blender.mo' lấy xuống, viết đè lên bản cũ ở 'vi/LC_MESSAGES'. Bạn Trần Ngọc Triều có phát hiện là các phiên bản thử nghiệm không cho các thư mục tiêu chuẩn như tôi nói ở đây. Các bạn phải để ý. Nhớ dùng dòng lệnh để kiểm tra xem bản mình cài nằm ở đâu và dưới nó, thư mục 'datafiles' nằm ở đâu để tìm.
 
+Nếu các bạn sử dụng thấy có vấn đề gì, hoặc nghi hoặc, không hiểu một chữ, từ nào, muốn hỏi cho cặn kẽ, thì xin liên lạc với tôi, e-mail của tôi là [hoangduytran1960@googlemail.com](mailto:hoangduytran1960@googlemail.com), hoặc liên lạc trực tiếp bằng cách gửi thông điệp cho tôi qua tài khoản FaceBook của tôi tại [Hoang Duy Tran](https://www.facebook.com/hoangduy.tran). Cảm ơn rất nhiều. Xin đừng ngại ngùng gì, cứ liên lạc nhé.
+
 - MacOS : 
 ```pwsh 
 cp -f "$HOME/Downloads/blender.mo" "/Library/Application Support/Blender/2.93/datafiles/locale/vi/LC_MESSAGES/blender.mo"
