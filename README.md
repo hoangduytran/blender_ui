@@ -20,6 +20,6 @@ cp -f "$HOME/Downloads/blender.mo" "/Library/Application Support/Blender/2.93/da
 sudo cp -f $HOME/Downloads/blender.mo" "/usr/share/blender/2.93/datafiles/locale/vi/LC_MESSAGES/blender.mo
 ```
 
-- Windows:
+- Windows: (Cảm ơn bạn Trần Ngọc Triều trên FaceBook đã giúp tôi phần này)
 ```pwsh 
 xcopy "%UserProfile%\Downloads\blender.mo" "C:\Program Files\Blender Foundation\Blender 2.93\2.93\datafiles\locale\vi\LC_MESSAGES\blender.mo"
