@@ -8,21 +8,18 @@ Mong các bạn để ý ngày và giờ xuất xưởng mà tôi đăng lên đ
 
 Sau khi lấy xuống máy thì đưa vào thư mục của phần mềm trên máy bằng cách mở một cửa sổ dòng lệnh và đánh dòng lệnh ví dụ sau đây, tùy theo hệ điều hành mà bạn sử dụng:
 
-Tôi sử dụng phiên bản 3.0 trong các ví dụ dưới đây. Nếu bạn sử dụng 2.93 chẳng hạn, thì thay giá trị 3.0 bằng 2.93 nhé.
+Tôi sử dụng phiên bản 2.93 trong các ví dụ dưới đây. Nếu bạn sử dụng 3.0 hoặc 3.1 chẳng hạn, thì thay giá trị 2.93 bằng 3.0 hoặc 3.1 nhé.
 
 - MacOS : 
 ```pwsh 
-cp -f $HOME/Downloads/blender.mo 
-/Users/$USER/Library/Application Support/Blender/3.0/datafiles/locale/vi/LC_MESSAGES/blender.mo
+cp -f "$HOME/Downloads/blender.mo" "/Library/Application Support/Blender/2.93/datafiles/locale/vi/LC_MESSAGES/blender.mo"
 ```
 
 - Linux:
 ```pwsh 
-cp -f $HOME/Downloads/blender.mo 
-$HOME/.config/blender/3.0/datafiles/locale/vi/LC_MESSAGES/blender.mo
+sudo cp -f $HOME/Downloads/blender.mo" "/usr/share/blender/2.93/datafiles/locale/vi/LC_MESSAGES/blender.mo
 ```
 
 - Windows:
 ```pwsh 
-xcopy "%UserProfile%\Downloads\blender.mo 
-%USERPROFILE%\AppData\Roaming\Blender Foundation\Blender\3.0\datafiles\locale\vi\LC_MESSAGES\blender.mo"
+xcopy "%UserProfile%\Downloads\blender.mo" "C:\Program Files\Blender Foundation\Blender 2.93\2.93\datafiles\locale\vi\LC_MESSAGES\blender.mo"
