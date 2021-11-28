@@ -10120,6 +10120,12 @@
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>lớp lồng bí mật</string>
+		<key>shortcut</key>
+		<string>llbm</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>luật lệ</string>
 		<key>shortcut</key>
 		<string>lle</string>
