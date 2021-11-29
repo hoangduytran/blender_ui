@@ -4282,6 +4282,12 @@
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>đặt</string>
+		<key>shortcut</key>
+		<string>dat</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>đa thức</string>
 		<key>shortcut</key>
 		<string>dath</string>
@@ -4762,6 +4768,12 @@
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>đường cơ sở</string>
+		<key>shortcut</key>
+		<string>dczo</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>đề án</string>
 		<key>shortcut</key>
 		<string>dean</string>
@@ -5224,6 +5236,12 @@
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>để khớp với</string>
+		<key>shortcut</key>
+		<string>dkvoi</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>điều kiện vệ sinh</string>
 		<key>shortcut</key>
 		<string>dkvs</string>
@@ -5257,6 +5275,12 @@
 		<string>đảo lật</string>
 		<key>shortcut</key>
 		<string>dlat</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>độ lân cận</string>
+		<key>shortcut</key>
+		<string>dlcan</string>
 	</dict>
 	<dict>
 		<key>phrase</key>
@@ -10510,6 +10534,12 @@
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>làm tròn</string>
+		<key>shortcut</key>
+		<string>ltron</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>lưu trữ</string>
 		<key>shortcut</key>
 		<string>ltru</string>
@@ -11185,6 +11215,12 @@
 		<string>mạch lạc</string>
 		<key>shortcut</key>
 		<string>mlac</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>mức lân cận</string>
+		<key>shortcut</key>
+		<string>mlcan</string>
 	</dict>
 	<dict>
 		<key>phrase</key>
@@ -19666,6 +19702,12 @@
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>ước chừng</string>
+		<key>shortcut</key>
+		<string>uchung</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>ước lượng</string>
 		<key>shortcut</key>
 		<string>uclng</string>
@@ -19675,6 +19717,12 @@
 		<string>ước tính</string>
 		<key>shortcut</key>
 		<string>uctinh</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>ước đoán</string>
+		<key>shortcut</key>
+		<string>udoan</string>
 	</dict>
 	<dict>
 		<key>phrase</key>
