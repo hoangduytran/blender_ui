@@ -2416,6 +2416,12 @@
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>chất liệu</string>
+		<key>shortcut</key>
+		<string>chatl</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>chất vấn</string>
 		<key>shortcut</key>
 		<string>chatv</string>
