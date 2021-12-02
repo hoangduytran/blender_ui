@@ -1396,6 +1396,12 @@
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>bộc lộ</string>
+		<key>shortcut</key>
+		<string>bocl</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>bộ điều khiển</string>
 		<key>shortcut</key>
 		<string>bodk</string>
@@ -4297,6 +4303,12 @@
 		<string>đa thức</string>
 		<key>shortcut</key>
 		<string>dath</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>đạt đến</string>
+		<key>shortcut</key>
+		<string>datz</string>
 	</dict>
 	<dict>
 		<key>phrase</key>
