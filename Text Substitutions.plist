@@ -1906,6 +1906,12 @@
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>bấm xuống</string>
+		<key>shortcut</key>
+		<string>bxuong</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>bí danh</string>
 		<key>shortcut</key>
 		<string>bzanh</string>
@@ -5902,6 +5908,12 @@
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>đồng nhất</string>
+		<key>shortcut</key>
+		<string>dongnh</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>đồng thời</string>
 		<key>shortcut</key>
 		<string>dongth</string>
@@ -8560,6 +8572,12 @@
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>kết buộc</string>
+		<key>shortcut</key>
+		<string>kbc</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>không bao giờ</string>
 		<key>shortcut</key>
 		<string>kbgio</string>
@@ -9631,6 +9649,12 @@
 		<string>kinh tế</string>
 		<key>shortcut</key>
 		<string>kte</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>khoảng thời gian</string>
+		<key>shortcut</key>
+		<string>ktgian</string>
 	</dict>
 	<dict>
 		<key>phrase</key>
@@ -12064,6 +12088,12 @@
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>nhắc đi nhắc lại</string>
+		<key>shortcut</key>
+		<string>ndnl</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>nào đó</string>
 		<key>shortcut</key>
 		<string>ndo</string>
@@ -14356,6 +14386,12 @@
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>phi mô thái</string>
+		<key>shortcut</key>
+		<string>pmthai</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>phản quang đối xứng</string>
 		<key>shortcut</key>
 		<string>pqdx</string>
@@ -16291,6 +16327,12 @@
 		<string>tương đối với</string>
 		<key>shortcut</key>
 		<string>tdvoi</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>tác động của xúc giác</string>
+		<key>shortcut</key>
+		<string>tdxz</string>
 	</dict>
 	<dict>
 		<key>phrase</key>
@@ -21007,6 +21049,12 @@
 		<string>xuất</string>
 		<key>shortcut</key>
 		<string>xt</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>xúc tác</string>
+		<key>shortcut</key>
+		<string>xtac</string>
 	</dict>
 	<dict>
 		<key>phrase</key>
