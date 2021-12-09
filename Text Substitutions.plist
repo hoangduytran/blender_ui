@@ -3514,6 +3514,12 @@
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>cân nhắc đến</string>
+		<key>shortcut</key>
+		<string>cnden</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>con em</string>
 		<key>shortcut</key>
 		<string>cnem</string>
@@ -4534,6 +4540,12 @@
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>đền bù</string>
+		<key>shortcut</key>
+		<string>dbu</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>đầu bút</string>
 		<key>shortcut</key>
 		<string>dbut</string>
@@ -4621,6 +4633,12 @@
 		<string>động chạm đến</string>
 		<key>shortcut</key>
 		<string>dchden</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>đường chuyển động</string>
+		<key>shortcut</key>
+		<string>dchdong</string>
 	</dict>
 	<dict>
 		<key>phrase</key>
@@ -5371,6 +5389,12 @@
 		<string>đỏ, lục, lam, alpha</string>
 		<key>shortcut</key>
 		<string>dlla</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>đỏ-lục-lam</string>
+		<key>shortcut</key>
+		<string>dllam</string>
 	</dict>
 	<dict>
 		<key>phrase</key>
@@ -8362,12 +8386,6 @@
 	</dict>
 	<dict>
 		<key>phrase</key>
-		<string>hòa trộn</string>
-		<key>shortcut</key>
-		<string>htron</string>
-	</dict>
-	<dict>
-		<key>phrase</key>
 		<string>hình trụ</string>
 		<key>shortcut</key>
 		<string>htru</string>
@@ -11302,12 +11320,6 @@
 	</dict>
 	<dict>
 		<key>phrase</key>
-		<string>hòa trộn</string>
-		<key>shortcut</key>
-		<string>mix</string>
-	</dict>
-	<dict>
-		<key>phrase</key>
 		<string>mật khẩu</string>
 		<key>shortcut</key>
 		<string>mkhau</string>
@@ -11689,6 +11701,12 @@
 		<string>một số</string>
 		<key>shortcut</key>
 		<string>mso</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>mức sáng tối</string>
+		<key>shortcut</key>
+		<string>mstoi</string>
 	</dict>
 	<dict>
 		<key>phrase</key>
@@ -14422,6 +14440,12 @@
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>phiên sử dụng</string>
+		<key>shortcut</key>
+		<string>psd</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>phi sắc tính</string>
 		<key>shortcut</key>
 		<string>pstinh</string>
@@ -17047,6 +17071,12 @@
 		<string>thoát ra</string>
 		<key>shortcut</key>
 		<string>thoatr</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>thuộc</string>
+		<key>shortcut</key>
+		<string>thoc</string>
 	</dict>
 	<dict>
 		<key>phrase</key>
@@ -19834,6 +19864,12 @@
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>tác giả</string>
+		<key>shortcut</key>
+		<string>tza</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>tứ giác</string>
 		<key>shortcut</key>
 		<string>tzac</string>
@@ -21229,6 +21265,12 @@
 		<string>xúc giác</string>
 		<key>shortcut</key>
 		<string>xzac</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>xuống dưới</string>
+		<key>shortcut</key>
+		<string>xzu</string>
 	</dict>
 	<dict>
 		<key>phrase</key>
