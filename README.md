@@ -4,7 +4,7 @@
 
 Bấm vào đường dẫn để lấy bản tương ứng với phiên bản 'blender.mo' mình cần
 - 2.79b [blender.mo](https://github.com/hoangduytran/blender_ui/blob/main/2.79b/blender.mo)
-- 3.0x [blender.mo](https://github.com/hoangduytran/blender_ui/blob/main/3x/blender.mo)
+- 3.x [blender.mo](https://github.com/hoangduytran/blender_ui/blob/main/3x/blender.mo)
 
 Sau khi đã tải các bản 'blender.mo' trên về máy và nạp vào thư mục tương ứng (xem dưới đây) để có thể đổi giao diện phần mềm sang tiếng Việt và sử dụng nó trong ngôn ngữ mẹ đẻ của mình. 
 
