@@ -1,14 +1,16 @@
 # blender_ui - Giao Diện Người Dùng của Blender trong Tiếng Việt
 Đây là đề án phiên dịch giao diện phần mềm nguồn mở 
 [Blender](https://www.blender.org/download/) sang tiếng Việt. 
-Các bạn có thể lấy bản 
-[blender.mo](https://github.com/hoangduytran/blender_ui/blob/main/3x/blender.mo) này về máy và nạp vào thư mục tương ứng (xem dưới đây) để có thể đổi giao diện phần mềm sang tiếng Việt và sử dụng nó trong ngôn ngữ mẹ đẻ của mình. 
-Đương nhiên, bản này hiện cũng đang trên đà được tiến hành, và hằng ngày sẽ có bản cập nhật các thay đổi mới nhất.
-Mong các bạn để ý ngày và giờ xuất xưởng mà tôi đăng lên đây để xem và lấy bản mới nhất về máy.
 
-Sau khi lấy xuống máy thì đưa vào thư mục của phần mềm trên máy bằng cách mở một cửa sổ dòng lệnh và đánh dòng lệnh ví dụ sau đây, tùy theo hệ điều hành mà bạn sử dụng:
+Bấm vào đường dẫn để lấy bản tương ứng với phiên bản 'blender.mo' mình cần
+- 2.79b [blender.mo](https://github.com/hoangduytran/blender_ui/blob/main/2.79b/blender.mo)
+- 3.0x [blender.mo](https://github.com/hoangduytran/blender_ui/blob/main/3x/blender.mo)
 
-Tôi sử dụng phiên bản 2.93 trong các ví dụ dưới đây. Nếu bạn sử dụng 3.0 hoặc 3.1 chẳng hạn, thì thay giá trị 2.93 bằng 3.0 hoặc 3.1 nhé. Đường dẫn cơ bản là từ thư mục 'datafiles'. Các bạn phải có thư mục này, rồi dưới nó có 'locale' (Địa Phương, ám chỉ quốc gia của người dùng) dưới nó sẽ có rất nhiều thư mục con chỉ quốc gia, với 2 ký tự, ví dụ, Việt Nam sẽ có thư mục là 'vi', rồi dưới nó là thư mục 'LC_MESSAGES'.
+Sau khi đã tải các bản 'blender.mo' trên về máy và nạp vào thư mục tương ứng (xem dưới đây) để có thể đổi giao diện phần mềm sang tiếng Việt và sử dụng nó trong ngôn ngữ mẹ đẻ của mình. 
+
+Sau khi lấy xuống máy thì đưa vào thư mục của phần mềm trên máy bằng cách mở một cửa sổ dòng lệnh và đánh dòng lệnh ví dụ sau đây, tùy theo hệ điều hành mà bạn sử dụng.
+
+Tôi sử dụng phiên bản 2.93 trong các ví dụ dưới đây. Nếu bạn sử dụng 2.79b, 3.0 hoặc 3.1 chẳng hạn, thì thay giá trị 2.93 bằng 3.0 hoặc 3.1 nhé. Đường dẫn cơ bản là từ thư mục 'datafiles'. Các bạn phải có thư mục này, rồi dưới nó có 'locale' (Địa Phương, ám chỉ quốc gia của người dùng) dưới nó sẽ có rất nhiều thư mục con chỉ quốc gia, với 2 ký tự, ví dụ, Việt Nam sẽ có thư mục là 'vi', rồi dưới nó là thư mục 'LC_MESSAGES'.
 
 Nếu thư mục 'datafiles' của bạn không có thư mục 'locale' (Địa phương) và các thư mục con ở bên dưới thì các bạn phải tìm một bản cũ, có các thư mục con cho các quốc gia, và sao chép toàn bộ 'locale' ở bản cũ sang thư mục 'datafiles' của bạn, rồi sao bản 'blender.mo' lấy xuống, viết đè lên bản cũ ở 'vi/LC_MESSAGES'. Bạn Trần Ngọc Triều có phát hiện là các phiên bản thử nghiệm không cho các thư mục tiêu chuẩn như tôi nói ở đây. Các bạn phải để ý. Nhớ dùng dòng lệnh để kiểm tra xem bản mình cài nằm ở đâu và dưới nó, thư mục 'datafiles' nằm ở đâu để tìm.
 
