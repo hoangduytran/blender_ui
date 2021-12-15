@@ -4684,6 +4684,12 @@
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>dùng chung</string>
+		<key>shortcut</key>
+		<string>dchung</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>đầu chuột</string>
 		<key>shortcut</key>
 		<string>dchuot</string>
@@ -21301,6 +21307,12 @@
 		<string>ý tưởng</string>
 		<key>shortcut</key>
 		<string>ytng</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>yếu tố</string>
+		<key>shortcut</key>
+		<string>yto</string>
 	</dict>
 	<dict>
 		<key>phrase</key>
