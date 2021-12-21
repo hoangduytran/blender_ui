@@ -4,6 +4,7 @@
 
 Bấm vào đường dẫn để lấy bản tương ứng với phiên bản 'blender.mo' mình cần
 - 2.79b [blender.mo](https://github.com/hoangduytran/blender_ui/blob/main/2.79b/blender.mo)
+- 2.83.9 [blender.mo](https://github.com/hoangduytran/blender_ui/blob/main/2.83/blender.mo)
 - 3.x [blender.mo](https://github.com/hoangduytran/blender_ui/blob/main/3x/blender.mo)
 
 Sau khi đã tải các bản 'blender.mo' trên về máy và nạp vào thư mục tương ứng (xem dưới đây) để có thể đổi giao diện phần mềm sang tiếng Việt và sử dụng nó trong ngôn ngữ mẹ đẻ của mình. 
@@ -29,3 +30,62 @@ sudo cp -f $HOME/Downloads/blender.mo" "/usr/share/blender/2.93/datafiles/locale
 - Windows: (Cảm ơn bạn Trần Ngọc Triều trên FaceBook đã giúp tôi phần này)
 ```pwsh 
 xcopy "%UserProfile%\Downloads\blender.mo" "C:\Program Files\Blender Foundation\Blender 2.93\2.93\datafiles\locale\vi\LC_MESSAGES\blender.mo"
+```
+
+## Một điều nhắc nhỏ:
+
+Như nói đến trong phần này của bản [Hướng Dẫn Sử Dụng](https://docs.blender.org/manual/en/3.1/advanced/blender_directory_layout.html?highlight=blender%20s%20directory%20layout), Blender để các cấu hình của mình ở hai nơi, thư mục cài bản nhị phân thi hành (blender.exec, hoặc blender), hay SYSTEM (Hệ Thống), và tại địa chỉ thư mục NHÀ ($HOME, %USERPROFILE%). Thư mục $HOME, nếu tồn tại, thì sẽ được cập nhật và sử dụng trước (có quyền ưu tiên hơn cả).
+
+Nếu các bạn đưa bản 'blender.mo' vào thư mục NHÀ một cách miễn cưỡng, và khi bật lên, không thấy mục ngôn ngữ trong cấu hình giao diện không có gì thì có nghĩa là nó thiếu các văn bản và thư mục cần có về ngôn ngữ. Nếu thế, thì các bạn lần vào thư mục cài đặt bản nhị phân thi hành (executable binary), tức là bản (blender.exec, hoặc blender) và tìm thư mục 
+
+```pwsh
+locale
+```
+
+ở dưới
+
+```pwsh
+datafiles
+```
+
+và sao chép toàn bộ thư mục 
+
+```pwsh
+locale
+```
+
+về thư mục tại ($HOME, %USERPROFILE%) của mình.
+
+Chẳng hạn, đối với phiên bản 2.83.9, trên máy MacBook Pro (hệ điều hành OSX) thì tôi phải sao từ
+
+```pwsh
+/Applications/Blender 2.83.9.app/Contents/Resources/2.83/datafiles/locale
+```
+
+sang
+
+```pwsh
+/Users/hoangduytran/Library/Application Support/Blender/2.83/datafiles
+```
+
+Dòng lệnh tôi sẽ phải sử dụng trên cửa sổ bàn giao tiếp đánh dòng lệnh là:
+
+- tạo thư mục ở địa chỉ NHÀ
+- sao chép toàn bộ thư mục 'locale' ở nơi cài đặt Blender, sang địa chỉ NHÀ
+
+```pwsh
+mkdir -p "/Users/hoangduytran/Library/Application Support/Blender/2.83/datafiles"
+cp -a "/Applications/Blender 2.83.9.app/Contents/Resources/2.83/datafiles/locale" "/Users/hoangduytran/Library/Application Support/Blender/2.83/datafiles"
+```
+
+Sau khi làm xong việc trên thì mình có thể đưa bản [blender.mo](https://github.com/hoangduytran/blender_ui/blob/main/2.83/blender.mo) tải về máy vào thư mục nhà của tôi tức thư mục:
+
+```pwsh
+"/Users/hoangduytran/Library/Application Support/Blender/2.83/datafiles"
+```
+
+và từ giờ trở đi, Blender sẽ vào thư mục nhà trên của tôi để lấy các bản ngôn ngữ ở đó, bỏ qua hẳn thư mục cài đặt:
+
+```pwsh
+"/Applications/Blender 2.83.9.app/Contents/Resources/2.83/datafiles/locale"
+```
