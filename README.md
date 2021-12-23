@@ -115,7 +115,7 @@ cp -a "/Applications/Blender 2.83.9.app/Contents/Resources/2.83/datafiles/locale
 Sau khi làm xong việc trên thì mình có thể đưa bản [blender.mo](https://github.com/hoangduytran/blender_ui/blob/main/2.83/blender.mo) tải về máy vào thư mục nhà của tôi tức thư mục:
 
 ```pwsh
-"/Users/hoangduytran/Library/Application Support/Blender/2.83/datafiles"
+"/Users/hoangduytran/Library/Application Support/Blender/2.83/datafiles/locale/vi/LC_MESSAGES"
 ```
 
 và từ giờ trở đi, Blender sẽ vào thư mục nhà trên của tôi để lấy các bản ngôn ngữ ở đó, bỏ qua hẳn thư mục cài đặt:
