@@ -68,7 +68,7 @@ xcopy "%UserProfile%\Downloads\blender.mo" "C:\Program Files\Blender Foundation\
 
 ## Một điều nhắc nhỏ:
 
-Như nói đến trong phần này của bản [Hướng Dẫn Sử Dụng](https://docs.blender.org/manual/en/3.1/advanced/blender_directory_layout.html?highlight=blender%20s%20directory%20layout), Blender để các cấu hình của mình ở hai nơi, thư mục cài bản nhị phân thi hành (blender.exe, hoặc blender), hay SYSTEM (Hệ Thống), và tại địa chỉ thư mục NHÀ ($HOME, %USERPROFILE%). Thư mục $HOME, nếu tồn tại, thì sẽ được cập nhật và sử dụng trước (có quyền ưu tiên hơn cả).
+Như nói đến trong phần này của bản [Hướng Dẫn Sử Dụng](https://docs.blender.org/manual/en/3.1/advanced/blender_directory_layout.html), Blender để các cấu hình của mình ở hai nơi, thư mục cài bản nhị phân thi hành (blender.exe, hoặc blender), hay SYSTEM (Hệ Thống), và tại địa chỉ thư mục NHÀ ($HOME, %USERPROFILE%). Thư mục $HOME, nếu tồn tại, thì sẽ được cập nhật và sử dụng trước (có quyền ưu tiên hơn cả).
 
 Nếu các bạn đưa bản 'blender.mo' vào thư mục NHÀ một cách miễn cưỡng, và khi bật lên, không thấy mục ngôn ngữ trong cấu hình giao diện không có gì thì có nghĩa là nó thiếu các văn bản và thư mục cần có về ngôn ngữ. Nếu thế, thì các bạn lần vào thư mục cài đặt bản nhị phân thi hành (executable binary), tức là bản (blender.exe, hoặc blender) và tìm thư mục 
 
