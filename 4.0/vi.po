@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-11-12 16:36+0000\n"
-"PO-Revision-Date: 2024-11-14 21:26+0000\n"
+"PO-Revision-Date: 2024-11-15 17:18+0000\n"
 "Last-Translator: Hoang Duy Tran <hoangduytran1960@googlemail.com>\n"
 "Language-Team: vi <LL@li.org>\n"
 "Language: vi\n"
@@ -1794,332 +1794,309 @@ msgstr "Không thể cài đặt từ đường dẫn tương đối được"
 
 #: scripts/addons_core/bl_pkg/bl_extension_ops.py:2502
 msgid "Unable to install a directory"
-msgstr ""
+msgstr "Không thể cài đặt một thư mục được"
 
 #: scripts/addons_core/bl_pkg/bl_extension_ops.py:1910
 msgid "Age: {:s}"
-msgstr ""
+msgstr "Tuổi: {:s}"
 
 #: scripts/addons_core/bl_pkg/bl_extension_ops.py:1912
 msgid "Error: {:s}"
-msgstr ""
+msgstr "Lỗi: {:s}"
 
 #: scripts/addons_core/bl_pkg/bl_extension_ui.py:309
 msgid "Missing Built-in Add-ons"
-msgstr ""
+msgstr "Các Trình Bổ Sung Thiếu Vắng"
 
 #: scripts/addons_core/bl_pkg/bl_extension_ui.py:329
 msgid "Add-ons previously shipped with Blender are now available from extensions.blender.org."
-msgstr ""
+msgstr "Các trình bổ sung, vốn trước đây được cung cấp cùng với Blender, hiện có sẵn tại extensions.blender.org."
 
 #: scripts/addons_core/bl_pkg/bl_extension_ui.py:404
 msgid "Missing Add-ons"
-msgstr ""
+msgstr "Trình bổ sung thiếu vắng"
 
 #: scripts/addons_core/bl_pkg/bl_extension_ui.py:779
-#, fuzzy
 msgid "Search Add-ons"
-msgstr "Trình Bổ Sung của Người Dùng"
+msgstr "Tìm kiếm trình bổ sung"
 
 #: scripts/addons_core/bl_pkg/bl_extension_ui.py:780
-#, fuzzy
 msgid "Enabled Only"
-msgstr "Duy Trình Bổ Sung đã Bật mà thôi"
+msgstr "Duy Trình Bổ Sung đã Bật"
 
 #: scripts/addons_core/bl_pkg/bl_extension_ui.py:1181
-#, fuzzy
 msgid "Online Extensions"
-msgstr "Đuôi Tập Tin"
+msgstr "Các Trình Mở Rộng Trực Tuyến"
 
 #: scripts/addons_core/bl_pkg/bl_extension_ui.py:1197
 msgid "While offline, use \"Install from Disk\" instead."
-msgstr ""
+msgstr "Trong khi ngoại tuyến thì xin hãy sử dụng \"Cài Đặt Từ Đĩa\" thay vì."
 
 #: scripts/addons_core/bl_pkg/bl_extension_ui.py:1208
 msgctxt "Operator"
 msgid "Continue Offline"
-msgstr ""
+msgstr "Tiếp Tục Ngoại Tuyến"
 
 #: scripts/addons_core/bl_pkg/bl_extension_ui.py:1214
 msgctxt "Operator"
 msgid "Allow Online Access"
-msgstr ""
+msgstr "Cho Phép Truy Cập Trực Tuyến"
 
 #: scripts/addons_core/bl_pkg/bl_extension_ui.py:1983
-#, fuzzy
 msgid "Search Extensions"
-msgstr "Đuôi Tập Tin"
+msgstr "Tìm Kiếm Trình mở rộng"
 
 #: scripts/addons_core/bl_pkg/bl_extension_ui.py:2270
-#, fuzzy
 msgid "Show Tags"
-msgstr "Hiển Thị các Giám Sát"
+msgstr "Hiển Thị Thẻ"
 
 #: scripts/addons_core/bl_pkg/bl_extension_ui.py:245
 msgid "Built-in"
-msgstr ""
+msgstr "Tích Hợp"
 
 #: scripts/addons_core/bl_pkg/bl_extension_ui.py:262
 #: scripts/addons_core/bl_pkg/bl_extension_ui.py:1391
 msgid "Website"
-msgstr ""
+msgstr "Trang Mạng"
 
 #: scripts/addons_core/bl_pkg/bl_extension_ui.py:271
-#, fuzzy
 msgctxt "Preferences"
 msgid "Feedback"
-msgstr "Phản Hồi"
+msgstr "Phản hồi"
 
 #: scripts/addons_core/bl_pkg/bl_extension_ui.py:280
 #: scripts/addons_core/bl_pkg/bl_extension_ui.py:1408
 msgid "Maintainer"
-msgstr ""
+msgstr "Người Bảo Trì"
 
 #: scripts/addons_core/bl_pkg/bl_extension_ui.py:335
-#, fuzzy
 msgid "Blender's extension repository not found!"
-msgstr "Không tìm thấy kho lưu trữ tiện ích mở rộng"
+msgstr "Không tìm thấy kho lưu trữ trình mở rộng của Blender nào cả!"
 
 #: scripts/addons_core/bl_pkg/bl_extension_ui.py:1061
 msgid "Repository Alert:"
-msgstr ""
+msgstr "Cảnh Báo Kho Lưu Trữ:"
 
 #: scripts/addons_core/bl_pkg/bl_extension_ui.py:1190
 msgid "Internet access is required to install and update online extensions. "
-msgstr ""
+msgstr "Cần phải có kết nối Internet để cài đặt và cập nhật các trình mở rộng trực tuyến. "
 
 #: scripts/addons_core/bl_pkg/bl_extension_ui.py:1191
 msgid "You can adjust this later from \"System\" preferences."
-msgstr ""
+msgstr "Bạn có thể điều chỉnh cái này sau trong các cài đặt sở thích \"Hệ thống\"."
 
 #: scripts/addons_core/bl_pkg/bl_extension_ui.py:1760
 #: scripts/addons_core/bl_pkg/bl_extension_ui.py:1780
 msgctxt "Operator"
 msgid "Install from Disk..."
-msgstr ""
+msgstr "Cài Đặt từ Đĩa..."
 
 #: scripts/addons_core/bl_pkg/bl_extension_ui.py:2108
 msgctxt "Operator"
 msgid "Force Unlock Repository..."
-msgstr ""
+msgstr "Ép Buộc Mở Khóa Kho Lưu Trữ..."
 
 #: scripts/addons_core/bl_pkg/bl_extension_ui.py:2308
 msgid "No visible tags."
-msgstr ""
+msgstr "Không có thẻ nào hữu hình cả."
 
 #: scripts/addons_core/bl_pkg/bl_extension_ui.py:337
 msgid "Blender's extension repository must be enabled to install extensions!"
-msgstr ""
+msgstr "Kho trình mở rộng của Blender phải được bật lên để cài đặt các trình mở rộng!"
 
 #: scripts/addons_core/bl_pkg/bl_extension_ui.py:385
 #: scripts/addons_core/bl_pkg/bl_extension_ui.py:1330
-#, fuzzy
 msgctxt "Operator"
 msgid "Install"
 msgstr "Cài Đặt"
 
 #: scripts/addons_core/bl_pkg/bl_extension_ui.py:1321
 msgid "Blocked   "
-msgstr ""
+msgstr "Bị Chặn Lại   "
 
 #: scripts/addons_core/bl_pkg/bl_extension_ui.py:1338
 msgid "Orphan   "
-msgstr ""
+msgstr "Mồ Côi   "
 
 #: scripts/addons_core/bl_pkg/bl_extension_ui.py:1377
-#, fuzzy
 msgid "Blocked"
-msgstr "Không Khóa"
+msgstr "Bị Chặn Lại"
 
 #: scripts/addons_core/bl_pkg/bl_extension_ui.py:1398
 msgid "Permissions"
-msgstr ""
+msgstr "Quyền Hạn"
 
 #: scripts/addons_core/bl_pkg/bl_extension_ui.py:1771
 msgctxt "Operator"
 msgid "Visit Extensions Platform"
-msgstr ""
+msgstr "Truy Cập Nền Tảng Trình Mở Rộng"
 
 #: scripts/addons_core/bl_pkg/bl_extension_ui.py:1786
-#, fuzzy
 msgctxt "Operator"
 msgid "Mark All"
-msgstr "Nướng Toàn bộ các"
+msgstr "Đánh Dấu Toàn Bộ"
 
 #: scripts/addons_core/bl_pkg/bl_extension_ui.py:1787
 msgctxt "Operator"
 msgid "Unmark All"
-msgstr ""
+msgstr "Hủy Dấu Toàn Bộ"
 
 #: scripts/addons_core/bl_pkg/bl_extension_ui.py:1798
 msgctxt "Operator"
 msgid "Uninstall Marked"
-msgstr ""
+msgstr "Gỡ Cài Đặt cái đã Đánh Dấu"
 
 #: scripts/addons_core/bl_pkg/bl_extension_ui.py:347
-#, fuzzy
 msgid "Blender's extension repository must be refreshed!"
-msgstr "Không tìm thấy kho lưu trữ tiện ích mở rộng"
+msgstr "Kho lưu trữ trình mở rộng của Blender phải được làm mới lại!"
 
 #: scripts/addons_core/bl_pkg/bl_extension_ui.py:1405
 msgid "No permissions specified"
-msgstr ""
+msgstr "Không có quyền phép nào đã được xác định cả"
 
 #: scripts/addons_core/bl_pkg/bl_extension_ui.py:1793
 msgctxt "Operator"
 msgid "Install Marked"
-msgstr ""
+msgstr "Cài Đặt cái Đã Đánh Dấu"
 
 #: scripts/addons_core/bl_pkg/bl_extension_ui.py:1923
 #: scripts/addons_core/bl_pkg/bl_extension_ui.py:1929
 msgctxt "Operator"
 msgid "Visit Website"
-msgstr ""
+msgstr "Truy Cập Trang Mạng"
 
 #: scripts/addons_core/bl_pkg/bl_extension_ui.py:1324
-#, fuzzy
 msgctxt "Operator"
 msgid "Update"
 msgstr "Cập Nhật"
 
 #: scripts/addons_core/bl_pkg/bl_extension_ui.py:1540
-#, fuzzy
 msgid "Installed"
-msgstr "Cài Đặt"
+msgstr "Đã Cài Đặt"
 
 #: scripts/addons_core/bl_pkg/bl_extension_ui.py:1898
 msgctxt "Operator"
 msgid "View Details"
-msgstr ""
+msgstr "Xem Chi Tiết"
 
 #: scripts/addons_core/bl_pkg/bl_extension_ui.py:1914
-#, fuzzy
 msgctxt "Operator"
 msgid "Clear Theme"
-msgstr "Xóa Đường Khâu"
+msgstr "Xóa Chủ Đề"
 
 #: scripts/addons_core/bl_pkg/bl_extension_ui.py:1914
 msgctxt "Operator"
 msgid "Set Theme"
-msgstr ""
+msgstr "Đặt Chủ Đề"
 
 #: scripts/addons_core/bl_pkg/bl_extension_ui.py:1414
 msgid "{:s} ({:s} available)"
-msgstr ""
+msgstr "{:s} ({:s} có sẵn để sử dụng)"
 
 #: scripts/addons_core/bl_pkg/bl_extension_ui.py:1907
 msgctxt "Operator"
 msgid "Add-on Enabled"
-msgstr ""
+msgstr "Trình Bổ Sung đã Bật Lên"
 
 #: scripts/addons_core/bl_pkg/cli/blender_ext.py:5015
 msgid "Demo"
-msgstr ""
+msgstr "Trình Diễn"
 
 #: scripts/addons_core/bl_pkg/cli/blender_ext.py:2940
 msgid "Downloading..."
-msgstr ""
+msgstr "Đang tải..."
 
 #: scripts/addons_core/bl_pkg/cli/blender_ext.py:4277
 msgid "Downloading \"{:s}\""
-msgstr ""
+msgstr "Đang tải xuống \"{:s}\""
 
 #: scripts/addons_core/copy_global_transform.py:912
-#, fuzzy
 msgid "Fix"
-msgstr "Cố Định/Bất Biến/Định Trước"
+msgstr "Cố Định"
 
 #: scripts/addons_core/copy_global_transform.py:972
 msgid "Work Relative to some Object"
-msgstr ""
+msgstr "Hoạt Động Tương Đối với một số Đối Tượng"
 
 #: scripts/addons_core/copy_global_transform.py:402
 #: scripts/addons_core/copy_global_transform.py:730
 msgid "Select an object or pose bone"
-msgstr ""
+msgstr "Chọn một đối tượng hoặc xương tư thế"
 
 #: scripts/addons_core/copy_global_transform.py:733
 msgid "Switch to Pose or Object mode"
-msgstr ""
+msgstr "Chuyển sang chế độ Tư Thế hoặc Đối Tượng"
 
 #: scripts/addons_core/copy_global_transform.py:736
 msgid "The Scene needs a camera"
-msgstr ""
+msgstr "Cảnh Quay cần một máy quay phim"
 
 #: scripts/addons_core/copy_global_transform.py:975
 msgid "Using Active Scene Camera"
-msgstr ""
+msgstr "Sử Dụng Máy Quay Phim của Cảnh Đang Hoạt Động"
 
 #: scripts/addons_core/copy_global_transform.py:747
 #, python-format
 msgid "Unsupported mode: %r"
-msgstr ""
+msgstr "Chế độ chưa được hỗ trợ: %r"
 
 #: scripts/addons_core/cycles/properties.py:267
 msgid "Use Intel OpenImageDenoise AI denoiser"
-msgstr ""
+msgstr "Sử Dụng Bộ Khử Nhiễu AI Intel OpenImageDenoise"
 
 #: scripts/addons_core/cycles/properties.py:274
 msgid "Use the OptiX AI denoiser with GPU acceleration, only available on NVIDIA GPUs when configured in the system tab in the user preferences"
-msgstr ""
+msgstr "Sử dụng bộ khử nhiễu OptiX AI (trí tuệ nhân tạo OptiX) với khả năng tăng tốc GPU, chỉ khả dụng trên GPU NVIDIA khi được cấu hình ở thẻ hệ thống trong cài đặt sở thích của người dùng"
 
 #: scripts/addons_core/cycles/properties.py:286
 msgid "Use GPU accelerated denoising if supported, for the best performance. Prefer OpenImageDenoise over OptiX"
-msgstr ""
+msgstr "Sử dụng khử nhiễu tăng tốc GPU nếu hỗ trợ để có hiệu suất hoạt động tốt nhất. Ưu tiên OpenImageDenoise (Khử Nhiễu Hình Ảnh Mở) Hơn Optix"
 
 #: scripts/addons_core/cycles/properties.py:290
 msgid "Blender was compiled without a viewport denoiser"
-msgstr ""
+msgstr "Blender vốn được biên dịch không có bộ khử nhiễu cổng nhìn"
 
 #: scripts/addons_core/cycles/properties.py:1746
 #: scripts/addons_core/cycles/properties.py:1754
-#, fuzzy
 msgid "Requires AMD GPU with RDNA architecture"
-msgstr "Yêu cầu GPU AMD với kiến trúc Vega hoặc RDNA"
-
-#: scripts/addons_core/cycles/ui.py:2158
-msgid "BVH"
-msgstr ""
+msgstr "Yêu cầu GPU AMD có kiến trúc RDNA"
 
 #: scripts/addons_core/cycles/ui.py:285 scripts/addons_core/cycles/ui.py:354
 msgid "Use GPU"
-msgstr ""
+msgstr "Sử Dụng GPU"
 
 #: scripts/addons_core/io_scene_fbx/export_fbx_bin.py:3621
 #, python-format
 msgid "Collection '%s' was not found"
-msgstr ""
+msgstr "Không tìm thấy bộ sưu tập '%s'"
 
 #: scripts/addons_core/io_scene_gltf2/__init__.py:1679
 msgid "Animation Pointer (Experimental)"
-msgstr ""
+msgstr "Con Trỏ Hoạt Họa (Thử Nghiệm)"
 
 #: scripts/addons_core/io_scene_gltf2/__init__.py:1706
-#, fuzzy
 msgid "Extra Animations"
-msgstr "Xuất Khẩu Hoạt Họa"
+msgstr "Hoạt Họa Bổ Sung"
 
 #: scripts/addons_core/io_scene_gltf2/__init__.py:1355
 #: scripts/addons_core/io_scene_gltf2/__init__.py:2037
 msgid "This is the least efficient of the available forms, and should only be used when required."
-msgstr ""
+msgstr "Đây là hình thức kém hiệu quả nhất trong các hình thức hiện có và chỉ nên sử dụng khi đòi hỏi mà thôi."
 
 #: scripts/addons_core/io_scene_gltf2/__init__.py:1453
 msgid "Note that fully compliant glTF 2.0 engine/viewer will use it as multiplicative factor for base color."
-msgstr ""
+msgstr "Lưu ý rằng máy động cơ/trình quan sát glTF 2.0 hoàn toàn tuân thủ tiêu chuẩn glTF 2.0 sẽ sử dụng nó như một hệ số nhân với màu cơ bản (base color)."
 
 #: scripts/addons_core/io_scene_gltf2/__init__.py:1456
 msgid "If you want to use VC for any other purpose than vertex color, you should use custom attributes."
-msgstr ""
+msgstr "Nếu bạn muốn sử dụng VC cho bất kỳ mục đích nào khác ngoài màu điểm đỉnh thì bạn nên sử dụng các thuộc tính tùy chỉnh."
 
 #: scripts/addons_core/node_wrangler/interface.py:421
-#, fuzzy
 msgctxt "Operator"
 msgid "Multiple Images"
-msgstr "Đa Các Mặt"
+msgstr "Nhiều Hình Ảnh"
 
 #: scripts/addons_core/node_wrangler/interface.py:422
-#, fuzzy
 msgctxt "Operator"
 msgid "Image Sequence"
 msgstr "Trình Tự Hình Ảnh"
@@ -2127,304 +2104,286 @@ msgstr "Trình Tự Hình Ảnh"
 #: scripts/addons_core/node_wrangler/interface.py:25
 msgctxt "Operator"
 msgid "Add Texture Setup"
-msgstr ""
+msgstr "Thêm Sắp Đặt Chất Liệu"
 
 #: scripts/addons_core/node_wrangler/interface.py:26
 msgctxt "Operator"
 msgid "Add Principled Setup"
-msgstr ""
+msgstr "Thêm Sắp Đặt Nguyên Tắc"
 
 #: scripts/addons_core/node_wrangler/interface.py:87
 msgid "(Quick access: Shift+W)"
-msgstr ""
+msgstr "(Truy cập nhanh: Shift+W)"
 
 #: scripts/addons_core/node_wrangler/interface.py:265
 msgctxt "Operator"
 msgid "Settings from Active"
-msgstr ""
+msgstr "Sắp Đặt từ cái Đang Hoạt Động"
 
 #: scripts/addons_core/node_wrangler/interface.py:309
 #: scripts/addons_core/node_wrangler/interface.py:325
 #: scripts/addons_core/node_wrangler/interface.py:341
 msgctxt "Operator"
 msgid "Do Not Replace Links"
-msgstr ""
+msgstr "Không Thay Thế Liên Kết"
 
 #: scripts/addons_core/node_wrangler/interface.py:313
 #: scripts/addons_core/node_wrangler/interface.py:329
 #: scripts/addons_core/node_wrangler/interface.py:345
 msgctxt "Operator"
 msgid "Replace Links"
-msgstr ""
+msgstr "Thay Thế Liên Kết"
 
 #: scripts/addons_core/node_wrangler/interface.py:398
 msgid "This operator is removed due to the changes of node menus."
-msgstr ""
+msgstr "Thao tác này đã bị xóa đi do các thay đổi trong trình đơn nút."
 
 #: scripts/addons_core/node_wrangler/interface.py:399
 msgid "A native implementation of the function is expected in the future."
-msgstr ""
+msgstr "Dự kiến chức năng này sẽ có một thực thi bản địa trong tương lai."
 
 #: scripts/addons_core/node_wrangler/interface.py:409
 msgctxt "Operator"
 msgid "Select frame's members (children)"
-msgstr ""
+msgstr "Chọn thành viên của khung hình (con cái)"
 
 #: scripts/addons_core/node_wrangler/interface.py:410
-#, fuzzy
 msgctxt "Operator"
 msgid "Select parent frame"
-msgstr "Chọn Xương Phụ Huynh"
+msgstr "Chọn Khung Hình Phụ Huynh"
 
 #: scripts/addons_core/node_wrangler/interface.py:455
 msgctxt "Operator"
 msgid "Reset Nodes in Frame"
-msgstr ""
+msgstr "Hoàn Lại các Nút trong Khung Hình"
 
 #: scripts/addons_core/node_wrangler/interface.py:457
-#, fuzzy
 msgctxt "Operator"
 msgid "Reset Node"
-msgstr "Đổi Kích Thước Nút"
+msgstr "Hoàn Lại Nút"
 
 #: scripts/addons_core/node_wrangler/interface.py:111
-#, fuzzy
 msgid "Use Shaders"
-msgstr "Sử Dụng Bóng Tối"
+msgstr "Sử Dụng các Bộ Tô Bóng"
 
 #: scripts/addons_core/node_wrangler/interface.py:113
-#, fuzzy
 msgid "Use Geometry Nodes"
-msgstr "Các Nút Hình Học"
+msgstr "Sử Dụng các Nút Hình Học"
 
 #: scripts/addons_core/node_wrangler/interface.py:114
 #: scripts/addons_core/node_wrangler/interface.py:117
-#, fuzzy
 msgid "Use Math Nodes"
-msgstr "Sử Dụng Nút"
+msgstr "Sử Dụng các Nút Toán"
 
 #: scripts/addons_core/node_wrangler/interface.py:116
-#, fuzzy
 msgid "Use Mix Nodes"
-msgstr "Sử Dụng Nút"
+msgstr "Sử Dụng các Nút Hòa Trộn"
 
 #: scripts/addons_core/node_wrangler/interface.py:118
 msgctxt "Operator"
 msgid "Use Z-Combine Nodes"
-msgstr ""
+msgstr "Sử Dụng các Nút Kết Hợp Z"
 
 #: scripts/addons_core/node_wrangler/interface.py:121
 msgctxt "Operator"
 msgid "Use Alpha Over Nodes"
-msgstr ""
+msgstr "Sử Dụng các Nút Chồng Alpha Lên"
 
 #: scripts/addons_core/node_wrangler/interface.py:275
 msgctxt "Operator"
 msgid "From Active Node's Label"
-msgstr ""
+msgstr "Từ Nhãn của Nút Đang Hoạt Động"
 
 #: scripts/addons_core/node_wrangler/interface.py:276
 msgctxt "Operator"
 msgid "From Linked Node's Label"
-msgstr ""
+msgstr "Từ Nhãn của Nút Liên Kết"
 
 #: scripts/addons_core/node_wrangler/interface.py:277
-#, fuzzy
 msgctxt "Operator"
 msgid "From Linked Output's Name"
-msgstr "Dòng Đầu Ra"
+msgstr "Từ Tên Đầu Ra Liên kết"
 
 #: scripts/addons_core/node_wrangler/interface.py:287
 msgctxt "Operator"
 msgid "To All Outputs"
-msgstr ""
+msgstr "Đến Toàn Bộ các Đầu Ra"
 
 #: scripts/addons_core/node_wrangler/interface.py:288
 msgctxt "Operator"
 msgid "To Loose Outputs"
-msgstr ""
+msgstr "Để các Đầu Ra Rời Rạc"
 
 #: scripts/addons_core/node_wrangler/interface.py:289
-#, fuzzy
 msgctxt "Operator"
 msgid "To Linked Outputs"
-msgstr "Dòng Đầu Ra"
+msgstr "Đến các Đầu Ra Liên Kết"
 
 #: scripts/addons_core/node_wrangler/interface.py:389
 msgid "No attributes on objects with this material"
-msgstr ""
+msgstr "Không có thuộc tính nào trên các đối tượng có nguyên vật liệu này"
 
 #: scripts/addons_core/node_wrangler/operators.py:119
 #: scripts/addons_core/node_wrangler/operators.py:229
 msgid "View3D not found, cannot run operator"
-msgstr ""
+msgstr "Không tìm thấy View3D (Khung Nhìn 3D), không thể chạy thao tác được"
 
 #: scripts/addons_core/node_wrangler/operators.py:324
-#, fuzzy
 msgid "Node {} deleted"
-msgstr "Nút được Chọn"
+msgstr "Nút {} đã bị xóa"
 
 #: scripts/addons_core/node_wrangler/operators.py:327
-#, fuzzy
 msgid "Nothing to delete"
-msgstr "Chưa chọn cái gì cả"
+msgstr "Không có gì để xóa cả"
 
 #: scripts/addons_core/node_wrangler/operators.py:578
-#, fuzzy
 msgid "Reloaded images"
-msgstr "Nạp Lại Hình Ảnh"
+msgstr "Đã tải lại các hình ảnh"
 
 #: scripts/addons_core/node_wrangler/operators.py:583
 msgid "No images found to reload in this node tree"
-msgstr ""
+msgstr "Không tìm thấy hình ảnh nào để tải lại trong cây nút này cả"
 
 #: scripts/addons_core/node_wrangler/operators.py:1116
 msgid "Selected nodes are not of the same type as {}"
-msgstr ""
+msgstr "Các nút được chọn là bất đồng thể loại với {}"
 
 #: scripts/addons_core/node_wrangler/operators.py:1125
 msgid "Ignored {} (not of the same type as {}), "
-msgstr ""
+msgstr "Bỏ qua {} (bất đồng thể loại với {}), "
 
 #: scripts/addons_core/node_wrangler/operators.py:1437
-#, fuzzy
 msgid "No folder selected"
-msgstr "Không có mặt nào đã được chọn cả"
+msgstr "Không có thư mục nào đã được chọn cả"
 
 #: scripts/addons_core/node_wrangler/operators.py:1440
-#, fuzzy
 msgid "No files selected"
-msgstr "Không có mặt nào đã được chọn cả"
+msgstr "Không có tập tin nào đã được chọn cả"
 
 #: scripts/addons_core/node_wrangler/operators.py:1472
-#, fuzzy
 msgid "No matching images found"
-msgstr "Không tìm thấy vùng mặt xứng khớp nào cả"
+msgstr "Không tìm thấy hình ảnh nào xứng khớp cả"
 
 #: scripts/addons_core/node_wrangler/operators.py:2157
 msgid "No file chosen"
-msgstr ""
+msgstr "Không có tập tin nào đã được chọn cả"
 
 #: scripts/addons_core/node_wrangler/operators.py:2164
-#, fuzzy
 msgid "{} does not exist"
-msgstr "Tập tin không tồn tại"
+msgstr "{} không tồn tại"
 
 #: scripts/addons_core/node_wrangler/operators.py:2171
 msgid "{} does not seem to be part of a sequence"
-msgstr ""
+msgstr "{} có vẻ như không phải là một phần của trình tự"
 
 #: scripts/addons_core/node_wrangler/operators.py:2387
 msgid "Ignored {}, "
-msgstr ""
+msgstr "Bỏ qua {}, "
 
 #: scripts/addons_core/node_wrangler/operators.py:330
 msgid "Deleted {} nodes"
-msgstr ""
+msgstr "Đã xóa {} nút"
 
 #: scripts/addons_core/node_wrangler/operators.py:332
 msgid "Deleted 1 node"
-msgstr ""
+msgstr "Đã xóa 1 nút"
 
 #: scripts/addons_core/node_wrangler/operators.py:1192
 msgid "Successfully copied attributes from {} to {}"
-msgstr ""
+msgstr "Đã sao chép thành công các thuộc tính từ {} đến {}"
 
 #: scripts/addons_core/node_wrangler/operators.py:1348
 msgid "No free inputs for node {}"
-msgstr ""
+msgstr "Không có đầu vào nào còn bỏ trống trong nút {}"
 
 #: scripts/addons_core/node_wrangler/operators.py:2153
-#, fuzzy
 msgid "Unsupported node tree type"
-msgstr "Kiểu dữ liệu chưa hỗ trợ"
+msgstr "Thể loại cây nút chưa được hỗ trợ"
 
 #: scripts/addons_core/node_wrangler/operators.py:2378
 msgid "Please select only 1 frame to reset"
-msgstr ""
+msgstr "Xin vui lòng chỉ chọn 1 khung hình để hoàn lại mà thôi"
 
 #: scripts/addons_core/node_wrangler/operators.py:2380
 msgid "No valid node(s) in selection"
-msgstr ""
+msgstr "Không có nút nào hợp lệ trong lựa chọn cả"
 
 #: scripts/addons_core/node_wrangler/operators.py:2439
 msgid "Successfully reset {}"
-msgstr ""
+msgstr "Đã hoàn lại thành công {}"
 
 #: scripts/addons_core/node_wrangler/operators.py:398
 msgid "One of the nodes has no outputs"
-msgstr ""
+msgstr "Một trong các nút không có đầu ra"
 
 #: scripts/addons_core/node_wrangler/operators.py:400
 msgid "Neither of the nodes have outputs"
-msgstr ""
+msgstr "Không có nút nào có đầu ra cả"
 
 #: scripts/addons_core/node_wrangler/operators.py:405
 msgid "Cannot swap inputs of a multi-input socket"
-msgstr ""
+msgstr "Không thể hoán đổi đầu vào của một ổ cắm đa đầu vào"
 
 #: scripts/addons_core/node_wrangler/operators.py:454
 msgid "This node has no inputs to swap"
-msgstr ""
+msgstr "Nút này không có đầu vào để hoán đổi được"
 
 #: scripts/addons_core/node_wrangler/operators.py:452
 msgid "This node has no input connections to swap"
-msgstr ""
+msgstr "Nút này không có kết nối đầu vào nào để hoán đổi được cả"
 
 #: scripts/addons_core/node_wrangler/operators.py:1125
 msgid "Ignored {} (not of the same type as {})"
-msgstr ""
+msgstr "Bỏ qua {} (bất đồng thể loại với {})"
 
 #: scripts/addons_core/node_wrangler/operators.py:2387
-#, fuzzy
 msgid "Ignored {}"
-msgstr "Bỏ Qua"
+msgstr "Bỏ qua {}"
 
 #: scripts/addons_core/node_wrangler/operators.py:389
 #: scripts/addons_core/node_wrangler/operators.py:395
 msgid "Some connections have been lost due to differing numbers of output sockets"
-msgstr ""
+msgstr "Một số kết nối đã bị mất do số lượng ổ cắm đầu ra khác nhau"
 
 #: scripts/addons_core/node_wrangler/preferences.py:117
 msgid "Edit tags for auto texture detection in Principled BSDF setup"
-msgstr ""
+msgstr "Chỉnh sửa thẻ để tự động phát hiện chất liệu trong thiết lập BSDF Nguyên tắc"
 
 #: scripts/addons_core/node_wrangler/utils/nodes.py:267
 msgid "Viewer image not found."
-msgstr ""
+msgstr "Không tìm thấy hình ảnh trình quan sát."
 
 #: scripts/addons_core/node_wrangler/utils/nodes.py:189
 msgid "Current editor is not a node editor."
-msgstr ""
+msgstr "Trình biên soạn hiện tại không phải là trình biên soạn nút."
 
 #: scripts/addons_core/node_wrangler/utils/nodes.py:192
 msgid "No node tree was found in the current node editor."
-msgstr ""
+msgstr "Không tìm thấy cây nút nào trong trình biên soạn nút hiện tại cả."
 
 #: scripts/addons_core/node_wrangler/utils/nodes.py:195
 msgid "Current node tree is linked from another .blend file."
-msgstr ""
+msgstr "Cây nút hiện tại vốn được liên kết từ một tập tin .blend khác."
 
 #: scripts/addons_core/node_wrangler/utils/nodes.py:202
 msgid "Current node tree does not contain any nodes."
-msgstr ""
+msgstr "Cây nút hiện tại không có bất kỳ nút nào cả."
 
 #: scripts/addons_core/node_wrangler/utils/nodes.py:209
-#, fuzzy
 msgid "No active node."
-msgstr "Không có xương nào đang hoạt động cả"
+msgstr "Không có nút nào là đang hoạt động cả."
 
 #: scripts/addons_core/node_wrangler/utils/nodes.py:255
 msgid "Current node has no visible outputs."
-msgstr ""
+msgstr "Nút hiện tại không có đầu ra nào có thể nhìn thấy được."
 
 #: scripts/addons_core/node_wrangler/utils/nodes.py:220
 msgid "At least one node must be selected."
-msgstr ""
+msgstr "Ít nhất một nút phải được chọn đã."
 
 #: scripts/addons_core/node_wrangler/utils/nodes.py:224
 msgid "{:d} nodes are selected, but this operator can only work on {:d}."
-msgstr ""
+msgstr "{:d} nút đã được chọn, song thao tác này chỉ có thể hoạt động trên {:d} mà thôi."
 
 #: scripts/addons_core/node_wrangler/utils/nodes.py:234
 #: scripts/startup/bl_operators/node_editor/node_functions.py:28
@@ -2432,53 +2391,51 @@ msgid ""
 "Current node tree type not supported.\n"
 "Should be one of {:s}."
 msgstr ""
+"Loại cây nút hiện tại chưa được hỗ trợ.\n"
+"Phải thuộc một trong {:s}."
 
 #: scripts/addons_core/node_wrangler/utils/nodes.py:243
 msgid "Active node should not be of type {:s}."
-msgstr ""
+msgstr "Nút đang hoạt động không được thuộc thể loại {:s}."
 
 #: scripts/addons_core/node_wrangler/utils/nodes.py:218
 msgid "At least {:d} nodes must be selected."
-msgstr ""
+msgstr "Ít nhất {:d} nút phải được chọn đã."
 
 #: scripts/addons_core/node_wrangler/utils/nodes.py:247
 msgid "Active node should be of type {:s}."
-msgstr ""
+msgstr "Nút đang hoạt động phải thuộc thể loại {:s}."
 
 #: scripts/addons_core/pose_library/gui.py:52
 #: scripts/addons_core/pose_library/gui.py:86
-#, fuzzy
 msgctxt "Operator"
 msgid "Blend Pose Flipped"
-msgstr "Dán Tư Thế Đảo Ngược"
+msgstr "Pha Trộn Tư Thế Đảo Chiều"
 
 #: scripts/addons_core/pose_library/operators.py:381
-#, fuzzy
 msgid "Deselect those bones that are used in this pose"
-msgstr "Chọn các xương được sử dụng trong tư thế này"
+msgstr "Hủy chọn những xương vốn được sử dụng trong tư thế này"
 
 #: scripts/addons_core/pose_library/operators.py:65
 msgid "An active armature object in pose mode is needed"
-msgstr ""
+msgstr "Cần có một đối tượng khung rối đang hoạt động ở chế độ tư thế"
 
 #: scripts/addons_core/pose_library/operators.py:77
 #: scripts/addons_core/pose_library/operators.py:267
 msgid "Asset Browser must be set to the Current File library"
-msgstr ""
+msgstr "Trình Duyệt Tài Sản phải được đặt là thư viện Tập Tin Hiện Tại"
 
 #: scripts/addons_core/pose_library/operators.py:262
 msgid "Current editor is not an asset browser"
-msgstr ""
+msgstr "Trình biên soạn hiện tại không phải là một trình duyệt tài sản"
 
 #: scripts/addons_core/pose_library/operators.py:273
-#, fuzzy
 msgid "Clipboard is empty"
-msgstr "Bộ nhớ tạm nội bộ trống rỗng"
+msgstr "Bộ nhớ tạm hiện thời là trống rỗng"
 
 #: scripts/addons_core/pose_library/operators.py:278
-#, fuzzy
 msgid "Clipboard does not contain an asset"
-msgstr "Bộ nhớ tạm không có chứa ma trận hợp lệ nào cả"
+msgstr "Bộ nhớ tạm không có một tài sản ở trong"
 
 #: scripts/addons_core/pose_library/operators.py:394
 #, fuzzy
