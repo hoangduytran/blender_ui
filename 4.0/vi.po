@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-11-12 16:36+0000\n"
-"PO-Revision-Date: 2024-11-15 17:18+0000\n"
+"PO-Revision-Date: 2024-11-19 08:33+0000\n"
 "Last-Translator: Hoang Duy Tran <hoangduytran1960@googlemail.com>\n"
 "Language-Team: vi <LL@li.org>\n"
 "Language: vi\n"
@@ -2438,1238 +2438,1110 @@ msgid "Clipboard does not contain an asset"
 msgstr "Bộ nhớ tạm không có một tài sản ở trong"
 
 #: scripts/addons_core/pose_library/operators.py:394
-#, fuzzy
 msgid "Active object has no Action"
-msgstr "Đối tượng đang hoạt động không có chứa bộ sưu tập nào cả"
+msgstr "Trong đối tượng đang hoạt động không có Hành Động nào cả"
 
 #: scripts/addons_core/pose_library/operators.py:428
 msgid "Active object has no pose library Action"
-msgstr ""
+msgstr "Trong đối tượng đang hoạt động không có thư viện tư thế Hành Động nào cả"
 
 #: scripts/addons_core/rigify/__init__.py:283
-#, fuzzy
 msgid "Feature Sets:"
-msgstr "Bộ Chức Năng"
+msgstr "Bộ Tính Năng:"
 
 #: scripts/addons_core/rigify/__init__.py:285
-#, fuzzy
 msgctxt "Operator"
 msgid "Install Feature Set from File..."
-msgstr "Lắp Đặt Bản Mẫu Từ Tập Tin..."
+msgstr "Cài Đặt Bộ tính năng từ Tập Tin..."
 
 #: scripts/addons_core/rigify/__init__.py:313
 #: scripts/addons_core/rigify/__init__.py:327
 #: scripts/addons_core/rigify/__init__.py:366
-#, fuzzy
 msgid "Error:"
-msgstr "Lỗi/Sai Số"
+msgstr "Lỗi:"
 
 #: scripts/addons_core/rigify/__init__.py:369
 msgid "This feature set failed to load correctly."
-msgstr ""
+msgstr "Không nạp được bộ tính năng này một cách hoàn hảo."
 
 #: scripts/addons_core/rigify/__init__.py:339
 #: scripts/addons_core/rigify/__init__.py:396
-#, fuzzy
 msgctxt "Operator"
 msgid "Repository"
-msgstr "Thư Mục Xuất Khẩu"
+msgstr "Kho Lưu Trữ"
 
 #: scripts/addons_core/rigify/__init__.py:177
 msgid " (not installed)"
-msgstr ""
+msgstr " (chưa cài đặt)"
 
 #: scripts/addons_core/rigify/__init__.py:332
 msgid "This feature set depends on the following feature set to work properly:"
-msgstr ""
+msgstr "Bộ tính năng này phụ thuộc vào bộ tính năng sau đây để hoạt động bình thường:"
 
 #: scripts/addons_core/rigify/__init__.py:317
 msgid "This feature set requires Blender {:s} or newer to work properly."
-msgstr ""
+msgstr "Bộ tính năng này đòi hỏi Blender {:s} hoặc phiên bản mới hơn để hoạt động bình thường."
 
 #: scripts/addons_core/rigify/feature_set_list.py:251
 msgid "The feature set archive must contain one base directory"
-msgstr ""
+msgstr "Kho lưu trữ bộ tính năng phải có chứa một thư mục cơ sở"
 
 #: scripts/addons_core/rigify/feature_set_list.py:271
 msgid "The feature set archive has no rigs or metarigs, or is missing __init__.py"
-msgstr ""
+msgstr "Kho lưu trữ bộ tính năng không có giàn điều khiển hoặc giàn siêu nào, hoặc thiếu tập tin __init__.py"
 
 #: scripts/addons_core/rigify/feature_set_list.py:258
 msgid "The feature set archive base directory name is not a valid identifier: '{:s}'"
-msgstr ""
+msgstr "Tên thư mục cơ sở lưu trữ bộ tính năng không phải là mã định danh hợp lệ: '{:s}'"
 
 #: scripts/addons_core/rigify/feature_set_list.py:264
 msgid "The name '{:s}' is not allowed for feature sets"
-msgstr ""
+msgstr "Tên '{:s}' là tên không được phép cho các bộ tính năng"
 
 #: scripts/addons_core/rigify/feature_set_list.py:279
 msgid "Feature set directory already exists: '{:s}'"
-msgstr ""
+msgstr "Thư mục bộ tính năng đã tồn tại rồi: '{:s}'"
 
 #: scripts/addons_core/rigify/operators/action_layers.py:480
-#, fuzzy
 msgid "Status:"
-msgstr "Trạng Thái"
+msgstr "Trạng Thái:"
 
 #: scripts/addons_core/rigify/operators/action_layers.py:398
 msgid "Action not in list"
-msgstr ""
+msgstr "Hành động không có trong danh sách"
 
 #: scripts/addons_core/rigify/operators/action_layers.py:422
 msgid "Cannot verify bone name without a generated rig"
-msgstr ""
+msgstr "Không thể xác minh tên xương mà không có một giàn điều khiển sinh tạo được"
 
 #: scripts/addons_core/rigify/operators/action_layers.py:485
 msgid "Min and max values are the same!"
-msgstr ""
+msgstr "Giá trị tối thiểu và tối đa là giống nhau!"
 
 #: scripts/addons_core/rigify/operators/action_layers.py:494
 msgid "Start and end frame cannot be the same!"
-msgstr ""
+msgstr "Khung bắt đầu và kết thúc không thể giống nhau được!"
 
 #: scripts/addons_core/rigify/operators/action_layers.py:449
-#, fuzzy
 msgid "Symmetrical ({:s})"
-msgstr "Đối xứng"
+msgstr "Đối xứng ({:s})"
 
 #: scripts/addons_core/rigify/operators/action_layers.py:487
 msgid "Will be stuck reading frame {:d}!"
-msgstr ""
+msgstr "Sẽ bị ngắc lại khi đọc khung hình {:d}!"
 
 #: scripts/addons_core/rigify/operators/action_layers.py:500
-#, fuzzy
 msgid "Default Frame: {:.0f}"
-msgstr "Phai Mờ Dần Mặc Định"
+msgstr "Khung Hình Mặc Định: {:.0f}"
 
 #: scripts/addons_core/rigify/operators/action_layers.py:504
 msgid "Default Frame: {:.02f} (Should be a whole number!)"
-msgstr ""
+msgstr "Khung Hình Mặc Định: {:.02f} (Phải là một số nguyên!)"
 
 #: scripts/addons_core/rigify/operators/action_layers.py:437
 #: scripts/addons_core/rigify/operators/action_layers.py:458
-#, fuzzy
 msgid "Bone not found: {:s}"
-msgstr "Không tìm thấy cảnh nào cả"
+msgstr "Không tìm thấy xương: {:s}"
 
 #: scripts/addons_core/rigify/operators/copy_mirror_parameters.py:277
 msgctxt "Operator"
 msgid "Copy Only Parameters"
-msgstr ""
+msgstr "Duy Sao Chép Tham Số"
 
 #: scripts/addons_core/rigify/operators/copy_mirror_parameters.py:280
 msgctxt "Operator"
 msgid "Copy Type & Parameters"
-msgstr ""
+msgstr "Sao Chép Thể Loại & Tham Số"
 
 #: scripts/addons_core/rigify/operators/copy_mirror_parameters.py:283
 msgctxt "Operator"
 msgid "Mirror Type & Parameters"
-msgstr ""
+msgstr "Phản Chiếu Đối Xứng Thể Loại & Tham Số"
 
 #: scripts/addons_core/rigify/operators/copy_mirror_parameters.py:106
-#, fuzzy
 msgid "No suitable selected bones to copy to"
-msgstr "Không có xương nào đã chọn để sao chép sang cả"
+msgstr "Không có xương vốn đã chọn nào là phù hợp để sao chép sang cả"
 
 #: scripts/addons_core/rigify/operators/copy_mirror_parameters.py:220
 msgid "Mirrored parameters of {:d} bones"
-msgstr ""
+msgstr "Đã phản chiếu đối xứng các tham số của {:d} xương"
 
 #: scripts/addons_core/rigify/operators/copy_mirror_parameters.py:266
 msgid "Copied {:s} parameters to {:d} bones"
-msgstr ""
+msgstr "Đã sao chép các tham số của {:s} sang {:d} xương"
 
 #: scripts/addons_core/rigify/operators/copy_mirror_parameters.py:102
 msgid "Copied the value to {:d} bones"
-msgstr ""
+msgstr "Đã sao chép giá trị sang {:d} xương"
 
 #: scripts/addons_core/rigify/operators/copy_mirror_parameters.py:51
 msgid "Cannot find class {:s} in {:s}"
-msgstr ""
+msgstr "Không tìm thấy lớp (class) {:s} trong {:s}"
 
 #: scripts/addons_core/rigify/operators/copy_mirror_parameters.py:206
 msgid "Bone {:s} selected on both sides, mirroring would be ambiguous, aborting. Only select the left or right side, not both"
-msgstr ""
+msgstr "Xương {:s} được chọn ở cả hai bên, phản chiếu đối xứng sẽ trở nên mơ hồ, phải hủy bỏ. Chỉ nên chọn bên trái hoặc bên phải mà thôi, không được chọn cả hai bên"
 
 #: scripts/addons_core/rigify/rigs/basic/pivot.py:185
-#, fuzzy
 msgid "Master Control"
-msgstr "Độ Tương Phản Chính"
+msgstr "Điều Khiển Chính"
 
 #: scripts/addons_core/rigify/rigs/basic/pivot.py:200
-#, fuzzy
 msgid "Deform Bone"
-msgstr "Chế Độ Biến Dạng"
+msgstr "Xương Biến Dạng"
 
 #: scripts/addons_core/rigify/rigs/basic/pivot.py:197
-#, fuzzy
 msgid "Pivot Control"
-msgstr "Ràng Buộc Điểm Tựa"
+msgstr "Điều Khiển Điểm Tựa"
 
 #: scripts/addons_core/rigify/rigs/basic/raw_copy.py:174
 msgid "This rig type does not add the ORG prefix."
-msgstr ""
+msgstr "Kiểu giàn điều khiển này không cho thêm tiền tố ORG."
 
 #: scripts/addons_core/rigify/rigs/basic/raw_copy.py:175
 msgid "Manually add ORG, MCH or DEF as needed."
-msgstr ""
+msgstr "Thêm ORG, MCH hoặc DEF một cách thủ công theo nhu cầu."
 
 #: scripts/addons_core/rigify/rigs/basic/raw_copy.py:130
 msgid "Constraint names have special meanings."
-msgstr ""
+msgstr "Tên ràng buộc có ý nghĩa đặc biệt."
 
 #: scripts/addons_core/rigify/rigs/basic/super_copy.py:147
 msgid "'CTRL:...' constraints are moved to the control bone."
-msgstr ""
+msgstr "Các ràng buộc 'CTRL:...' được di chuyển đến xương điều khiển."
 
 #: scripts/addons_core/rigify/rigs/basic/super_copy.py:149
 msgid "'DEF:...' constraints are moved to the deform bone."
-msgstr ""
+msgstr "Các ràng buộc 'DEF:...' được di chuyển đến xương biến dạng."
 
 #: scripts/addons_core/rigify/rigs/experimental/super_chain.py:762
 msgid "Convergence Bone"
-msgstr ""
+msgstr "Xương Hội Tụ"
 
 #: scripts/addons_core/rigify/rigs/face/skin_eye.py:429
 msgid "Eyeball And Iris Deforms"
-msgstr ""
+msgstr "Biến Dạng Nhãn Cầu Và Mống Mắt"
 
 #: scripts/addons_core/rigify/rigs/face/skin_eye.py:435
-#, fuzzy
 msgid "Follow X"
-msgstr "Đi Theo"
+msgstr "Đi Theo X"
 
 #: scripts/addons_core/rigify/rigs/face/skin_eye.py:436
-#, fuzzy
 msgid "Follow Z"
-msgstr "Đi Theo"
+msgstr "Đi Theo Z"
 
 #: scripts/addons_core/rigify/rigs/face/skin_eye.py:266
 msgid "Eyelids Follow{}"
-msgstr ""
+msgstr "Mí mắt đi theo {}"
 
 #: scripts/addons_core/rigify/rigs/face/skin_eye.py:276
 msgid "Eyelids Attached{}"
-msgstr ""
+msgstr "Mí Mắt Gắn Liền{}"
 
 #: scripts/addons_core/rigify/rigs/faces/super_face.py:1039
 msgid "This monolithic face rig is deprecated."
-msgstr ""
+msgstr "Giàn điều khiển mặt nguyên khối này đã lỗi thời rồi."
 
 #: scripts/addons_core/rigify/rigs/limbs/limb_rigs.py:1010
 msgid "Custom IK Pivot"
-msgstr ""
+msgstr "Điểm Tựa IK Tùy Chỉnh"
 
 #: scripts/addons_core/rigify/rigs/limbs/limb_rigs.py:998
-#, fuzzy
 msgid "Auto Align End"
-msgstr "Căn Chỉnh Kết Thúc"
+msgstr "Tự Động Căn Chỉnh Cuối"
 
 #: scripts/addons_core/rigify/rigs/limbs/limb_rigs.py:1000
 msgid "Auto Align {:s}"
-msgstr ""
+msgstr "Tự Động Căn Chỉnh {:s}"
 
 #: scripts/addons_core/rigify/rigs/limbs/spline_tentacle.py:937
 msgid "A straight line rest shape works best."
-msgstr ""
+msgstr "Hình dạng tư thế nghỉ đường thẳng hoạt động tốt nhất."
 
 #: scripts/addons_core/rigify/rigs/limbs/super_finger.py:416
 msgid "Bend rotation axis:"
-msgstr ""
+msgstr "Trục xoay chiều uốn cong:"
 
 #: scripts/addons_core/rigify/rigs/limbs/super_finger.py:420
 msgid "IK Control"
-msgstr ""
+msgstr "Điều Khiển IK"
 
 #: scripts/addons_core/rigify/rigs/limbs/super_palm.py:307
 msgid "Primary rotation axis:"
-msgstr ""
+msgstr "Trục xoay chiều chính:"
 
 #: scripts/addons_core/rigify/rigs/limbs/super_palm.py:310
 msgid "Extra FK Controls"
-msgstr ""
+msgstr "Điều Khiển FK Bổ Sung"
 
 #: scripts/addons_core/rigify/rigs/skin/anchor.py:126
 msgid "Generate Deform Bone"
-msgstr ""
+msgstr "Sinh Tạo Xương Biến Dạng"
 
 #: scripts/addons_core/rigify/rigs/skin/anchor.py:135
 #: scripts/addons_core/rigify/rigs/skin/glue.py:197
 msgid "All constraints are moved to the control bone."
-msgstr ""
+msgstr "Toàn bộ các ràng buộc đều được di chuyển đến xương điều khiển."
 
 #: scripts/addons_core/rigify/rigs/skin/basic_chain.py:535
-#, fuzzy
 msgid "Use Scale:"
-msgstr "Dùng Tỷ Lệ"
+msgstr "Sử Dụng Tỷ Lệ:"
 
 #: scripts/addons_core/rigify/rigs/skin/basic_chain.py:543
 msgid "Connect Mirror:"
-msgstr ""
+msgstr "Kết Nối Phản Chiếu Đối Xứng:"
 
 #: scripts/addons_core/rigify/rigs/skin/basic_chain.py:549
 msgid "Connect Next:"
-msgstr ""
+msgstr "Kết Nối Tiếp Theo:"
 
 #: scripts/addons_core/rigify/rigs/skin/basic_chain.py:555
-#, fuzzy
 msgid "Sharpen:"
-msgstr "Làm Sắc Nét"
+msgstr "Sắc Nhọn:"
 
 #: scripts/addons_core/rigify/rigs/skin/stretchy_chain.py:362
-#, fuzzy
 msgid "Falloff:"
-msgstr "Suy Giảm Dần"
+msgstr "Suy Giảm Dần:"
 
 #: scripts/addons_core/rigify/rigs/skin/stretchy_chain.py:373
-#, fuzzy
 msgid "Propagate:"
-msgstr "Lan Truyền"
+msgstr "Lan Truyền:"
 
 #: scripts/addons_core/rigify/rigs/skin/stretchy_chain.py:377
 msgid "To Controls"
-msgstr ""
+msgstr "Sang các Điều Khiển"
 
 #: scripts/addons_core/rigify/rigs/skin/transform/basic.py:136
-#, fuzzy
 msgid "Generate Control"
-msgstr "Sinh Tạo các Pháp Tuyến"
+msgstr "Sinh Tạo Điều Khiển"
 
 #: scripts/addons_core/rigify/rigs/spines/super_spine.py:120
 msgid "Note: this combined rig is deprecated."
-msgstr ""
+msgstr "Lưu Ý: giàn điều khiển kết hợp này hiện nay đã lỗi thời."
 
 #: scripts/addons_core/rigify/ui.py:107
 msgid "Warning: Some features may change after generation"
-msgstr ""
+msgstr "Cảnh Báo: Một số tính năng có thể thay đổi sau khi sinh tạo"
 
 #: scripts/addons_core/rigify/ui.py:200
 msgid "Rig Name"
-msgstr ""
+msgstr "Tên Giàn Điều Khiển"
 
 #: scripts/addons_core/rigify/ui.py:205
-#, fuzzy
 msgid "Overwrite Existing:"
-msgstr "Viết đè lên các tập tin hiện có"
+msgstr "Viết Đè Lên Cái Hiện Có"
 
 #: scripts/addons_core/rigify/ui.py:206
-#, fuzzy
 msgid "Target Rig"
-msgstr "Z của Mục Tiêu"
+msgstr "Giàn Điều Khiển Mục Tiêu"
 
 #: scripts/addons_core/rigify/ui.py:207
 msgid "Rig UI Script"
-msgstr ""
+msgstr "Tập Lệnh UI cho Giàn Điều Khiển"
 
 #: scripts/addons_core/rigify/ui.py:214
-#, fuzzy
 msgid "Run Script"
 msgstr "Thi Hành Tập Lệnh"
 
 #: scripts/addons_core/rigify/ui.py:250
 msgctxt "Operator"
 msgid "Add sample"
-msgstr ""
+msgstr "Thêm mẫu vật"
 
 #: scripts/addons_core/rigify/ui.py:851
 msgid "Unified select/active colors"
-msgstr ""
+msgstr "Thống nhất màu lựa chọn/hoạt tính"
 
 #: scripts/addons_core/rigify/ui.py:862
 msgctxt "Operator"
 msgid "Add From Theme"
-msgstr ""
+msgstr "Thêm Từ Chủ Đề"
 
 #: scripts/addons_core/rigify/ui.py:865
-#, fuzzy
 msgctxt "Operator"
 msgid "Add Standard"
-msgstr "Tiêu Chuẩn"
+msgstr "Thêm Tiêu Chuẩn"
 
 #: scripts/addons_core/rigify/ui.py:897
 msgid "Rig type"
-msgstr ""
+msgstr "Thể Loại Giàn Điều Khiển"
 
 #: scripts/addons_core/rigify/ui.py:103
 msgid "This metarig requires upgrading to Bone Collections"
-msgstr ""
+msgstr "Giàn siêu này đòi hỏi phải được nâng cấp lên dùng Các Bộ Sưu Tập Xương (Bone Collections)"
 
 #: scripts/addons_core/rigify/ui.py:104 scripts/addons_core/rigify/ui.py:156
 msgctxt "Operator"
 msgid "Upgrade Metarig"
-msgstr ""
+msgstr "Nâng Cấp Giàn Siêu"
 
 #: scripts/addons_core/rigify/ui.py:147
 msgid "WARNING: This metarig contains deprecated Rigify rig-types and cannot be upgraded automatically."
-msgstr ""
+msgstr "CẢNH BÁO: Giàn siêu này chứa các loại giàn điều khiển Rigify đã lỗi thời, và không thể tự động nâng cấp được."
 
 #: scripts/addons_core/rigify/ui.py:169 scripts/addons_core/rigify/ui.py:1266
 msgctxt "Operator"
 msgid "Re-Generate Rig"
-msgstr ""
+msgstr "Tái Tạo Giàn Điều Khiển"
 
 #: scripts/addons_core/rigify/ui.py:170 scripts/addons_core/rigify/ui.py:1267
-#, fuzzy
 msgctxt "Operator"
 msgid "Generate Rig"
-msgstr "Hình ảnh do máy sinh tạo"
+msgstr "Tạo Giàn Điều Khiển"
 
 #: scripts/addons_core/rigify/ui.py:413
 msgid "Click a button to select a collection:"
-msgstr ""
+msgstr "Nhấp vào nút để chọn một bộ sưu tập:"
 
 #: scripts/addons_core/rigify/ui.py:452
 msgid "Permanently hidden collections:"
-msgstr ""
+msgstr "Bộ sưu tập ẩn khuất vĩnh viễn:"
 
 #: scripts/addons_core/rigify/ui.py:993
 msgctxt "Operator"
 msgid "IK2FK Pose"
-msgstr ""
+msgstr "Tư Thế IK2FK"
 
 #: scripts/addons_core/rigify/ui.py:994
 msgctxt "Operator"
 msgid "FK2IK Pose"
-msgstr ""
+msgstr "Tư Thế FK2IK"
 
 #: scripts/addons_core/rigify/ui.py:997
 msgctxt "Operator"
 msgid "IK2FK Action"
-msgstr ""
+msgstr "Hành Động IK2FK"
 
 #: scripts/addons_core/rigify/ui.py:998
 msgctxt "Operator"
 msgid "FK2IK Action"
-msgstr ""
+msgstr "Hành Động FK2IK"
 
 #: scripts/addons_core/rigify/ui.py:1005
-#, fuzzy
 msgctxt "Operator"
 msgid "Switch to pole"
-msgstr "Đổi sang Di Chuyển"
+msgstr "Chuyển sang cực"
 
 #: scripts/addons_core/rigify/ui.py:1009
-#, fuzzy
 msgctxt "Operator"
 msgid "Switch to rotation"
-msgstr "Đổi sang Xoay Chiều"
+msgstr "Chuyển sang xoay chiều"
 
 #: scripts/addons_core/rigify/ui.py:1030
 msgid "Incorrect armature..."
-msgstr ""
+msgstr "Khung rối không đúng..."
 
 #: scripts/addons_core/rigify/ui.py:1070
 msgid "No bone collections have UI buttons assigned - please check the Bone Collections UI sub-panel"
-msgstr ""
+msgstr "Không có bộ sưu tập xương nào có nút UI ấn định cho nó cả - xin vui lòng kiểm tra bảng phụ UI của Các Bộ Sưu Tập Xương"
 
 #: scripts/addons_core/rigify/ui.py:1142
 msgid "No issues detected"
-msgstr ""
+msgstr "Không phát hiện thấy có vấn đề nào cả"
 
 #: scripts/addons_core/rigify/ui.py:1180
 msgid "You must select a rig type to create a sample of"
-msgstr ""
+msgstr "Bạn phải chọn thể loại giàn điều khiển để tạo một bản mẫu"
 
 #: scripts/addons_core/rigify/ui.py:1275
 msgctxt "Operator"
 msgid "Encode Metarig"
-msgstr ""
+msgstr "Mã Hóa Giàn Siêu"
 
 #: scripts/addons_core/rigify/ui.py:1276
 msgctxt "Operator"
 msgid "Encode Metarig Sample"
-msgstr ""
+msgstr "Mã Hóa Mẫu Giàn Siêu"
 
 #: scripts/addons_core/rigify/ui.py:152
 msgid "This metarig contains old rig-types that can be automatically upgraded to benefit from new rigify features."
-msgstr ""
+msgstr "Giàn siêu này chứa các thể loại giàn điều khiển cũ, và có thể nâng cấp tự động lên, để hưởng lợi ích từ các tính năng rigify mới."
 
 #: scripts/addons_core/rigify/ui.py:423
 msgid "Click to assign the button here:"
-msgstr ""
+msgstr "Nhấp chuột để ấn định nút ở đây:"
 
 #: scripts/addons_core/rigify/ui.py:948
 msgctxt "Operator"
 msgid "Encode Metarig to Python"
-msgstr ""
+msgstr "Mã hóa Giàn Siêu sang Python"
 
 #: scripts/addons_core/rigify/ui.py:950
 msgctxt "Operator"
 msgid "Encode Sample to Python"
-msgstr ""
+msgstr "Mã Hóa Bản Mẫu sang Python"
 
 #: scripts/addons_core/rigify/ui.py:954
 msgctxt "Operator"
 msgid "Encode Mesh Widget to Python"
-msgstr ""
+msgstr "Mã Hóa Thành Tố Điều Khiển Khung Lưới sang Python"
 
 #: scripts/addons_core/rigify/ui.py:1001
-#, fuzzy
 msgctxt "Operator"
 msgid "Clear IK Action"
-msgstr "Xóa Vị Trí"
+msgstr "Hủy Hành Động IK"
 
 #: scripts/addons_core/rigify/ui.py:1002
-#, fuzzy
 msgctxt "Operator"
 msgid "Clear FK Action"
-msgstr "Xóa Vị Trí"
+msgstr "Hủy Hành Động FK"
 
 #: scripts/addons_core/rigify/ui.py:1218
-#, fuzzy
 msgid "Metarig written to text datablock {:s}"
-msgstr "Thông tin đã được ghi vào khối dữ liệu văn bản %s rồi nhé!"
+msgstr "Giàn siêu đã được viết thành khối dữ liệu văn bản {:s}"
 
 #: scripts/addons_core/rigify/ui.py:1247
-#, fuzzy
 msgid "Metarig Sample written to text datablock {:s}"
-msgstr "Thông tin đã được ghi vào khối dữ liệu văn bản %s rồi nhé!"
+msgstr "Mẫu Giàn Siêu đã được viết thành khối dữ liệu văn bản {:s}"
 
 #: scripts/addons_core/rigify/ui.py:149 scripts/addons_core/rigify/ui.py:154
 msgid "({:s} on bone {:s})"
-msgstr ""
+msgstr "({:s} trên xương {:s})"
 
 #: scripts/addons_core/rigify/ui.py:158
 msgid "This metarig uses the old face rig."
-msgstr ""
+msgstr "Giàn siêu này sử dụng giàn điều khiển mặt cũ."
 
 #: scripts/addons_core/rigify/ui.py:360
 msgid "The '{:s}' collection will be added upon generation"
-msgstr ""
+msgstr "Bộ sưu tập '{:s}' sẽ được thêm vào khi sinh tạo"
 
 #: scripts/addons_core/rigify/ui.py:924
-#, fuzzy
 msgid "No options"
-msgstr "Tùy Chọn Nút"
+msgstr "Không có tùy chọn nào cả"
 
 #: scripts/addons_core/rigify/ui.py:1032
 msgid "Incorrect armature for type '{:s}'"
-msgstr ""
+msgstr "Khung rối không đúng cho thể loại '{:s}'"
 
 #: scripts/addons_core/rigify/ui.py:1085
 msgid "Generation has thrown an exception: "
-msgstr ""
+msgstr "Lỗi ngoại lệ xảy ra trong quá trình sinh tạo: "
 
 #: scripts/addons_core/rigify/ui.py:1089
 msgid "Successfully generated: \"{:s}\""
-msgstr ""
+msgstr "Đã sinh tạo thành công: \"{:s}\""
 
 #: scripts/addons_core/rigify/ui.py:906
 msgid "ERROR: type \"{:s}\" does not exist!"
-msgstr ""
+msgstr "LỖI: thể loại \"{:s}\" không tồn tại!"
 
 #: scripts/addons_core/rigify/utils/layers.py:356
 msgid "Use the plus button to add list entries"
-msgstr ""
+msgstr "Sử dụng nút dấu cộng để cho thêm mục danh sách vào"
 
 #: scripts/addons_core/rigify/utils/layers.py:208
 msgid "Collection {:s} has the same uid {:d} as {:s}"
-msgstr ""
+msgstr "Bộ sưu tập {:s} có cùng một uid {:d} với {:s}"
 
 #: scripts/addons_core/rigify/utils/layers.py:193
 msgid "Bone {:s} has a broken reference to {:s} collection '{:s}'"
-msgstr ""
+msgstr "Xương {:s} có một tham chiếu tới bộ sưu tập {:s} bị hỏng '{:s}'"
 
 #: scripts/addons_core/viewport_vr_preview/gui.py:75
-#, fuzzy
 msgid "Passthrough"
-msgstr "Cho Phép Đi Qua"
+msgstr "Nhìn Xuyên Thấu"
 
 #: scripts/modules/rna_keymap_ui.py:414
-#, fuzzy
 msgid "Search by Name"
-msgstr "Sắp Xếp theo Tên"
+msgstr "Tìm Kiếm theo Tên"
 
 #: scripts/modules/rna_keymap_ui.py:416
 msgid "Search by Key-Binding"
-msgstr ""
+msgstr "Tìm Kiếm theo Khóa-Kết Buộc"
 
 #: scripts/modules/rna_keymap_ui.py:81
-#, fuzzy
 msgid "{:s} (Global)"
-msgstr "%s (Toàn Cầu)"
+msgstr "{:s} (Toàn cầu)"
 
 #: scripts/startup/bl_operators/anim.py:369
-#, fuzzy
 msgid "Removed {:d} empty and/or fake-user only Actions"
-msgstr "Xóa %d đối tượng trống rỗng và/hoặc duy Hành Động của người dùng giả mà thôi"
+msgstr "Đã xóa {:d} Hành Động vốn không có người dùng và/hoặc chỉ có người dùng giả mà thôi"
 
 #: scripts/startup/bl_operators/anim.py:667
 msgid "Removed {:d} of {:d} bone collections"
-msgstr ""
+msgstr "Đã xóa {:d} trong số {:d} bộ sưu tập xương"
 
 #: scripts/startup/bl_operators/anim.py:453
-#, fuzzy
 msgid "Complete report available on '{:s}' text datablock"
-msgstr "Thông báo toàn vẹn hiện nằm trong khối dữ liệu văn bản '%s'"
+msgstr "Báo cáo đầy đủ hiện có sẵn trong khối dữ liệu văn bản '{:s}'"
 
 #: scripts/startup/bl_operators/anim.py:528
-#, fuzzy
 msgid "Bone colors were synced; for {:d} bones this will not be visible due to pose bone color overrides"
-msgstr "Màu xương đã được đồng bộ hóa; đối với xương %d, cái này sẽ không hiển thị do sự vượt quyền màu xương tư thế gây ra"
+msgstr "Các màu xương đã được đồng bộ hóa; đối với {:d} xương, cái này sẽ không nhìn thấy được, do những vượt quyền về màu xương tư thế gây ra"
 
 #: scripts/startup/bl_operators/anim.py:575
 msgid "None of the bone collections is marked 'solo'"
-msgstr ""
+msgstr "Không có bộ sưu tập xương nào được đánh dấu là 'độc tấu' (solo) cả"
 
 #: scripts/startup/bl_operators/anim.py:615
 #: scripts/startup/bl_operators/anim.py:638
 msgid "All bone collections are in use"
-msgstr ""
+msgstr "Toàn bộ các bộ sưu tập xương hiện đều đang được sử dụng"
 
 #: scripts/startup/bl_operators/anim.py:689
 msgid "An action slot can only be created when an action was assigned"
-msgstr ""
+msgstr "Một khe hành động chỉ có thể được tạo ra khi một hành động đã được ấn định mà thôi"
 
 #: scripts/startup/bl_operators/anim.py:692
 msgid "Action slots are only supported by layered Actions. Upgrade this Action first"
-msgstr ""
+msgstr "Các khe hành động chỉ được hỗ trợ bởi các Hành Động phân tầng. Nâng cấp Hành Động này trước đi đã"
 
 #: scripts/startup/bl_operators/anim.py:724
 msgid "This data-block has no Action slot assigned"
-msgstr ""
+msgstr "Khối dữ liệu này không có khe Hành Động nào đã được ấn định cả"
 
 #: scripts/startup/bl_operators/anim.py:745
 msgid "No Action slot is assigned, so there is nothing to un-assign"
-msgstr ""
+msgstr "Không có khe Hành Động nào đã được ấn định, vì vậy không có gì để hủy ấn định cả"
 
 #: scripts/startup/bl_operators/anim.py:499
-#, fuzzy
 msgid "Cannot do anything in mode {!r}"
-msgstr "Không thể làm bất cứ cái gì ở chế độ %r cả"
+msgstr "Không thể làm bất cứ cái gì trong chế độ {!r} hết"
 
 #: scripts/startup/bl_operators/anim.py:118
-#, fuzzy
 msgid "Could not find material or light using Shader Node Tree - {:s}"
-msgstr "Dùng Cây Nút Tô Bóng nhưng không tìm thấy nguyên vật liệu hoặc nguồn ánh sáng - %s"
+msgstr "Không tìm thấy nguyên vật liệu hoặc nguồn sáng nào sử dụng Cây Nút Bộ Tô Bóng - {:s}"
 
 #: scripts/startup/bl_operators/anim.py:129
-#, fuzzy
 msgid "Could not find scene using Compositor Node Tree - {:s}"
-msgstr "Dùng Cây Nút Tô Bóng nhưng không tìm thấy cảnh - %s"
+msgstr "Không tìm thấy cảnh nào sử dụng Cây Nút Tổng Hợp - {:s}"
 
 #: scripts/startup/bl_operators/assets.py:28
 msgid "Asset metadata from external asset libraries can't be edited, only assets stored in the current file can"
-msgstr ""
+msgstr "Siêu dữ liệu tài sản từ các thư viện tài sản bên ngoài là không thể biên soạn được. Chỉ có thể biên soạn các tài sản vốn lưu trữ trong tập tin hiện tại mà thôi"
 
 #: scripts/startup/bl_operators/assets.py:90
-#, fuzzy
 msgid "No asset selected"
-msgstr "Không có mặt nào đã được chọn cả"
+msgstr "Không có tài sản nào đã được chọn cả"
 
 #: scripts/startup/bl_operators/assets.py:93
 msgid "Selected asset is contained in the current file"
-msgstr ""
+msgstr "Tài sản được chọn nằm trong tập tin hiện tại"
 
 #: scripts/startup/bl_operators/assets.py:98
 msgid "Selected asset is contained in a file managed by the asset system, manual edits should be avoided"
-msgstr ""
+msgstr "Tài sản đã chọn nằm trong một tập tin do hệ thống tài sản quản lý, nên tránh việc biên soạn thủ công nhé"
 
 #: scripts/startup/bl_operators/assets.py:133
-#, fuzzy
 msgid "Blender sub-process exited with error code {:d}"
-msgstr "Quy trình phụ của Blender đã kết thúc với mã chỉ lỗi phần mềm là %d"
+msgstr "Tiến trình phụ của Blender thoát ra với mã lỗi {:d}"
 
 #: scripts/startup/bl_operators/bone_selection_sets.py:286
 msgid "Copied Selection Set(s) to clipboard"
-msgstr ""
+msgstr "Đã Sao Chép Bộ Lựa Chọn vào bảng nhớ tạm"
 
 #: scripts/startup/bl_operators/bone_selection_sets.py:302
-#, fuzzy
 msgid "The clipboard does not contain a Selection Set"
-msgstr "Bộ nhớ tạm không có chứa ma trận hợp lệ nào cả"
+msgstr "Không có Bộ Lựa Chọn nào trong bảng nhớ tạm cả"
 
 #: scripts/startup/bl_operators/clip.py:200
-#, fuzzy
 msgid "Identified {:d} problematic tracks"
-msgstr "Phát hiện thấy %d dấu giám sát có vấn đề"
+msgstr "Xác định có {:d} rãnh có vấn đề"
 
 #: scripts/startup/bl_operators/connect_to_output.py:83
-#, fuzzy
 msgid "(Viewer)"
-msgstr " (Bộ Quan Sát)"
+msgstr "(Trình Quan Sát)"
 
 #: scripts/startup/bl_operators/file.py:128
-#, fuzzy
 msgid "Previews generation process failed for file '{:s}'!"
-msgstr "Xem trước sự/chỗ/phần/vùng/bản/cái/mức/độ/tính/sự/phép phát sinh tạo/thế hệ/đời quá trình thất bại hầu cho/dành cho/đối với/để tập tin '%s'!"
+msgstr "Quá trình tạo bản xem trước cho tập tin '{:s}' đã thất bại!"
 
 #: scripts/startup/bl_operators/file.py:238
-#, fuzzy
 msgid "Previews clear process failed for file '{:s}'!"
-msgstr "Quá trình xóa xem trước tập tin '%s' bị thất bại!"
+msgstr "Quá trình xóa bản xem trước cho tập tin '{:s}' bị thất bại!"
 
 #: scripts/startup/bl_operators/image.py:67
-#, fuzzy
 msgid "Image path {!r} not found, image may be packed or unsaved"
-msgstr "Không tìm thấy đường dẫn của hình ảnh %r. Hình ảnh có thể đã được đóng gói hoặc lưu lại rồi"
+msgstr "Không tìm thấy đường dẫn hình ảnh {!r} được, hình ảnh có thể đã được đóng gói hoặc chưa được lưu"
 
 #: scripts/startup/bl_operators/image.py:196
-#, fuzzy
 msgid "Could not find image '{:s}'"
-msgstr "Không tìm thấy hình ảnh '%s'"
+msgstr "Không tìm thấy hình ảnh '{:s}'"
 
 #: scripts/startup/bl_operators/image_as_planes.py:917
 msgid "Added {:d} Image Plane(s)"
-msgstr ""
+msgstr "Đã cho thêm {:d} Mặt Phẳng Hình Ảnh"
 
 #: scripts/startup/bl_operators/image_as_planes.py:1206
 msgid "{:d} image(s) converted to mesh plane(s)"
-msgstr ""
+msgstr "{:d} hình ảnh đã được chuyển đổi thành mặt phẳng khung lưới"
 
 #: scripts/startup/bl_operators/image_as_planes.py:852
 #: scripts/startup/bl_operators/image_as_planes.py:1130
 msgid "Cannot generate materials for unknown {:s} render engine"
-msgstr ""
+msgstr "Không thể sinh tạo nguyên vật liệu cho động cơ kết xuất {:s} chưa biết đến"
 
 #: scripts/startup/bl_operators/image_as_planes.py:858
 #: scripts/startup/bl_operators/image_as_planes.py:1136
 msgid "Generating Cycles/EEVEE compatible material, but won't be visible with {:s} engine"
-msgstr ""
+msgstr "Sinh tạo nguyên vật liệu tương thích với Cycles/EEVEE, song sẽ không hữu hình với động cơ {:s}"
 
 #: scripts/startup/bl_operators/image_as_planes.py:891
 msgid "Please select at least one image"
-msgstr ""
+msgstr "Xin vui lòng chọn ít nhất một hình ảnh nhé"
 
 #: scripts/startup/bl_operators/image_as_planes.py:1203
 msgid "No images converted"
-msgstr ""
+msgstr "Không có hình ảnh nào đã được chuyển đổi cả"
 
 #: scripts/startup/bl_operators/image_as_planes.py:338
 msgid "{:s} is not supported"
-msgstr ""
+msgstr "{:s} chưa hỗ trợ"
 
 #: scripts/startup/bl_operators/mesh.py:176
-#, fuzzy
 msgid "{:d} mesh(es) with no active UV layer, {:d} duplicates found in {:d} mesh(es), mirror may be incomplete"
-msgstr "%d khung lưới không có tầng UV đang hoạt động, %d bản sao kép tìm thấy trong %d khung lưới, sự phảng quang phản chiếu đối xứng có thể sẽ không được hoàn hảo trọn vẹn"
+msgstr "{:d} khung lưới không có tầng lớp UV nào là đang hoạt động, đã tìm thấy {:d} bản sao trùng lặp trong {:d} khung lưới, phản chiếu đối xứng có thể không đầy đủ"
 
 #: scripts/startup/bl_operators/mesh.py:183
-#, fuzzy
 msgid "{:d} mesh(es) with no active UV layer"
-msgstr "%d khung lưới không có tầng UV đang hoạt động"
+msgstr "{:d} khung lưới không có tầng lớp UV nào đang hoạt động cả"
 
 #: scripts/startup/bl_operators/mesh.py:189
-#, fuzzy
 msgid "{:d} duplicates found in {:d} mesh(es), mirror may be incomplete"
-msgstr "%d bản sao kép tìm thấy trong %d khung lưới, sự phảng quang phản chiếu đối xứng có thể sẽ không được hoàn hảo trọn vẹn"
+msgstr "tìm thấy {:d} bản sao trùng lặp trong {:d} khung lưới, phản chiếu đối xứng có thể là không đầy đủ"
 
 #: scripts/startup/bl_operators/node.py:100
-#, fuzzy
 msgid "Node has no attribute {:s}"
-msgstr "Nút không có thuộc tính %s"
+msgstr "Nút không có thuộc tính {:s}"
 
 #: scripts/startup/bl_operators/node_editor/node_functions.py:11
 msgid "Active editor is not a node editor."
-msgstr ""
+msgstr "Trình biên soạn đang hoạt động không phải là trình biên soạn nút."
 
 #: scripts/startup/bl_operators/node_editor/node_functions.py:14
 msgid "Node tree was not found in the active node editor."
-msgstr ""
+msgstr "Không tìm thấy cây nút trong trình biên soạn nút đang hoạt động."
 
 #: scripts/startup/bl_operators/node_editor/node_functions.py:17
 msgid "Active node tree is linked from another .blend file."
-msgstr ""
+msgstr "Cây nút đang hoạt động vốn được liên kết từ một tập tin .blend khác."
 
 #: scripts/startup/bl_operators/node_editor/node_functions.py:20
 msgid "Active node tree does not contain any nodes."
-msgstr ""
+msgstr "Cây nút đang hoạt động không có chứa bất kỳ một nút nào cả."
 
 #: scripts/startup/bl_operators/object.py:513
-#, fuzzy
 msgid "Object: {:s}, Mesh: '{:s}' has no UVs"
-msgstr "Đối Tượng: %s, Khung Lưới: '%s' không có UV"
+msgstr "Đối Tượng: {:s}, Khung Lưới: '{:s}' không có UV"
 
 #: scripts/startup/bl_operators/object.py:368
-#, fuzzy
 msgid "Skipping '{:s}', not a mesh"
-msgstr "Bỏ qua '%s', không phải là khung lưới"
+msgstr "Bỏ qua '{:s}', không phải khung lưới"
 
 #: scripts/startup/bl_operators/object.py:375
-#, fuzzy
 msgid "Skipping '{:s}', vertex count differs"
-msgstr "Bỏ qua '%s', số lượng điểm đỉnh khác hơn"
+msgstr "Bỏ qua '{:s}', số lượng điểm đỉnh khác nhau"
 
 #: scripts/startup/bl_operators/object.py:803
-#, fuzzy
 msgid "No animation data to convert on object: {!r}"
-msgstr "Đối tượng: %r không có dữ liệu hoạt họa để chuyển đổi thành"
+msgstr "Không có dữ liệu hoạt họa nào để chuyển đổi trên đối tượng: {!r}"
 
 #: scripts/startup/bl_operators/object.py:542
-#, fuzzy
 msgid "Object: {:s}, Mesh: '{:s}' has {:d} loops (for {:d} faces), expected {:d}"
-msgstr "Đối Tượng: %s, Khung Lưới: '%s' có %d vòng mạch (%d các mặt), số kỳ vọng là %d"
+msgstr "Đối Tượng: {:s}, Khung Lưới: '{:s}' có {:d} vòng mạch (đối với {:d} mặt), kỳ vọng {:d}"
 
 #: scripts/startup/bl_operators/object.py:832
-#, fuzzy
 msgid "Object {!r} already has {!r} F-Curve(s). Remove these before trying again"
-msgstr "Đối tượng '%r' đã có '%r' Đường Cong-F rồi. Xóa những cái này đi trước khi thử nghiệm lại một lần nữa"
+msgstr "Đối tượng {!r} đã có {!r} Đường Cong-F. Xóa những cái này đi trước khi thử lại nhé"
 
 #: scripts/startup/bl_operators/object.py:560
-#, fuzzy
 msgid "Could not add a new UV map to object '{:s}' (Mesh '{:s}')"
-msgstr "Không thể cho thêm một ánh xạ UV mới vào đối tượng '%s' (Khung Lưới '%s')"
+msgstr "Không thể cho thêm bản đồ UV mới vào đối tượng '{:s}' (Khung Lưới '{:s}')"
 
 #: scripts/startup/bl_operators/object_quick_effects.py:284
-#, fuzzy
 msgid "Object {!r} already has a particle system"
-msgstr "Đối tượng %r đã có hệ thống hạt rồi"
+msgstr "Đối tượng {!r} đã có một hệ thống hạt"
 
 #: scripts/startup/bl_operators/presets.py:283
-#, fuzzy
 msgid "Unknown file type: {!r}"
-msgstr "Thể loại tập tin chưa biết đến: %r"
+msgstr "Thể loại tập tin chưa xác định: {!r}"
 
 #: scripts/startup/bl_operators/presets.py:658
 msgid "Built-in themes cannot be removed"
-msgstr ""
+msgstr "Không thể xóa chủ đề tích hợp được"
 
 #: scripts/startup/bl_operators/presets.py:688
 #: scripts/startup/bl_operators/presets.py:707
 msgid "Built-in themes cannot be overwritten"
-msgstr ""
+msgstr "Các chủ đề tích hợp không thể bị viết đè lên được"
 
 #: scripts/startup/bl_operators/presets.py:754
 msgid "Built-in keymap configurations cannot be removed"
-msgstr ""
+msgstr "Không thể xóa các cấu hình bố trí phím tích hợp được"
 
 #: scripts/startup/bl_operators/presets.py:695
 msgid "Unable to overwrite preset: {:s}"
-msgstr ""
+msgstr "Không thể viết đè sắp đặt trước: {:s}"
 
 #: scripts/startup/bl_operators/presets.py:234
-#, fuzzy
 msgid "Unable to remove preset: {!r}"
-msgstr "Không thể xóa sắp đặt sẵn: %r"
+msgstr "Không thể xóa sắp đặt trước: {!r}"
 
 #: scripts/startup/bl_operators/screen_play_rendered_anim.py:122
 #: scripts/startup/bl_operators/screen_play_rendered_anim.py:130
-#, fuzzy
 msgid "File {!r} not found"
-msgstr "Không tìm thấy tập tin %r"
+msgstr "Không tìm thấy tập tin {!r}"
 
 #: scripts/startup/bl_operators/screen_play_rendered_anim.py:198
-#, fuzzy
 msgid ""
 "Couldn't run external animation player with command {!r}\n"
 "{:s}"
 msgstr ""
-"Không thể thi hành máy chơi hoạt họa bên ngoài với lệnh %r\n"
-"%s"
+"Không thể chạy trình chơi hoạt họa bên ngoài bằng lệnh {!r}\n"
+"{:s}"
 
 #: scripts/startup/bl_operators/sequencer.py:251
-#, fuzzy
 msgid "Added fade animation to {:d} {:s}"
-msgstr "Cho thêm hoạt họa phai mờ dần vào %d %s"
+msgstr "Đã cho thêm hoạt họa mờ dần vào {:d} {:s}"
 
 #: scripts/startup/bl_operators/userpref.py:862
-#, fuzzy
 msgid "Add-on path {!r} could not be found"
-msgstr "Không tìm thấy được đường dẫn đến trình bổ sung %r"
+msgstr "Không tìm thấy đường dẫn trình bổ sung {!r}"
 
 #: scripts/startup/bl_operators/userpref.py:1031
-#, fuzzy
 msgid "Expected a zip-file {!r}"
-msgstr "Kỳ vọng một tập tin-zip %r"
+msgstr "Kỳ vọng một tập tin zip {!r}"
 
 #: scripts/startup/bl_operators/userpref.py:260
-#, fuzzy
 msgid "Installing keymap failed: {:s}"
-msgstr "Cài đặt bố trí phím đã bị thất bại: %s"
+msgstr "Cài đặt bố trí phím đã bị thất bại: {:s}"
 
 #: scripts/startup/bl_operators/userpref.py:499
-#, fuzzy
 msgid "This script was written Blender version {:d}.{:d}.{:d} and might not function (correctly), though it is enabled"
-msgstr "Tập lệnh này đã được viết bằng phiên bản Blender %d.%d.%d và có khả năng sẽ không hoạt động (đúng đắn), mặc dù nó đã được bật (cho phép hoạt động)"
+msgstr "Tập lệnh này được viết bằng phiên bản Blender {:d}.{:d}.{:d} và có thể không hoạt động (đúng đắn), mặc dù nó đã được bật lên"
 
 #: scripts/startup/bl_operators/userpref.py:602
 #: scripts/startup/bl_operators/userpref.py:761
 #: scripts/startup/bl_operators/userpref.py:776
 #: scripts/startup/bl_operators/userpref.py:1020
-#, fuzzy
 msgid "File already installed to {!r}"
-msgstr "Tập tin đã được cài đặt vào %r"
+msgstr "Tập tin đã được cài đặt vào {!r}"
 
 #: scripts/startup/bl_operators/userpref.py:731
-#, fuzzy
 msgid "Source file is in the add-on search path: {!r}"
-msgstr "Tập tin nguồn hiện đang nằm trong đường dẫn tìm kiếm trình bổ sung: %r"
+msgstr "Tập tin nguồn nằm trong đường dẫn tìm kiếm trình bổ sung: {!r}"
 
 #: scripts/startup/bl_operators/userpref.py:751
 msgid "ZIP packaged incorrectly; __init__.py should be in a directory, not at top-level"
-msgstr ""
+msgstr "ZIP vốn được đóng gói không đúng cách; __init__.py phải nằm trong một thư mục, không phải ở cấp cao nhất"
 
 #: scripts/startup/bl_operators/userpref.py:816
-#, fuzzy
 msgid "Modules Installed ({:s}) from {!r} into {!r}"
-msgstr "Mô-Đun đã được Cài Đặt (%s) từ %r vào %r"
+msgstr "Các mô-đun đã được cài đặt ({:s}) từ {!r} vào {!r}"
 
 #: scripts/startup/bl_operators/userpref.py:1040
-#, fuzzy
 msgid "Template Installed ({:s}) from {!r} into {!r}"
-msgstr "Bản mẫu đã được Cài Đặt (%s) từ %r vào %r"
+msgstr "Khuôn mẫu đã được cài đặt ({:s}) từ {!r} vào {!r}"
 
 #: scripts/startup/bl_operators/userpref.py:1106
 #: scripts/startup/bl_operators/userpref.py:1164
-#, fuzzy
 msgid "StudioLight Installed {!r} into {!r}"
-msgstr "Ánh Sáng Studio đã được Cài Đặt %r vào %r"
+msgstr "StudioLight đã được cài đặt {!r} vào {!r}"
 
 #: scripts/startup/bl_operators/userpref.py:887
-#, fuzzy
 msgid "Remove Add-on: {!r}?"
-msgstr "Xóa Trình Bổ Sung: %r?"
+msgstr "Xóa Trình Bổ Sung: {!r} nhé?"
 
 #: scripts/startup/bl_operators/userpref.py:889
-#, fuzzy
 msgid "Path: {!r}"
-msgstr "Đường dẫn: %r"
+msgstr "Đường dẫn: {!r}"
 
 #: scripts/startup/bl_operators/wm.py:1384
 msgid "Plain Data"
-msgstr ""
+msgstr "Dữ Liệu Thông Thường"
 
 #: scripts/startup/bl_operators/wm.py:1384
 msgid "Data values without special behavior"
-msgstr ""
+msgstr "Giá trị dữ liệu không có tính cách đặc biệt gì"
 
 #: scripts/startup/bl_operators/wm.py:1392
 msgid "Time specified in seconds"
-msgstr ""
+msgstr "Thời gian chỉ định trong số giây"
 
 #: scripts/startup/bl_operators/wm.py:3282
 msgid "Renamed {:d} of {:d} {:s}"
-msgstr ""
+msgstr "Đã đổi tên {:d} trong {:d} {:s}"
 
 #: scripts/startup/bl_operators/wm.py:1011
-#, fuzzy
 msgid "Nothing to operate on: {:s}[ ].{:s}"
-msgstr "Không có gì để thao tác với: %s[ ].%s"
+msgstr "Không có gì để thao tác trên đó: {:s}[ ].{:s}"
 
 #: scripts/startup/bl_operators/wm.py:1173
-#, fuzzy
 msgid "File '{:s}' not found"
-msgstr "Không tìm thấy tập tin '%s'"
+msgstr "Không tìm thấy tập tin '{:s}'"
 
 #: scripts/startup/bl_operators/wm.py:1332
-#, fuzzy
 msgid "No reference available {!r}, Update info in 'rna_manual_reference.py' or callback to bpy.utils.manual_map()"
-msgstr "Không có tham chiếu nào có thể sử dụng được %r. Hãy cập nhật thông tin trong 'rna_manual_reference.py' hoặc dùng hàm gọi lại về bpy.utils.manual_map()"
+msgstr "Không có tham chiếu nào là khả dụng cả {!r}, Cập nhật thông tin trong 'rna_manual_reference.py' hoặc gọi lại (callback) sang bpy.utils.manual_map() nhé"
 
 #: scripts/startup/bl_operators/wm.py:1908
-#, fuzzy
 msgid "Properties from override data cannot be edited"
 msgstr "Không thể biên soạn các tính chất từ dữ liệu vượt quyền được"
 
 #: scripts/startup/bl_operators/wm.py:2338
 #: scripts/startup/bl_operators/wm.py:2452
-#, fuzzy
 msgid "Tool {!r} not found for space {!r}"
-msgstr "Không tìm thấy công cụ %r cho không gian %r"
+msgstr "Không tìm thấy công cụ {!r} cho không gian {!r}"
 
 #: scripts/startup/bl_operators/wm.py:3311
 msgid "Import Preferences From Previous Version"
-msgstr ""
+msgstr "Nhập Khẩu Cài Đặt Sở Thích Từ Phiên Bản Trước"
 
 #: scripts/startup/bl_operators/wm.py:3327
 msgid "Create New Preferences"
-msgstr ""
+msgstr "Tạo Cài Đặt Sở Thích Mới"
 
 #: scripts/startup/bl_operators/wm.py:3362
-#, fuzzy
 msgid "Mouse Select"
-msgstr "Di Chuyển Lựa Chọn"
+msgstr "Chuột Lựa Chọn"
 
 #: scripts/startup/bl_operators/wm.py:3372
-#, fuzzy
 msgctxt "Operator"
 msgid "Save New Preferences"
-msgstr "Lưu các Cài Đặt Sở Thích"
+msgstr "Lưu Cài Đặt Sở Thích"
 
 #: scripts/startup/bl_operators/wm.py:3431
 msgid "Running in Offline Mode"
-msgstr ""
+msgstr "Chạy trong Chế Độ Ngoại Tuyến"
 
 #: scripts/startup/bl_operators/wm.py:784
-#, fuzzy
 msgid "Operator not found: bpy.ops.{:s}"
-msgstr "Không tìm thấy thao tác: bpy.ops.%s"
+msgstr "Không tìm thấy thao tác: bpy.ops.{:s}"
 
 #: scripts/startup/bl_operators/wm.py:1130
-#, fuzzy
 msgid "Extensions Platform"
-msgstr "Thanh Lọc Đuôi Tập Tin"
+msgstr "Nền Tảng Trình Mở Rộng"
 
 #: scripts/startup/bl_operators/wm.py:1131
 msgid "Online directory of free and open source extensions"
-msgstr ""
+msgstr "Thư mục trực tuyến của các trình mở rộng miễn phí và mã nguồn mở"
 
 #: scripts/startup/bl_operators/wm.py:2317
 msgid "Tool cannot be set with an empty space"
-msgstr ""
+msgstr "Không thể thiết lập công cụ với một không gian trống được"
 
 #: scripts/startup/bl_operators/wm.py:886
-#, fuzzy
 msgid "Non boolean value found: {:s}[ ].{:s}"
-msgstr "Tìm thấy giá trị với kiểu dữ liệu phi lôgic (không phải kiểu bool): %s[ ].%s"
+msgstr "Tìm thấy giá trị không phải là boolean: {:s}[ ].{:s}"
 
 #: scripts/startup/bl_operators/wm.py:3221
 msgid "Rename {:d} {:s}"
-msgstr ""
+msgstr "Đổi tên {:d} {:s}"
 
 #: scripts/startup/bl_operators/wm.py:3448
-#, fuzzy
 msgid "Version: {:s}"
-msgstr "Phiên Bản: %s"
+msgstr "Phiên bản: {:s}"
 
 #: scripts/startup/bl_operators/wm.py:3450
 msgid "Date: {:s} {:s}"
-msgstr ""
+msgstr "Ngày: {:s} {:s}"
 
 #: scripts/startup/bl_operators/wm.py:3455
-#, fuzzy
 msgid "Hash: {:s}"
-msgstr "Mã Băm: %s"
+msgstr "Mã băm: {:s}"
 
 #: scripts/startup/bl_operators/wm.py:3456
-#, fuzzy
 msgid "Branch: {:s}"
-msgstr "Phân Nhánh: %s"
+msgstr "Chi nhánh: {:s}"
 
 #: scripts/startup/bl_operators/wm.py:1238
-#, fuzzy
 msgid "Type \"{:s}\" cannot be found"
-msgstr "Không thể tìm thấy kiểu dữ liệu \"%s\""
+msgstr "Không tìm thấy kiểu dữ liệu \"{:s}\""
 
 #: scripts/startup/bl_operators/wm.py:3319
 msgctxt "Operator"
 msgid "Import Blender {:d}.{:d} Preferences"
-msgstr ""
+msgstr "Nhập Khẩu Cài Đặt Sở Thích của Blender {:d}.{:d}"
 
 #: scripts/startup/bl_operators/wm.py:3463
-#, fuzzy
 msgid "Windowing Environment: {:s}"
-msgstr "Môi Trường Cửa Sổ: %s"
+msgstr "Môi Trường Cửa Sổ: {:s}"
 
 #: scripts/startup/bl_ui/anim.py:21
-#, fuzzy
 msgctxt "Operator"
 msgid "Available"
 msgstr "Khả Dụng"
 
 #: scripts/startup/bl_ui/properties_animviz.py:46
-#, fuzzy
 msgid "Bake to Active Camera"
-msgstr "Đặt là Máy Quay Phim đang Hoạt Động"
+msgstr "Nướng vào Máy Quay Phim Đang Hoạt Động"
 
 #: scripts/startup/bl_ui/properties_data_armature.py:145
-#, fuzzy
 msgctxt "Operator"
 msgid "Remove Unused"
-msgstr "Xóa các Khe Không Sử Dụng Đến"
+msgstr "Xóa Cái Không Sử Dụng"
 
 #: scripts/startup/bl_ui/properties_data_armature.py:164
-#, fuzzy
 msgctxt "Operator"
 msgid "Remove Unused Collections"
-msgstr "Xóa Bộ Sưu Tập Xương"
+msgstr "Xóa các Bộ Sưu Tập Không Sử Dụng"
 
 #: scripts/startup/bl_ui/properties_data_armature.py:395
-#, fuzzy
 msgctxt "Operator"
 msgid "New Selection Set"
-msgstr "Bộ Lựa Chọn"
+msgstr "Bộ Lựa Chọn Mới"
 
 #: scripts/startup/bl_ui/properties_data_bone.py:268
 msgid "Cannot figure out which object this bone belongs to."
-msgstr ""
+msgstr "Không thể xác định được xương này thuộc về đối tượng nào cả."
 
 #: scripts/startup/bl_ui/properties_data_bone.py:269
 msgid "Please file a bug report."
-msgstr ""
+msgstr "Xin vui lòng gửi một báo cáo lỗi."
 
 #: scripts/startup/bl_ui/properties_data_bone.py:432
 msgid "Custom wire width not available on MacOS"
-msgstr ""
+msgstr "Chiều rộng dây tùy chỉnh là cái không khả dụng được trên MacOS"
 
 #: scripts/startup/bl_ui/properties_data_camera.py:409
-#, fuzzy
 msgctxt "Image"
 msgid "Flip"
 msgstr "Đảo Lật"
 
 #: scripts/startup/bl_ui/properties_data_camera.py:125
-#, fuzzy
 msgid "Height Min"
-msgstr "Chiều Cao"
+msgstr "Chiều Cao Tối Thiểu"
 
 #: scripts/startup/bl_ui/properties_data_camera.py:131
 msgid "Cylinder radius"
-msgstr ""
+msgstr "Bán kính hình trụ"
 
 #: scripts/startup/bl_ui/properties_data_grease_pencil.py:214
 #: scripts/startup/bl_ui/properties_data_grease_pencil.py:229
-#, fuzzy
 msgctxt "Operator"
 msgid "Merge Group"
-msgstr "Nhóm Điểm Đỉnh"
+msgstr "Hợp Nhất Nhóm"
 
 #: scripts/startup/bl_ui/properties_data_grease_pencil.py:227
-#, fuzzy
 msgctxt "Operator"
 msgid "Delete Group"
-msgstr "Xóa Toàn Bộ các Nhóm"
+msgstr "Xóa nhóm"
 
 #: scripts/startup/bl_ui/properties_data_light.py:164
 #: scripts/startup/bl_ui/properties_world.py:244
-#, fuzzy
 msgid "Overblur"
-msgstr "Nhòe Mờ Thái Quá"
+msgstr "Làm Nhòe Quá Mức"
 
 #: scripts/startup/bl_ui/properties_data_light.py:171
 #: scripts/startup/bl_ui/properties_world.py:250
-#, fuzzy
 msgid "Resolution Limit"
-msgstr "Độ Phân Giải Z"
+msgstr "Giới Hạn của Độ Phân Giải"
 
 #: scripts/startup/bl_ui/properties_data_light.py:204
-#, fuzzy
 msgctxt "ID"
 msgid "Volume Scatter"
 msgstr "Tán Xạ Thể Tích"
 
 #: scripts/startup/bl_ui/properties_grease_pencil_common.py:354
-#, fuzzy
 msgid "Frame: {:d} ({:s})"
-msgstr "Khung Hình: %d (%s)"
+msgstr "Khung hình: {:d} ({:s})"
 
 #: scripts/startup/bl_ui/properties_material.py:287
-#, fuzzy
 msgid "Volume Intersection"
-msgstr "Phương Pháp Giao Cắt Thể Tích"
+msgstr "Giao Cắt Thể Tích"
 
 #: scripts/startup/bl_ui/properties_material.py:283
 msgid "From Shadow"
-msgstr ""
+msgstr "Từ Bóng Tối"
 
 #: scripts/startup/bl_ui/properties_material.py:278
 msgid "Raytraced Transmission"
-msgstr ""
+msgstr "Truyền Xạ Dò Tia"
 
 #: scripts/startup/bl_ui/properties_output.py:77
-#, fuzzy
 msgid "Custom ({:.4g} fps)"
-msgstr "Tùy chọn (%.4g khung hình/giây)"
+msgstr "Tùy chỉnh ({:.4g} khung hình/giây)"
 
 #: scripts/startup/bl_ui/properties_output.py:80
-#, fuzzy
 msgid "{:.4g} fps"
-msgstr "%.4g khung hình/giây"
+msgstr "{:.4g} khung hình/giây"
 
 #: scripts/startup/bl_ui/properties_paint_common.py:167
-#, fuzzy
 msgid "By Active Tool"
-msgstr "Công Cụ đang Hoạt Động"
+msgstr "Theo Công Cụ Đang Hoạt Động"
 
 #: scripts/startup/bl_ui/properties_paint_common.py:1341
-#, fuzzy
 msgid "Legacy Icon"
-msgstr "Lắp Đặt Trình Bổ Sung"
+msgstr "Biểu Tượng Lỗi Thời"
 
 #: scripts/startup/bl_ui/properties_paint_common.py:322
-#, fuzzy
 msgid "*Unsaved Changes"
-msgstr "Tập Tin có Thay Đổi Nhưng Chưa được Lưu"
+msgstr "*Có Thay Đổi Chưa Lưu Lại"
 
 #: scripts/startup/bl_ui/properties_paint_common.py:1343
 msgid "Brush icons have moved to the asset preview image"
-msgstr ""
+msgstr "Biểu tượng đầu bút đã được di chuyển đến hình ảnh xem trước của tài sản"
 
 #: scripts/startup/bl_ui/properties_particle.py:434
-#, fuzzy
 msgid "Iterations: {:d} .. {:d} (avg. {:d})"
-msgstr "Lặp Lại: %d .. %d (t.b. %d)"
+msgstr "Số lần lặp lại: {:d} .. {:d} (trung bình {:d})"
 
 #: scripts/startup/bl_ui/properties_particle.py:440
-#, fuzzy
 msgid "Error: {:.5f} .. {:.5f} (avg. {:.5f})"
-msgstr "Lỗi: %.5f .. %.5f (t.b. %.5f)"
+msgstr "Lỗi: {:.5f} .. {:.5f} (trung bình {:.5f})"
 
 #: scripts/startup/bl_ui/properties_particle.py:834
-#, fuzzy
 msgid "Spacing: {:g}"
-msgstr "Phân Khoảng: %g"
+msgstr "Khoảng cách: {:g}"
 
 #: scripts/startup/bl_ui/properties_particle.py:225
-#, fuzzy
 msgid "{:d} fluid particles for this frame"
-msgstr "%d hạt chất lỏng cho khung hình này"
+msgstr "{:d} hạt chất lỏng cho khung hình này"
 
 #: scripts/startup/bl_ui/properties_physics_dynamicpaint.py:261
-#, fuzzy
 msgctxt "Simulation"
 msgid "Scale Influence"
-msgstr "Ảnh Hưởng Tỷ Lệ"
+msgstr "Tỷ Lệ Ảnh Hưởng"
 
 #: scripts/startup/bl_ui/properties_render.py:450
-#, fuzzy
 msgid "Thickness Near"
-msgstr "Độ Dày Ngoại Vi"
+msgstr "Độ Dày Gần"
 
 #: scripts/startup/bl_ui/properties_render.py:621
 msgid "Jittered Shadows"
-msgstr ""
+msgstr "Bóng Tối Nhiễu Hóa"
 
 #: scripts/startup/bl_ui/properties_render.py:793
-#, fuzzy
 msgid "Shadow Pool"
 msgstr "Kích Thước Bể Chứa Bóng Tối"
 
 #: scripts/startup/bl_ui/properties_render.py:794
-#, fuzzy
 msgid "Light Probes Volume Pool"
-msgstr "Thể Tích Thăm Dò Ánh Sáng"
+msgstr "Kích Thước Bể Chứa Đầu Dò Ánh Sáng Thể Tích"
 
 #: scripts/startup/bl_ui/properties_scene.py:437
-#, fuzzy
 msgid "Spheres Resolution"
-msgstr "Độ Phân Giải của Chốt Trục"
+msgstr "Độ Phân Giải Hình Cầu"
 
 #: scripts/startup/bl_ui/properties_scene.py:440
-#, fuzzy
 msgctxt "Operator"
 msgid "Bake All Light Probe Volumes"
-msgstr "Nướng toàn bộ các thể tích dò ánh sáng"
+msgstr "Nướng Toàn Bộ các Khối Đầu Dò Ánh Sáng"
 
 #: scripts/startup/bl_ui/space_clip.py:1612
-#, fuzzy
 msgctxt "Operator"
 msgid "Stabilization Tracks"
-msgstr "Thêm các Dấu Mốc Giám Sát Ổn Định"
+msgstr "Dấu Mốc Giám Sát Ổn Định"
 
 #: scripts/startup/bl_ui/space_clip.py:1613
-#, fuzzy
 msgctxt "Operator"
 msgid "Stabilization Rotation Tracks"
-msgstr "Thêm các Giám Sát Ổn Định Hóa sự Xoay Chiều"
+msgstr "Dấu Mốc Giám Sát Ổn Định Xoay Chiều"
 
 #: scripts/startup/bl_ui/space_clip.py:1319
 #: scripts/startup/bl_ui/space_image.py:141
-#, fuzzy
 msgctxt "Operator"
 msgid "Zoom to Fit"
 msgstr "Thu-Phóng để Khít Vừa"
 
 #: scripts/startup/bl_ui/space_clip.py:771
-#, fuzzy
 msgid "Average Error: {:.2f} px"
-msgstr "Sai Số Trung Bình: %.2f điểm ảnh"
+msgstr "Sai Số Trung Bình: {:.2f} điểm ảnh"
 
 #: scripts/startup/bl_ui/space_clip.py:173
-#, fuzzy
 msgid "Solve error: {:.2f} px"
-msgstr "Mức sai số trong giải nghiệm: %.2f điểm ảnh"
+msgstr "Sai số trong giải nghiệm: {:.2f} điểm ảnh"
 
 #: scripts/startup/bl_ui/space_dopesheet.py:415
 #: scripts/startup/bl_ui/space_dopesheet.py:466
@@ -3680,10 +3552,9 @@ msgstr "Mức sai số trong giải nghiệm: %.2f điểm ảnh"
 #: scripts/startup/bl_ui/space_sequencer.py:480
 #: scripts/startup/bl_ui/space_sequencer.py:1304
 #: scripts/startup/bl_ui/space_time.py:133
-#, fuzzy
 msgctxt "Operator"
 msgid "Frame Preview Range"
-msgstr "Đặt Phạm Vi Xem Trước"
+msgstr "Phạm Vi Xem Trước Khung Hình"
 
 #: scripts/startup/bl_ui/space_dopesheet.py:417
 #: scripts/startup/bl_ui/space_dopesheet.py:468
@@ -3694,18 +3565,15 @@ msgstr "Đặt Phạm Vi Xem Trước"
 #: scripts/startup/bl_ui/space_sequencer.py:480
 #: scripts/startup/bl_ui/space_sequencer.py:1306
 #: scripts/startup/bl_ui/space_time.py:135
-#, fuzzy
 msgctxt "Operator"
 msgid "Frame Scene Range"
-msgstr "Phạm Vi Khung Hình"
+msgstr "Phạm Vi Khung Hình Cảnh"
 
 #: scripts/startup/bl_ui/space_graph.py:107
-#, fuzzy
 msgid "Drivers:"
 msgstr "Điều Vận:"
 
 #: scripts/startup/bl_ui/space_image.py:174
-#, fuzzy
 msgctxt "Operator"
 msgid "Select Pinned"
 msgstr "Chọn cái được Ghim Xuống"
@@ -3713,16 +3581,14 @@ msgstr "Chọn cái được Ghim Xuống"
 #: scripts/startup/bl_ui/space_image.py:201
 msgctxt "Image"
 msgid "New..."
-msgstr ""
+msgstr "Mới..."
 
 #: scripts/startup/bl_ui/space_image.py:267
-#, fuzzy
 msgctxt "Operator"
 msgid "Flip Horizontally"
 msgstr "Lật Ngang"
 
 #: scripts/startup/bl_ui/space_image.py:268
-#, fuzzy
 msgctxt "Operator"
 msgid "Flip Vertically"
 msgstr "Lật Dọc"
@@ -3730,21 +3596,19 @@ msgstr "Lật Dọc"
 #: scripts/startup/bl_ui/space_image.py:270
 msgctxt "Operator"
 msgid "Rotate 90° Clockwise"
-msgstr ""
+msgstr "Xoay 90° Theo Chiều Kim Đồng Hồ"
 
 #: scripts/startup/bl_ui/space_image.py:271
-#, fuzzy
 msgctxt "Operator"
 msgid "Rotate 90° Counter-Clockwise"
-msgstr "Ngược Chiều Kim Đồng Hồ"
+msgstr "Xoay 90° Ngược Chiều Kim Đồng Hồ"
 
 #: scripts/startup/bl_ui/space_image.py:272
 msgctxt "Operator"
 msgid "Rotate 180°"
-msgstr ""
+msgstr "Xoay Chiều 180º"
 
 #: scripts/startup/bl_ui/space_image.py:800
-#, fuzzy
 msgctxt "Image"
 msgid "Mix"
 msgstr "Hòa Trộn"
@@ -3752,85 +3616,73 @@ msgstr "Hòa Trộn"
 #: scripts/startup/bl_ui/space_node.py:322
 msgctxt "Operator"
 msgid "Linked from"
-msgstr ""
+msgstr "Liên Kết từ"
 
 #: scripts/startup/bl_ui/space_node.py:323
-#, fuzzy
 msgctxt "Operator"
 msgid "Linked to"
-msgstr "Dữ Liệu Kết Nối"
+msgstr "Liên Kết đến"
 
 #: scripts/startup/bl_ui/space_node.py:333
-#, fuzzy
 msgctxt "Operator"
 msgid "Find Node..."
-msgstr "Lùng Tìm Nút"
+msgstr "Tìm Nút..."
 
 #: scripts/startup/bl_ui/space_node.py:880
 msgid "Experimental CPU Implementation"
-msgstr ""
+msgstr "Thực Hiện CPU Thử Nghiệm"
 
 #: scripts/startup/bl_ui/space_node.py:900
 msgid "Reroute Auto Labels"
-msgstr ""
+msgstr "Gắn Nhãn Đổi Tuyến Tự Động"
 
 #: scripts/startup/bl_ui/space_node.py:1033
-#, fuzzy
 msgid "Node Width"
-msgstr "Chiều Rộng Cạnh"
+msgstr "Chiều Rộng Nút"
 
 #: scripts/startup/bl_ui/space_node.py:418
-#, fuzzy
 msgid "Slot {:d}"
-msgstr "Khe %d"
+msgstr "Khe {:d}"
 
 #: scripts/startup/bl_ui/space_properties.py:122
 msgid "No animatable data-block, please report as bug"
-msgstr ""
+msgstr "Không có khối dữ liệu nào có thể hoạt họa được cả, xin vui lòng báo cáo là lỗi"
 
 #: scripts/startup/bl_ui/space_sequencer.py:343
-#, fuzzy
 msgid "Animation Curves"
-msgstr "Đường Cong-F của Hành Động"
+msgstr "Đường Cong Hoạt Họa"
 
 #: scripts/startup/bl_ui/space_sequencer.py:493
 msgid "Auto Zoom"
-msgstr ""
+msgstr "Tự Động Thu Phóng"
 
 #: scripts/startup/bl_ui/space_sequencer.py:1882
-#, fuzzy
 msgid "2D Stabilized Clip"
-msgstr "Đoạn Phim Ổn Định Hóa 2D"
+msgstr "Đoạn Phim đã Ổn Định Hóa 2D"
 
 #: scripts/startup/bl_ui/space_sequencer.py:1883
-#, fuzzy
 msgid "Undistorted Clip"
 msgstr "Đoạn Phim Chưa Biến Dạng"
 
 #: scripts/startup/bl_ui/space_sequencer.py:2194
-#, fuzzy
 msgctxt "Sound"
 msgid "Offset"
 msgstr "Dịch Chuyển"
 
 #: scripts/startup/bl_ui/space_sequencer.py:2736
-#, fuzzy
 msgid "Linear Modifiers"
-msgstr "Dùng Bộ Điều Chỉnh Tuyến Tính"
+msgstr "Bộ Điều Chỉnh Tuyến Tính"
 
 #: scripts/startup/bl_ui/space_sequencer.py:490
-#, fuzzy
 msgid "Preview Zoom"
-msgstr "Thu-Phóng Góc Nhìn"
+msgstr "Thu-Phóng Xem Trước"
 
 #: scripts/startup/bl_ui/space_sequencer.py:1890
 #: scripts/startup/bl_ui/space_sequencer.py:1998
-#, fuzzy
 msgid "Original frame range: {:d}-{:d} ({:d})"
-msgstr "Phạm vi khung hình ban đầu: %d-%d (%d)"
+msgstr "Phạm vi khung ban đầu: {:d}-{:d} ({:d})"
 
 #: scripts/startup/bl_ui/space_text.py:176
-#, fuzzy
 msgctxt "Text"
 msgid "Match Case"
 msgstr "Khớp Kiểu Chữ"
@@ -3838,52 +3690,45 @@ msgstr "Khớp Kiểu Chữ"
 #: scripts/startup/bl_ui/space_text.py:177
 msgctxt "Text"
 msgid "Wrap Around"
-msgstr ""
+msgstr "Vòng Lặp"
 
 #: scripts/startup/bl_ui/space_text.py:178
-#, fuzzy
 msgid "All Data-Blocks"
-msgstr "Khối Dữ Liệu"
+msgstr "Toàn Bộ các Khối Dữ Liệu"
 
 #: scripts/startup/bl_ui/space_text.py:70
-#, fuzzy
 msgid "File: *{:s} (unsaved)"
-msgstr "Tập Tin: *%s (chưa được lưu)"
+msgstr "Tập tin: *{:s} (chưa được lưu)"
 
 #: scripts/startup/bl_ui/space_text.py:75
-#, fuzzy
 msgid "File: {:s}"
-msgstr "Tập Tin: %s"
+msgstr "Tập tin: {:s}"
 
 #: scripts/startup/bl_ui/space_time.py:259
 msgid "Properties and Sidebars"
-msgstr ""
+msgstr "Bảng Tính Chất và Thanh Bên"
 
 #: scripts/startup/bl_ui/space_toolsystem_toolbar.py:2086
-#, fuzzy
 msgid "Weight: {:.3f}"
-msgstr "Trọng lượng: %.3f"
+msgstr "Trọng lượng: {:.3f}"
 
 #: scripts/startup/bl_ui/space_toolsystem_toolbar.py:516
-#, fuzzy
 msgid ""
 "{:s}\n"
 " • {:s} toggles snap while dragging\n"
 " • {:s} toggles dragging from the center\n"
 " • {:s} toggles fixed aspect"
 msgstr ""
-"%s\n"
-"• %s bật/tắt bám dính trong khi kéo rê.\n"
-"• %s bật/tắt kéo rê từ trung tâm.\n"
-"• %s bật/tắt tỷ lệ tương quan cố định"
+"{:s}\n"
+"• {:s} bật/tắt bám dính trong khi kéo rê\n"
+"• {:s} bật/tắt kéo rê từ trung tâm\n"
+"• {:s} bật/tắt tỷ lệ tương quan cố định"
 
 #: scripts/startup/bl_ui/space_toolsystem_toolbar.py:1135
-#, fuzzy
 msgid "Snap Increment"
-msgstr "Gia Lượng cho Góc Độ Bám Dính"
+msgstr "Tăng Tiến Bám Dính"
 
 #: scripts/startup/bl_ui/space_toolsystem_toolbar.py:142
-#, fuzzy
 msgid ""
 "Measure distance and angles\n"
 " • {:s} anywhere for new measurement\n"
@@ -3892,12 +3737,12 @@ msgid ""
 " • Ctrl while dragging to snap\n"
 " • Shift while dragging to measure surface thickness"
 msgstr ""
-"Đo lường khoảng cách và các góc.\n"
-"• %s bất cứ chỗ nào/ở đâu cũng dành cho/đối với/để Tạo Mới Đo Lường.\n"
-"• Lực Cản/Kéo Rê Thước Đo Phân Đoạn Để/Đến/Tới Đo Lường một Góc Độ.\n"
-"• %s Để/Đến/Tới xóa/loại bỏ ¶ đang/Hoạt Động Thước Đo.\n"
-"• Ctrl Trong khi Kéo Rê Để/Đến/Tới Bám Dính.\n"
-"• Shift/Xê Dịch Trong khi Kéo Rê Để/Đến/Tới Đo Lường bề mặt Độ Dày"
+"Đo lường khoảng cách và góc độ\n"
+"• {:s} bất kỳ chỗ nào để tạo đo lường mới\n"
+"• Kéo rê phân đoạn đo lường để đo một góc\n"
+"• {:s} để xóa đo lường đang hoạt động\n"
+"• Bấm Ctrl trong khi kéo để bám dính\n"
+"• Shift trong khi kéo rê để đo độ dày bề mặt"
 
 #: scripts/startup/bl_ui/space_toolsystem_toolbar.py:784
 msgid ""
@@ -3906,257 +3751,220 @@ msgid ""
 " • {:s} - Extrude edges by moving the cursor\n"
 " • {:s} - Delete mesh element"
 msgstr ""
+"Sử dụng nhiều thao tác trong chế độ tương tác để cho thêm, xóa hoặc di chuyển hình học\n"
+"• {:s} - Thêm hình học bằng cách di chuyển con trỏ gần vào một phần tử\n"
+"• {:s} - Đẩy trồi các cạnh bằng cách di chuyển con trỏ\n"
+"• {:s} - Xóa phần tử khung lưới"
 
 #: scripts/startup/bl_ui/space_topbar.py:152
 msgctxt "Operator"
 msgid "Purge Unused Data..."
-msgstr ""
+msgstr "Lược Bỏ Dữ Liệu Không Sử Dụng Đến..."
 
 #: scripts/startup/bl_ui/space_topbar.py:153
 msgctxt "Operator"
 msgid "Manage Unused Data..."
-msgstr ""
+msgstr "Quản Lý Dữ Liệu Không Sử Dụng Đến..."
 
 #: scripts/startup/bl_ui/space_topbar.py:435
-#, fuzzy
 msgctxt "Operator"
 msgid "Find Missing Files..."
-msgstr "Lùng Tìm các Tập Tin Mất Tích"
+msgstr "Tìm Tập Tin Thiếu Vắng..."
 
 #: scripts/startup/bl_ui/space_topbar.py:445
-#, fuzzy
 msgctxt "Operator"
 msgid "Batch-Generate Previews..."
-msgstr "Sinh Tạo các Xem Trước Đồng Loạt"
+msgstr "Sinh Tạo Hàng Loạt các Bản Xem Trước..."
 
 #: scripts/startup/bl_ui/space_topbar.py:449
-#, fuzzy
 msgctxt "Operator"
 msgid "Clear Data-Block Previews..."
-msgstr "Xóa Xem Trước Khối Dữ Liệu"
+msgstr "Xóa Bản Xem Trước Khối Dữ Liệu..."
 
 #: scripts/startup/bl_ui/space_topbar.py:450
-#, fuzzy
 msgctxt "Operator"
 msgid "Batch-Clear Previews..."
-msgstr "Xóa Đồng Loạt các Xem Trước"
+msgstr "Xóa Hàng Loạt các Bản Xem Trước..."
 
 #: scripts/startup/bl_ui/space_topbar.py:357
 #: scripts/startup/bl_ui/space_topbar.py:382
-#, fuzzy
 msgctxt "Operator"
 msgid "Collada (.dae) (Legacy)"
-msgstr "Collada (.dae)"
-
-#: scripts/startup/bl_ui/space_topbar.py:372
-#: scripts/startup/bl_ui/space_topbar.py:402
-msgctxt "Operator"
-msgid "STL (.stl)"
-msgstr ""
+msgstr "Collada (.dae) (Lỗi thời)"
 
 #: scripts/startup/bl_ui/space_topbar.py:312
-#, fuzzy
 msgctxt "Operator"
 msgid "Load Factory {:s} Settings"
-msgstr "Nạp Cài Đặt %s của Xưởng Sản Xuất"
+msgstr "Nạp Cài Đặt {:s} của Xưởng Sản Xuất"
 
 #: scripts/startup/bl_ui/space_userpref.py:265
-#, fuzzy
 msgctxt "Preferences"
 msgid "Translate"
-msgstr "Dịch Chuyển"
+msgstr "Phiên Dịch"
 
 #: scripts/startup/bl_ui/space_userpref.py:269
-#, fuzzy
 msgid "Reports"
-msgstr "Thông/Thông Báo"
+msgstr "Báo Cáo"
 
 #: scripts/startup/bl_ui/space_userpref.py:605
-#, fuzzy
 msgid "Keyframing"
-msgstr "Tự Động Khóa Hóa"
+msgstr "Khóa Hóa"
 
 #: scripts/startup/bl_ui/space_userpref.py:696
-#, fuzzy
 msgid "Backend"
-msgstr "Kết Thúc Nướng"
+msgstr "Nền Phụ Trợ"
 
 #: scripts/startup/bl_ui/space_userpref.py:778
-#, fuzzy
 msgid "Time Out"
-msgstr "Thời Hạn của VBO"
+msgstr "Thời Gian Chờ"
 
 #: scripts/startup/bl_ui/space_userpref.py:779
 msgid "Connection Limit"
-msgstr ""
+msgstr "Số Kết Nối Giới Hạn"
 
 #: scripts/startup/bl_ui/space_userpref.py:2238
-#, fuzzy
 msgctxt "Operator"
 msgid "Remove Repository"
-msgstr "Xóa Kho Lưu Trữ Tiện Ích Mở Rộng"
+msgstr "Xóa Kho Lưu Trữ"
 
 #: scripts/startup/bl_ui/space_userpref.py:2420
-#, fuzzy
 msgid " Preferences"
-msgstr "Cài Đặt Sở Thích"
+msgstr " Cài Đặt Sở Thích"
 
 #: scripts/startup/bl_ui/space_userpref.py:700
 msgid "A restart of Blender is required"
-msgstr ""
+msgstr "Cần phải khởi động Blender lại"
 
 #: scripts/startup/bl_ui/space_userpref.py:708
 msgid "The Vulkan backend is experimental:"
-msgstr ""
+msgstr "Nền phụ trợ Vulkan hiện đang trong giai đoạn thử nghiệm:"
 
 #: scripts/startup/bl_ui/space_userpref.py:709
 msgid "• OpenXR and GPU subdivision are not supported"
-msgstr ""
+msgstr "• Chưa hỗ trợ phân hóa OpenXR và GPU"
 
 #: scripts/startup/bl_ui/space_userpref.py:710
 msgid "• Expect reduced performance"
-msgstr ""
+msgstr "• Kỳ vọng giảm hiệu suất hoạt động"
 
 #: scripts/startup/bl_ui/space_userpref.py:1950
-#, fuzzy
 msgid "Scroll Direction"
 msgstr "Chiều Hướng Cuộn"
 
 #: scripts/startup/bl_ui/space_userpref.py:2242
-#, fuzzy
 msgctxt "Operator"
 msgid "Remove Repository & Files"
-msgstr "Xóa Kho Lưu Trữ Tiện Ích Mở Rộng"
+msgstr "Xóa Kho Lưu Trữ và các Tập Tin"
 
 #: scripts/startup/bl_ui/space_userpref.py:2300
 msgid "Repository URL"
-msgstr ""
+msgstr "URL của Kho Lưu Trữ"
 
 #: scripts/startup/bl_ui/space_userpref.py:735
 msgid "System Installation"
-msgstr ""
+msgstr "Cài Đặt dùng Hệ Thống"
 
 #: scripts/startup/bl_ui/space_userpref.py:736
 #: scripts/startup/bl_ui/space_userpref.py:742
 msgid "File association is handled by the package manager"
-msgstr ""
+msgstr "Liên kết tập tin là do trình quản lý gói xử lý"
 
 #: scripts/startup/bl_ui/space_userpref.py:741
 msgid "Snap Package Installation"
-msgstr ""
+msgstr "Cài Đặt Gói dùng Snap"
 
 #: scripts/startup/bl_ui/space_userpref.py:773
 msgid "Enabled on startup, overriding the preference."
-msgstr ""
+msgstr "Được bật lên khi khởi động, vượt quyền cài đặt sở thích."
 
 #: scripts/startup/bl_ui/space_userpref.py:775
 msgid "Disabled on startup, overriding the preference."
-msgstr ""
+msgstr "Tắt đi khi khởi động, vượt quyền cài đặt sở thích."
 
 #: scripts/startup/bl_ui/space_userpref.py:2337
 #: source/blender/editors/space_userpref/userpref_ops.cc:442
 msgid "Authentication"
-msgstr ""
+msgstr "Xác Thực"
 
 #: scripts/startup/bl_ui/space_userpref.py:2708
-#, fuzzy
 msgid "No custom {:s} configured"
-msgstr "Không có %s tùy chỉnh được cấu hình"
+msgstr "Không có tùy chỉnh {:s} nào vốn đã được cấu hình cả"
 
 #: scripts/startup/bl_ui/space_userpref.py:127
-#, fuzzy
 msgid "Load Factory {:s} Preferences"
-msgstr "Nạp Cài Đặt Sở Thích %s của Xưởng Sản Xuất"
+msgstr "Nạp Cài Đặt Sở Thích {:s} của Xưởng Sản Xuất"
 
 #: scripts/startup/bl_ui/space_userpref.py:1309
-#, fuzzy
 msgid "Color Set {:d}"
-msgstr "Bộ Màu Sắc %d"
+msgstr "Bộ Màu {:d}"
 
 #: scripts/startup/bl_ui/space_userpref.py:1335
 #: scripts/startup/bl_ui/space_userpref.py:1354
-#, fuzzy
 msgid "Color {:d}"
-msgstr "Màu %d"
+msgstr "Màu {:d}"
 
 #: scripts/startup/bl_ui/space_view3d.py:1712
 #: scripts/startup/bl_ui/space_view3d.py:1769
 #: scripts/startup/bl_ui/space_view3d.py:1915
 #: scripts/startup/bl_ui/space_view3d.py:2335
 msgid "More/Less"
-msgstr ""
+msgstr "Tăng/Giảm"
 
 #: scripts/startup/bl_ui/space_view3d.py:1779
-#, fuzzy
 msgid "Bone Selection Set"
-msgstr "Lựa Chọn Xương"
+msgstr "Bộ Lựa Chọn Xương"
 
 #: scripts/startup/bl_ui/space_view3d.py:2008
-#, fuzzy
 msgctxt "Operator"
 msgid "Control Point Row"
-msgstr "Điểm Điều Khiển"
+msgstr "Hàng Điểm Điều Khiển"
 
 #: scripts/startup/bl_ui/space_view3d.py:2365
-#, fuzzy
 msgctxt "Operator"
 msgid "Grow Selection"
-msgstr "Hiển Thị Vùng Lựa Chọn"
-
-#: scripts/startup/bl_ui/space_view3d.py:2407
-#, fuzzy
-msgctxt "Operator"
-msgid "Bézier"
-msgstr "Bezier"
+msgstr "Tăng Lựa Chọn"
 
 #: scripts/startup/bl_ui/space_view3d.py:2700
-#, fuzzy
 msgctxt "Operator"
 msgid "Mesh Plane"
-msgstr "Hải Đảo Khung Lưới"
+msgstr "Khung Lưới Mặt Phẳng"
 
 #: scripts/startup/bl_ui/space_view3d.py:3598
-#, fuzzy
 msgctxt "Operator"
 msgid "Grow Visibility"
-msgstr "Mức Bóng Tối Hữu Hình"
+msgstr "Tăng Hiển Thị"
 
 #: scripts/startup/bl_ui/space_view3d.py:3601
-#, fuzzy
 msgctxt "Operator"
 msgid "Shrink Visibility"
-msgstr "Mức Bóng Tối Hữu Hình"
+msgstr "Giảm Hiển Thị"
 
 #: scripts/startup/bl_ui/space_view3d.py:3654
-#, fuzzy
 msgctxt "Operator"
 msgid "Dynamic Topology"
-msgstr "Bật/Tắt Cấu Trúc Động"
+msgstr "Cấu Trúc Động"
 
 #: scripts/startup/bl_ui/space_view3d.py:3701
 msgctxt "Operator"
 msgid "Lasso Show"
-msgstr ""
+msgstr "Hiển Thị bằng Dây Thòng Lọng"
 
 #: scripts/startup/bl_ui/space_view3d.py:3704
 msgctxt "Operator"
 msgid "Line Show"
-msgstr ""
+msgstr "Hiển Thị bằng Đường Nét"
 
 #: scripts/startup/bl_ui/space_view3d.py:3707
-#, fuzzy
 msgctxt "Operator"
 msgid "Polyline Show"
-msgstr "Đường Đa Giác"
+msgstr "Hiển Thị bằng Đường Đa Giác"
 
 #: scripts/startup/bl_ui/space_view3d.py:3737
-#, fuzzy
 msgctxt "Operator"
 msgid "Polyline Add"
-msgstr "Đường Đa Giác"
+msgstr "Thêm Đường Đa Giác"
 
 #: scripts/startup/bl_ui/space_view3d.py:3834
-#, fuzzy
 msgctxt "Operator"
 msgid "Mask from Cavity"
 msgstr "Màn Chắn Lọc từ Khe Hốc"
@@ -4164,100 +3972,88 @@ msgstr "Màn Chắn Lọc từ Khe Hốc"
 #: scripts/startup/bl_ui/space_view3d.py:3837
 msgctxt "Operator"
 msgid "Mask from Mesh Boundary"
-msgstr ""
+msgstr "Màn Chắn Lọc từ Ranh Giới Khung Lưới"
 
 #: scripts/startup/bl_ui/space_view3d.py:3841
-#, fuzzy
 msgctxt "Operator"
 msgid "Mask from Face Sets Boundary"
-msgstr "Ranh Giới Mặt Ấn Định"
+msgstr "Màn Chắn Lọc từ Ranh Giới Mặt Ấn Định"
 
 #: scripts/startup/bl_ui/space_view3d.py:7485
-#, fuzzy
 msgid "Snap Target for Individual Elements"
-msgstr "Bám Dính các Cá Nhân Phần Tử Vào"
+msgstr "Mục Tiêu Bám Dính cho Cá Nhân Phần Tử"
 
 #: scripts/startup/bl_ui/space_view3d.py:5632
-#, fuzzy
 msgctxt "Operator"
 msgid "Duplicate Active Keyframe (All Layer)"
 msgstr "Nhân Đôi Khung Khóa đang Hoạt Động (Toàn Bộ các Tầng Lớp)"
 
 #: scripts/startup/bl_ui/space_view3d.py:5636
-#, fuzzy
 msgctxt "Operator"
 msgid "Delete Active Keyframe (All Layer)"
-msgstr "Xóa các Khung Khóa đang Hoạt Động (Toàn Bộ các Tầng Lớp)"
+msgstr "Xóa Khung Khóa đang Hoạt Động (Toàn Bộ các Tầng Lớp)"
 
 #: scripts/startup/bl_ui/space_view3d.py:6869
-#, fuzzy
 msgid "Camera Guides"
-msgstr "Ranh Giới Máy Quay Phim"
+msgstr "Hướng Dẫn Bố Cục Máy Quay Phim"
 
 #: scripts/startup/bl_ui/space_view3d.py:7996
-#, fuzzy
 msgid "No Materials"
-msgstr " Nguyên Vật Liệu,"
+msgstr "Không Có Nguyên Vật Liệu"
 
 #: scripts/startup/bl_ui/space_view3d.py:2955
 #: scripts/startup/bl_ui/space_view3d.py:3352
-#, fuzzy
 msgctxt "Operator"
 msgid "Convert to Mesh Plane"
-msgstr "Chuyển Đổi thành Khung Lưới"
+msgstr "Chuyển Đổi sang Khung Lưới Mặt Phẳng"
 
 #: scripts/startup/bl_ui/space_view3d_toolbar.py:1156
-#, fuzzy
 msgid "Symmetrize"
-msgstr "Đối xứng"
+msgstr "Đối Xứng Hóa"
 
 #: scripts/startup/bl_ui/space_view3d_toolbar.py:47
-#, fuzzy
 msgid "No brush selected"
-msgstr "Không có đối tượng nào được chọn cả"
+msgstr "Không có đầu bút nào đã được chọn cả"
 
 #: scripts/startup/bl_ui/space_view3d_toolbar.py:51
-#, fuzzy
 msgctxt "Operator"
 msgid "Duplicate Asset..."
-msgstr "Nhân Đôi Văn Bản"
+msgstr "Nhân Đôi Tài Sản..."
 
 #: scripts/startup/bl_ui/space_view3d_toolbar.py:52
-#, fuzzy
 msgctxt "Operator"
 msgid "Delete Asset"
-msgstr "Xóa Rời Rạc"
+msgstr "Xóa Tài Sản"
 
 #: scripts/startup/bl_ui/space_view3d_toolbar.py:56
 msgctxt "Operator"
 msgid "Edit Metadata..."
-msgstr ""
+msgstr "Biên Soạn Siêu Dữ Liệu..."
 
 #: scripts/startup/bl_ui/space_view3d_toolbar.py:57
 msgctxt "Operator"
 msgid "Edit Preview Image..."
-msgstr ""
+msgstr "Biên Soạn Hình Ảnh Xem Trước..."
 
 #: scripts/startup/bl_ui/space_view3d_toolbar.py:58
 msgctxt "Operator"
 msgid "Save Changes to Asset"
-msgstr ""
+msgstr "Lưu Thay Đổi vào Tài Sản"
 
 #: scripts/startup/bl_ui/space_view3d_toolbar.py:59
 msgctxt "Operator"
 msgid "Revert to Asset"
-msgstr ""
+msgstr "Hoàn Lại về Tài Sản"
 
 #: scripts/startup/bl_ui/space_view3d_toolbar.py:61
-#, fuzzy
 msgctxt "Operator"
 msgid "Save As Asset..."
-msgstr "Lưu Thành..."
+msgstr "Lưu làm Tài Sản..."
 
 #: source/blender/animrig/intern/action.cc:1272
-#, fuzzy, python-format
+#, python-format
 msgid "Could not set action '%s' to animate ID '%s', as it does not have suitably rooted paths for this purpose"
-msgstr "Không thể sắp đặt hành động '%s' vào ID '%s', vì nó không có các đường dẫn nền móng phù hợp cho mục đích này"
+msgstr "Không thể thiết lập hành động '%s' để hoạt họa ID '%s' được vì nó không có đường dẫn gốc phù hợp cho mục đích này"
 
 #: source/blender/animrig/intern/animdata.cc:217
 #: source/blender/animrig/intern/animdata.cc:221
@@ -4265,225 +4061,219 @@ msgstr "Không thể sắp đặt hành động '%s' vào ID '%s', vì nó khôn
 #: source/blender/editors/animation/anim_channels_edit.cc:5237
 #: source/blender/editors/animation/anim_channels_edit.cc:5304
 msgid "%sAction"
-msgstr ""
+msgstr "Hành Động %s"
 
 #: source/blender/animrig/intern/keyframing.cc:98
 msgid "There were {:d} keying failures for unknown reasons."
-msgstr ""
+msgstr "Có {:d} lỗi khóa hóa thất bại nhưng không rõ lý do."
 
 #: source/blender/animrig/intern/keyframing.cc:103
 msgid "Could not create {:d} F-Curve(s). This can happen when only inserting to available F-Curves."
-msgstr ""
+msgstr "Không thể tạo {:d} Đường Cong-F. Điều này có thể xảy ra khi chỉ chèn vào các Đường Cong-F hiện có sẵn."
 
 #: source/blender/animrig/intern/keyframing.cc:111
 msgid "{:d} F-Curve(s) are not keyframeable. They might be locked or sampled."
-msgstr ""
+msgstr "{:d} Đường Cong-F không thể khóa hóa được. Chúng có thể đang bị khóa lại hoặc lấy mẫu vật."
 
 #: source/blender/animrig/intern/keyframing.cc:118
 msgid "Due to the setting 'Only Insert Needed', {:d} keyframe(s) have not been inserted."
-msgstr ""
+msgstr "Do cài đặt 'Chèn Thêm Nếu Cần' nên {:d} khung khóa không được chèn vào."
 
 #: source/blender/animrig/intern/keyframing.cc:125
 msgid "Due to the NLA stack setup, {:d} keyframe(s) have not been inserted."
-msgstr ""
+msgstr "Do thiết lập ngăn xếp NLA nên {:d} khung khóa không được chèn vào."
 
 #: source/blender/animrig/intern/keyframing.cc:131
 msgid "Inserting keys on {:d} data-block(s) has been skipped because they are not editable."
-msgstr ""
+msgstr "Bỏ qua việc chèn thêm khóa vào {:d} khối dữ liệu vì chúng không thể chỉnh sửa được."
 
 #: source/blender/animrig/intern/keyframing.cc:138
 msgid "Inserting keys on {:d} data-block(s) has been skipped because they cannot be animated."
-msgstr ""
+msgstr "Bỏ qua việc chèn thêm khóa vào {:d} khối dữ liệu vì chúng không thể hoạt họa được."
 
 #: source/blender/animrig/intern/keyframing.cc:145
 msgid "Inserting keys on {:d} data-block(s) has been skipped because the RNA path wasn't valid for them."
-msgstr ""
+msgstr "Bỏ qua việc chèn thêm khóa vào {:d} khối dữ liệu vì đường dẫn RNA không hợp lệ đối với chúng."
 
 #: source/blender/animrig/intern/keyframing.cc:152
 msgid "Inserting keys on {:d} data-block(s) has been skipped because there were no layers that could accept the keys."
-msgstr ""
+msgstr "Bỏ qua việc chèn thêm khóa vào {:d} khối dữ liệu vì không có tầng lớp nào có thể chấp nhận khóa."
 
 #: source/blender/animrig/intern/keyframing.cc:159
 msgid "Inserting keys on {:d} data-block(s) has been skipped because there were no strips that could accept the keys."
-msgstr ""
+msgstr "Bỏ qua việc chèn thêm khóa vào {:d} khối dữ liệu vì không có dải nào có thể chấp nhận khóa."
 
 #: source/blender/animrig/intern/keyframing.cc:166
 msgid "Inserting keys on {:d} data-block(s) has been skipped because of missing action slots."
-msgstr ""
+msgstr "Bỏ qua việc chèn thêm khóa vào {:d} khối dữ liệu vì thiếu khe hành động."
 
 #: source/blender/animrig/intern/keyframing.cc:181
 msgid "Inserting keyframes failed:"
-msgstr ""
+msgstr "Việc chèn thêm khung khóa bị thất bại:"
 
 #: source/blender/animrig/intern/keyframing.cc:172
 msgid "Encountered unhandled error during keyframing"
-msgstr ""
+msgstr "Gặp phải lỗi chưa được xử lý trong quá trình khung khóa hóa"
 
 #: source/blender/animrig/intern/keyframing.cc:89
 msgid "No keys have been inserted and no errors have been reported."
-msgstr ""
+msgstr "Không có khóa nào đã được chèn vào và không có lỗi nào đã được báo cáo cả."
 
 #: source/blender/blenkernel/intern/anim_data.cc:206
 msgid "Attempt to set action on non-animatable ID"
-msgstr ""
+msgstr "Cố gắng thiết lập hành động trên ID bất khả hoạt họa"
 
 #: source/blender/blenkernel/intern/asset_edit.cc:121
 msgid "Failed to create asset library directory to save asset"
-msgstr ""
+msgstr "Thất bại trong việc tạo thư mục thư viện tài sản để lưu tài sản"
 
 #: source/blender/blenkernel/intern/asset_edit.cc:325
 #: source/blender/blenkernel/intern/asset_edit.cc:352
 msgid "Failed to write to asset library"
-msgstr ""
+msgstr "Thất bại trong việc viết vào thư viện tài sản"
 
 #: source/blender/blenkernel/intern/asset_edit.cc:372
 msgid "Failed to delete asset library file"
-msgstr ""
+msgstr "Thất bại trong việc xóa tập tin thư viện tài sản"
 
 #: source/blender/blenkernel/intern/attribute.cc:236
 msgid "Unable to create builtin attribute in edit mode"
-msgstr ""
+msgstr "Không thể tạo thuộc tính tích hợp trong chế độ biên soạn được"
 
 #: source/blender/blenkernel/intern/attribute.cc:241
 msgid "Domain unsupported for \"id\" attribute"
-msgstr ""
+msgstr "Thuộc tính \"id\" không hỗ trợ phạm vi"
 
 #: source/blender/blenkernel/intern/attribute.cc:245
 msgid "Type unsupported for \"id\" attribute"
-msgstr ""
+msgstr "Thuộc tính \"id\" không hỗ trợ thể loại"
 
 #: source/blender/blenkernel/intern/attribute.cc:263
-#, fuzzy
 msgid "Attribute name cannot be empty"
-msgstr "Thuộc tính không thể trống rỗng được"
+msgstr "Tên thuộc tính không được để trống"
 
 #: source/blender/blenkernel/intern/attribute_access.cc:107
-#, fuzzy
 msgid "This attribute cannot be accessed in a procedural context"
-msgstr "Thuộc tính này không thể truy cập trong bối cảnh thủ tục được"
+msgstr "Thuộc tính này không thể truy cập được trong ngữ cảnh thủ tục"
 
 #: source/blender/blenkernel/intern/bake_geometry_nodes_modifier_pack.cc:160
 msgid "Can only unpack bake if the current .blend file is saved"
-msgstr ""
+msgstr "Chỉ có thể giải nén nướng nếu tập tin .blend hiện tại là đã được lưu lại rồi"
 
 #: source/blender/blenkernel/intern/bake_geometry_nodes_modifier_pack.cc:26
 #, python-format
 msgid "%s is no directory"
-msgstr ""
+msgstr "%s không phải là thư mục"
 
 #: source/blender/blenkernel/intern/bake_geometry_nodes_modifier_pack.cc:84
 #, python-format
 msgid "Can't ensure directory: %s"
-msgstr ""
+msgstr "Không dám đảm bảo thư mục: %s"
 
 #: source/blender/blenkernel/intern/bake_geometry_nodes_modifier_pack.cc:90
 #, python-format
 msgid "Can't write file : %s"
-msgstr ""
+msgstr "Không thể viết tập tin: %s"
 
 #: source/blender/blenkernel/intern/blendfile.cc:901
 msgid "This file is managed by the asset system, you cannot overwrite it (using \"Save As\" is possible)"
-msgstr ""
+msgstr "Tập tin này được quản lý bởi hệ thống tài sản, bạn không thể viết đè lên nó được (có thể sử dụng \"Lưu thành\" nhé)"
 
 #. :src: source/blender/blenkernel/intern/bpath.cc:228
 #, python-format
 msgid "Path '%s' not found, from linked data-block '%s' (from library '%s')"
-msgstr ""
+msgstr "Không tìm thấy đường dẫn '%s' từ khối dữ liệu liên kết '%s' được (trong thư viện '%s')"
 
 #. :src: source/blender/blenkernel/intern/bpath.cc:236
 #, python-format
 msgid "Path '%s' not found, from local data-block '%s'"
-msgstr ""
+msgstr "Không tìm thấy đường dẫn '%s' từ khối dữ liệu cục bộ '%s'"
 
 #. :src: source/blender/blenkernel/intern/bpath.cc:244
 #, python-format
 msgid "Path '%s' not found (no known owner data-block)"
-msgstr ""
+msgstr "Không tìm thấy đường dẫn '%s' (không có khối dữ liệu của chủ sở hữu nào vốn biết đến cả)"
 
 #: source/blender/blenkernel/intern/curve.cc:4759
-#, fuzzy, python-format
+#, python-format
 msgid "%d more %s row(s) needed for Bézier"
-msgstr "Cần %d thêm %s hàng cho đường cong Bezier"
+msgstr "Đối với Bézier, cần có thêm %d điểm hàng %s"
 
 #: source/blender/blenkernel/intern/curve.cc:4765
-#, fuzzy, python-format
+#, python-format
 msgid "%d more point(s) needed for Bézier"
-msgstr "Cần thêm %d điểm cho đường cong Bezier"
+msgstr "Đối với Bézier, cần có thêm %d điểm"
 
 #: source/blender/blenkernel/intern/customdata.cc:1815
 msgid "4 by 4 Float Matrix"
-msgstr ""
+msgstr "Ma Trận Số Thực Dấu Phẩy Động 4 x 4"
 
 #: source/blender/blenkernel/intern/fmodifier.cc:966
-#, fuzzy
 msgctxt "Action"
 msgid "Stepped"
-msgstr "Phân Bước/Bậc"
+msgstr "Phân Bậc"
 
 #: source/blender/blenkernel/intern/nla.cc:1859
 #: source/blender/editors/animation/anim_channels_defines.cc:4415
-#, fuzzy
 msgid "<No Action>"
-msgstr "Hành Động Mới"
+msgstr "<Không có Hành Động>"
 
 #: source/blender/blenkernel/intern/node_tree_update.cc:1170
 msgid "Use node groups to reuse the same menu multiple times"
-msgstr ""
+msgstr "Sử dụng nhóm nút để tái dụng cùng một trình đơn nhiều lần"
 
 #: source/blender/blenkernel/intern/node_tree_update.cc:1180
 msgid "The node input does not support fields"
-msgstr ""
+msgstr "Đầu vào nút không hỗ trợ trường"
 
 #: source/blender/blenkernel/intern/node_tree_update.cc:1192
 msgid "The links form a cycle which is not supported"
-msgstr ""
+msgstr "Các liên kết tạo thành một chu kỳ tuần hoàn, tức cái không được hỗ trợ"
 
 #: source/blender/blenkernel/intern/node_tree_update.cc:1204
 msgid "Conversion is not supported"
-msgstr ""
+msgstr "Chuyển đổi không được hỗ trợ"
 
 #: source/blender/blenkernel/intern/volume_to_mesh.cc:106
 msgid "OpenVDB error: {}"
-msgstr ""
+msgstr "Lỗi OpenVDB: {}"
 
 #: source/blender/blenkernel/intern/writeffmpeg.cc:1366
-#, fuzzy
 msgid "Can't allocate FFmpeg format context"
-msgstr "Không thể cấp phát bối cảnh định dạng FFMPEG được"
+msgstr "Không thể cấp phát ngữ cảnh định dạng FFmpeg được"
 
 #: source/blender/blenkernel/intern/writeffmpeg.cc:1436
-#, fuzzy
 msgid "FFmpeg only supports 48khz / stereo audio for DV!"
-msgstr "FFMPEG chỉ hỗ trợ âm thanh 48khz / âm thanh nổi cho DV mà thôi!"
+msgstr "FFmpeg chỉ hỗ trợ âm thanh 48khz/âm thanh nổi cho DV mà thôi!"
 
 #: source/blender/blenloader/intern/readfile.cc:4655
-#, fuzzy, python-format
+#, python-format
 msgid "Read packed library: '%s', parent '%s'"
-msgstr "Đọc thư viện đóng gói:  '%s', phụ huynh '%s'"
+msgstr "Đọc thư viện đóng gói: '%s', phụ huynh '%s'"
 
 #: source/blender/blenloader/intern/readfile.cc:4667
-#, fuzzy, python-format
+#, python-format
 msgid "Read library: '%s', '%s', parent '%s'"
-msgstr "Đọc thư viện:  '%s', '%s', phụ huynh '%s'"
+msgstr "Đọc thư viện: '%s', '%s', phụ huynh '%s'"
 
 #. :src: source/blender/blenloader/intern/readfile.cc:1183
 #, python-format
 msgid "Cannot read blend file '%s', incomplete header, may be from a newer version of Blender"
-msgstr ""
+msgstr "Không thể đọc tập tin blend '%s', tiêu đề không đầy đủ, có thể là từ phiên bản mới hơn của Blender"
 
 #: source/blender/blenloader/intern/readfile.cc:1192
-#, fuzzy, python-format
+#, python-format
 msgid "Failed to read file '%s', not a blend file"
-msgstr "Việc đọc tập tin blend '%s' bị thất bại, không phải là tập tin .blend"
+msgstr "Thất bại trong việc đọc tập tin '%s', không phải là một tập tin blend"
 
 #: source/blender/blenloader/intern/versioning_400.cc:1180
 #, python-format
 msgid "Material %s could not be converted because of different Blend Mode and Shadow Mode (need manual adjustment)"
-msgstr ""
+msgstr "Không thể chuyển đổi nguyên vật liệu %s được vì Chế Độ Pha Trộn và Chế Độ Bóng Tối khác nhau (cần điều chỉnh thủ công)"
 
 #: source/blender/draw/engines/eevee_next/eevee_instance.cc:551
 msgid "Errors during render. See the System Console for more info."
-msgstr ""
+msgstr "Lỗi trong quá trình kết xuất. Xin xem Bàn Giao Tiếp Hệ Thống để biết thêm thông tin."
 
 #. :src: source/blender/draw/engines/eevee_next/eevee_lightprobe_volume.cc:80
 msgid "Warning: Could not allocate light probes volume pool of {} MB, using {} MB instead."
