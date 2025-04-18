@@ -1,3 +1,1022 @@
+
+#. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_sampling_interpolation_fallback
+msgid "Sampling Interpolation Fallback"
+msgstr ""
+
+#. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_sampling_interpolation_fallback
+msgid "Interpolation fallback for sampled animations, when the property is not keyed"
+msgstr ""
+
+#. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_sampling_interpolation_fallback:'LINEAR'
+#, fuzzy
+msgid "Linear interpolation between keyframes"
+msgstr "Chuyển tiếp tiêu chuẩn giữa các khung khóa"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_sampling_interpolation_fallback:'STEP'
+msgid "No interpolation between keyframes"
+msgstr ""
+
+#. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_shared_accessors
+msgid "Shared Accessors"
+msgstr "Trình Truy Cập Dùng Chung"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_shared_accessors
+msgid "Export Primitives using shared accessors for attributes"
+msgstr "Xuất Khẩu các Hình Cơ Bản bằng cách sử dụng các trình truy cập dùng chung cho các thuộc tính"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_skins
+#: scripts/addons_core/io_scene_gltf2/__init__.py:1595
+msgid "Skinning"
+msgstr "Da Bọc"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_skins
+msgid "Export skinning (armature) data"
+msgstr "Xuất Khẩu dữ liệu da bọc (khung rối)"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_tangents
+msgid "Tangents"
+msgstr "Tiếp Tuyến"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_tangents
+msgid "Export vertex tangents with meshes"
+msgstr "Xuất Khẩu các tiếp tuyến của điểm đỉnh với các khung lưới"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_texcoords
+msgid "Export UVs (texture coordinates) with meshes"
+msgstr "Xuất Khẩu các UV (các tọa độ của chất liệu) với khung lưới"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_texture_dir
+msgid "Folder to place texture files in. Relative to the .gltf file"
+msgstr "Thư mục để đặt các tập tin chất liệu vào đó. Tương đối với tập tin .gltf"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_try_omit_sparse_sk
+#, fuzzy
+msgid "Omitting Sparse Accessor if Data is Empty"
+msgstr "Bỏ qua Trình Truy Cập Thưa Thớt nếu dữ liệu là trống rỗng"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_try_omit_sparse_sk
+msgid "Omitting Sparse Accessor if data is empty"
+msgstr "Bỏ qua Trình Truy Cập Thưa Thớt nếu dữ liệu là trống rỗng"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_try_sparse_sk
+#, fuzzy
+msgid "Use Sparse Accessor if Better"
+msgstr "Sử dụng Trình Truy Cập Thưa Thớt nếu tốt hơn"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_try_sparse_sk
+msgid "Try using Sparse Accessor if it saves space"
+msgstr "Hãy thử sử dụng Trình Truy Cập Thưa Thớt nếu nó tiết kiệm được dung lượng"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_unused_images
+#, fuzzy
+msgid "Unused Images"
+msgstr "Các hình ảnh không sử dụng đến"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_unused_images
+msgid "Export images not assigned to any material"
+msgstr "Xuất khẩu các hình ảnh không được ấn định cho bất kỳ nguyên vật liệu nào cả"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_unused_textures
+#, fuzzy
+msgid "Prepare Unused Textures"
+msgstr "Chuẩn bị các chất liệu Không Sử Dụng đến"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_unused_textures
+msgid "Export image texture nodes not assigned to any material. This feature is not standard and needs an external extension to be included in the glTF file"
+msgstr "Xuất khẩu các nút chất liệu hình ảnh không được ấn định cho bất kỳ nguyên vật liệu nào hết. Tính năng này không phải là tiêu chuẩn và cần có sự mở rộng bên ngoài để được đưa vào tập tin glTF"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_use_gltfpack
+msgid "Use Gltfpack"
+msgstr "Sử dụng Gltfpack"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_use_gltfpack
+msgid "Use gltfpack to simplify the mesh and/or compress its textures"
+msgstr "Sử dụng gltfpack để đơn giản hóa khung lưới và/hoặc nén các chất liệu của nó"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_vertex_color
+msgid "Use Vertex Color"
+msgstr "Sử Dụng Màu Điểm Đỉnh"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_vertex_color
+msgid "How to export vertex color"
+msgstr "Phương pháp xuất khẩu màu điểm đỉnh"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_vertex_color:'MATERIAL'
+msgid "Export vertex color when used by material"
+msgstr "Xuất khẩu màu điểm đỉnh khi được nguyên vật liệu sử dụng"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_vertex_color:'ACTIVE'
+msgid "Export active vertex color"
+msgstr "Xuất khẩu màu điểm đỉnh đang hoạt động"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_vertex_color:'NAME'
+msgid "Export vertex color with this name"
+msgstr ""
+
+#. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_vertex_color:'NONE'
+msgid "Do not export vertex color"
+msgstr "Không xuất khẩu màu điểm đỉnh"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_vertex_color_name
+#, fuzzy
+msgid "Vertex Color Name"
+msgstr "Màu Điểm Đỉnh"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_vertex_color_name
+#, fuzzy
+msgid "Name of vertex color to export"
+msgstr "Tên của tầng màu sắc Điểm Đỉnh"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_yup
+msgid "+Y Up"
+msgstr "+Y Lên Trên"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_yup
+msgid "Export using glTF convention, +Y up"
+msgstr "Xuất Khẩu dùng quy ước glTF, +Y là hướng lên phía trên"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_gltf.gltf_export_id
+msgid "Identifier of caller (in case of add-on calling this exporter). Can be useful in case of Extension added by other add-ons"
+msgstr "Mã định danh của trình gọi (trong trường hợp trình bổ sung gọi trình xuất khẩu này). Có thể hữu ích trong trường hợp Tiện Ích Mở Rộng được thêm vào bởi các trình bổ sung khác"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_gltf.ui_tab
+msgid "Export setting categories"
+msgstr "Hạng mục"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_gltf.ui_tab:'GENERAL'
+#. :src: Asset catalog from blender_assets.cats.txt
+#: source/blender/editors/io/io_alembic.cc:153
+#: source/blender/editors/io/io_alembic.cc:571
+#: source/blender/editors/io/io_obj.cc:131
+#: source/blender/editors/io/io_obj.cc:460
+#: source/blender/editors/io/io_ply_ops.cc:109
+#: source/blender/editors/io/io_ply_ops.cc:292
+#: source/blender/editors/io/io_stl_ops.cc:85
+#: source/blender/editors/io/io_stl_ops.cc:249
+#: source/blender/editors/io/io_usd.cc:439
+#: source/blender/editors/io/io_usd.cc:1094
+#: source/blender/editors/screen/workspace_edit.cc:528
+#: source/blender/makesrna/intern/rna_space.cc:75
+#: source/blender/modifiers/intern/MOD_grease_pencil_offset.cc:393
+msgid "General"
+msgstr "Chung Chung"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_gltf.ui_tab:'GENERAL'
+msgid "General settings"
+msgstr "Sắp đặt chung"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_gltf.ui_tab:'MESHES'
+msgid "Mesh settings"
+msgstr "Sắp đặt về khung lưới"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_gltf.ui_tab:'OBJECTS'
+msgid "Object settings"
+msgstr "Sắp đặt về đối tượng"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_gltf.ui_tab:'ANIMATION'
+msgid "Animation settings"
+msgstr "Sắp đặt về hoạt họa"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_gltf.use_active_collection
+msgid "Export objects in the active collection only"
+msgstr "Chỉ xuất khẩu các đối tượng nằm trong bộ sưu tập đang hoạt động mà thôi"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_gltf.use_active_collection_with_nested
+msgid "Include Nested Collections"
+msgstr "Bao Gồm các Bộ Sưu Tập Lồng Nhau"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_gltf.use_active_collection_with_nested
+msgid "Include active collection and nested collections"
+msgstr "Bao gồm bộ sưu tập đang hoạt động và các bộ sưu tập lồng nhau"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_gltf.use_active_scene
+msgid "Export active scene only"
+msgstr "Chỉ Xuất Khẩu cảnh đang hoạt động mà thôi"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_gltf.use_mesh_edges
+msgid "Export loose edges as lines, using the material from the first material slot"
+msgstr "Xuất Khẩu các cạnh mồ côi thành các đường nét, dùng nguyên vật liệu từ khe nguyên vật liệu đầu tiên"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_gltf.use_mesh_vertices
+msgid "Loose Points"
+msgstr "Các Điểm Rời Rạc"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_gltf.use_mesh_vertices
+msgid "Export loose points as glTF points, using the material from the first material slot"
+msgstr "Xuất Khẩu các điểm rời rạc dưới dạng các điểm glTF, sử dụng nguyên vật liệu từ khe nguyên vật liệu đầu tiên"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_gltf.use_renderable
+msgid "Renderable Objects"
+msgstr "Đối Tượng có thể Kết Xuất Được"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_gltf.use_renderable
+msgid "Export renderable objects only"
+msgstr "Chỉ Xuất Khẩu các đối tượng có thể kết xuất được mà thôi"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_gltf.use_selection
+msgid "Export selected objects only"
+msgstr "Chỉ Xuất Khẩu các đối tượng đã chọn mà thôi"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_gltf.will_save_settings
+msgid "Remember Export Settings"
+msgstr "Ghi Nhớ các Sắp Đặt về Xuất Khẩu"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_gltf.will_save_settings
+msgid "Store glTF export settings in the Blender project"
+msgstr "Lưu các sắp đặt xuất khẩu glTF trong đề án Blender"
+
+#. :src: bpy.types.EXTENSIONS_OT_package_install.do_legacy_replace
+msgid "Do Legacy Replace"
+msgstr "Thực Hiện Thay Thế Lỗi Thời"
+
+#. :src: bpy.types.EXTENSIONS_OT_package_install.enable_on_install
+#. :src: bpy.types.EXTENSIONS_OT_package_install_files.enable_on_install
+#. :src: bpy.types.EXTENSIONS_OT_package_install_marked.enable_on_install
+#. :src: bpy.types.PREFERENCES_OT_addon_install.enable_on_install
+msgid "Enable on Install"
+msgstr "Bật Lên khi Cài Đặt"
+
+#. :src: bpy.types.EXTENSIONS_OT_package_install.enable_on_install
+#. :src: bpy.types.EXTENSIONS_OT_package_install_files.enable_on_install
+#. :src: bpy.types.EXTENSIONS_OT_package_install_marked.enable_on_install
+#. :src: bpy.types.PREFERENCES_OT_addon_install.enable_on_install
+msgid "Enable after installing"
+msgstr "Bật lên sau khi cài đặt"
+
+#. :src: bpy.types.EXTENSIONS_OT_package_install.pkg_id
+#. :src: bpy.types.EXTENSIONS_OT_package_mark_clear.pkg_id
+#. :src: bpy.types.EXTENSIONS_OT_package_mark_set.pkg_id
+#. :src: bpy.types.EXTENSIONS_OT_package_show_clear.pkg_id
+#. :src: bpy.types.EXTENSIONS_OT_package_show_set.pkg_id
+#. :src: bpy.types.EXTENSIONS_OT_package_show_settings.pkg_id
+#. :src: bpy.types.EXTENSIONS_OT_package_theme_disable.pkg_id
+#. :src: bpy.types.EXTENSIONS_OT_package_theme_enable.pkg_id
+#. :src: bpy.types.EXTENSIONS_OT_package_uninstall.pkg_id
+msgid "Package ID"
+msgstr "ID của Gói"
+
+#. :src: bpy.types.EXTENSIONS_OT_package_install.repo_directory
+#. :src: bpy.types.EXTENSIONS_OT_package_uninstall.repo_directory
+#. :src: bpy.types.EXTENSIONS_OT_repo_sync.repo_directory
+msgid "Repo Directory"
+msgstr "Thư Mục Kho Lưu Trữ"
+
+#. :src: bpy.types.EXTENSIONS_OT_package_install.repo_index
+#. :src: bpy.types.EXTENSIONS_OT_package_mark_clear.repo_index
+#. :src: bpy.types.EXTENSIONS_OT_package_mark_set.repo_index
+#. :src: bpy.types.EXTENSIONS_OT_package_show_clear.repo_index
+#. :src: bpy.types.EXTENSIONS_OT_package_show_set.repo_index
+#. :src: bpy.types.EXTENSIONS_OT_package_show_settings.repo_index
+#. :src: bpy.types.EXTENSIONS_OT_package_theme_disable.repo_index
+#. :src: bpy.types.EXTENSIONS_OT_package_theme_enable.repo_index
+#. :src: bpy.types.EXTENSIONS_OT_package_uninstall.repo_index
+#. :src: bpy.types.EXTENSIONS_OT_repo_enable_from_drop.repo_index
+#. :src: bpy.types.EXTENSIONS_OT_repo_sync.repo_index
+msgid "Repo Index"
+msgstr "Chỉ Số Kho Lưu Trữ"
+
+#. :src: bpy.types.EXTENSIONS_OT_package_install.url
+#. :src: bpy.types.EXTENSIONS_OT_package_install_files.url
+#. :src: bpy.types.PREFERENCES_OT_extension_repo_add.remote_url
+#. :src: bpy.types.PREFERENCES_OT_extension_url_drop.url
+#. :src: bpy.types.WM_OT_url_open.url
+msgid "URL"
+msgstr "URL"
+
+#. :src: bpy.types.EXTENSIONS_OT_package_install_files.overwrite
+msgid "Legacy Overwrite"
+msgstr "Viết Đè Lỗi Thời"
+
+#. :src: bpy.types.EXTENSIONS_OT_package_install_files.overwrite
+#. :src: bpy.types.PREFERENCES_OT_addon_install.overwrite
+msgid "Remove existing add-ons with the same ID"
+msgstr "Xóa các trình bổ sung hiện tại có cùng ID (nhận dạng)"
+
+#. :src: bpy.types.EXTENSIONS_OT_package_install_files.repo
+#: scripts/addons_core/bl_pkg/bl_extension_ops.py:2853
+msgid "User Repository"
+msgstr "Kho Lưu Trữ Người Dùng"
+
+#. :src: bpy.types.EXTENSIONS_OT_package_install_files.repo
+msgid "The user repository to install extensions into"
+msgstr "Kho lưu trữ người dùng để cài đặt trình mở rộng vào"
+
+#. :src: bpy.types.EXTENSIONS_OT_package_install_files.target
+msgid "Legacy Target Path"
+msgstr "Đường Dẫn Mục Tiêu Lỗi Thời"
+
+#. :src: bpy.types.EXTENSIONS_OT_package_install_files.target
+msgid "Path to install legacy add-on packages to"
+msgstr "Đường dẫn để cài đặt các gói trình bổ sung lỗi thời"
+
+#. :src: bpy.types.EXTENSIONS_OT_package_upgrade_all.use_active_only
+#. :src: bpy.types.EXTENSIONS_OT_repo_sync_all.use_active_only
+msgid "Only sync the active repository"
+msgstr "Duy đồng bộ hóa kho lưu trữ đang hoạt động mà thôi"
+
+#. :src: bpy.types.EXTENSIONS_OT_repo_refresh_all.use_active_only
+#, fuzzy
+msgid "Only refresh the active repository"
+msgstr "Duy đồng bộ hóa kho lưu trữ đang hoạt động mà thôi"
+
+#. :src: bpy.types.EXTENSIONS_OT_userpref_tags_set.value
+msgid "Enable or disable all tags"
+msgstr "Bật hoặc tắt toàn bộ các thẻ"
+
+#. :src: bpy.types.FILE_OT_autopack_toggle
+msgctxt "Operator"
+msgid "Automatically Pack Resources"
+msgstr "Tự Động Đóng Gói Tài Nguyên"
+
+#. :src: bpy.types.FILE_OT_autopack_toggle
+msgid "Automatically pack all external files into the .blend file"
+msgstr "Tự động đóng gói toàn bộ các tập tin ở bên ngoài vào trong tập tin .blend"
+
+#. :src: bpy.types.FILE_OT_bookmark_add
+#: scripts/startup/bl_ui/space_filebrowser.py:570
+msgctxt "Operator"
+msgid "Add Bookmark"
+msgstr "Thêm Dấu Trang"
+
+#. :src: bpy.types.FILE_OT_bookmark_add
+msgid "Add a bookmark for the selected/active directory"
+msgstr "Đánh dấu trang thư mục được chọn/đang hoạt động"
+
+#. :src: bpy.types.FILE_OT_bookmark_cleanup
+msgctxt "Operator"
+msgid "Cleanup Bookmarks"
+msgstr "Dọn Dẹp Dấu Trang"
+
+#. :src: bpy.types.FILE_OT_bookmark_cleanup
+msgid "Delete all invalid bookmarks"
+msgstr "Xóa toàn bộ các dấu trang không hợp lệ"
+
+#. :src: bpy.types.FILE_OT_bookmark_delete
+msgctxt "Operator"
+msgid "Delete Bookmark"
+msgstr "Xóa Dấu Trang"
+
+#. :src: bpy.types.FILE_OT_bookmark_delete
+msgid "Delete selected bookmark"
+msgstr "Xóa dấu trang được chọn"
+
+#. :src: bpy.types.FILE_OT_bookmark_move
+msgctxt "Operator"
+msgid "Move Bookmark"
+msgstr "Di Chuyển Dấu Trang"
+
+#. :src: bpy.types.FILE_OT_bookmark_move
+msgid "Move the active bookmark up/down in the list"
+msgstr "Di chuyển dấu trang đang hoạt động lên/xuống trong danh sách"
+
+#. :src: bpy.types.FILE_OT_bookmark_move.direction
+msgid "Direction to move the active bookmark towards"
+msgstr "Chiều hướng để di chuyển dấu trang đang hoạt động về"
+
+#. :src: bpy.types.FILE_OT_bookmark_move.direction:'TOP'
+#. :src: bpy.types.OBJECT_OT_shape_key_move.type:'TOP'
+msgid "Top of the list"
+msgstr "Đỉnh của danh sách"
+
+#. :src: bpy.types.FILE_OT_bookmark_move.direction:'BOTTOM'
+#. :src: bpy.types.OBJECT_OT_shape_key_move.type:'BOTTOM'
+msgid "Bottom of the list"
+msgstr "Đáy của danh sách"
+
+#. :src: bpy.types.FILE_OT_cancel
+msgctxt "Operator"
+msgid "Cancel File Operation"
+msgstr "Thao Tác Tập Tin Bên Ngoài"
+
+#. :src: bpy.types.FILE_OT_cancel
+msgid "Cancel file operation"
+msgstr "Hủy bỏ thao tác tập tin"
+
+#. :src: bpy.types.FILE_OT_delete
+msgctxt "Operator"
+msgid "Delete Selected Files"
+msgstr "Xóa Tập Tin được Chọn"
+
+#. :src: bpy.types.FILE_OT_delete
+msgid "Move selected files to the trash or recycle bin"
+msgstr "Di chuyển các tập tin đã chọn vào thùng rác hoặc thùng tái chế"
+
+#. :src: bpy.types.FILE_OT_directory_new
+msgctxt "Operator"
+msgid "Create New Directory"
+msgstr "Kiến Tạo Thư Mục Mới"
+
+#. :src: bpy.types.FILE_OT_directory_new
+msgid "Create a new directory"
+msgstr "Tọa thư mục mới"
+
+#. :src: bpy.types.FILE_OT_directory_new.directory
+msgid "Name of new directory"
+msgstr "Tên của thư mục mới"
+
+#. :src: bpy.types.FILE_OT_directory_new.open
+#. :src: bpy.types.FILE_OT_external_operation.operation:'OPEN'
+#. :src: bpy.types.FILE_OT_select.open
+#. :src: bpy.types.OUTLINER_OT_show_one_level.open
+#: source/blender/editors/interface/templates/interface_template_id.cc:1290
+#: source/blender/editors/interface/templates/interface_template_id.cc:1304
+#: source/blender/editors/interface/templates/interface_template_id.cc:1322
+msgid "Open"
+msgstr "Mở"
+
+#. :src: bpy.types.FILE_OT_directory_new.open
+msgid "Open new directory"
+msgstr "Mở thư mục mới"
+
+#. :src: bpy.types.FILE_OT_edit_directory_path
+msgctxt "Operator"
+msgid "Edit Directory Path"
+msgstr "Chỉnh Sửa Đường Dẫn Thư Mục"
+
+#. :src: bpy.types.FILE_OT_edit_directory_path
+msgid "Start editing directory field"
+msgstr "Bắt đầu chỉnh sửa trường thư mục"
+
+#. :src: bpy.types.FILE_OT_execute
+msgctxt "Operator"
+msgid "Execute File Window"
+msgstr "Cửa Sổ Thi Hành Tập Tin"
+
+#. :src: bpy.types.FILE_OT_execute
+msgid "Execute selected file"
+msgstr "Thi hành tập tin được chọn"
+
+#. :src: bpy.types.FILE_OT_external_operation
+msgctxt "Operator"
+msgid "External File Operation"
+msgstr "Thao Tác Tập Tin Bên Ngoài"
+
+#. :src: bpy.types.FILE_OT_external_operation
+msgid "Perform external operation on a file or folder"
+msgstr "Thực hiện thao tác bên ngoài trên một tập tin hoặc thư mục"
+
+#. :src: bpy.types.FILE_OT_external_operation.filepath
+msgid "File or folder path"
+msgstr "Đường dẫn tập tin hoặc thư mục"
+
+#. :src: bpy.types.FILE_OT_external_operation.operation
+msgid "Operation to perform on the file or path"
+msgstr "Thao tác thực hiện trên tập tin hoặc đường dẫn"
+
+#. :src: bpy.types.FILE_OT_external_operation.operation:'OPEN'
+msgid "Open the file"
+msgstr "Mở tập tin"
+
+#. :src: bpy.types.FILE_OT_external_operation.operation:'FOLDER_OPEN'
+msgid "Open Folder"
+msgstr "Mở Thư Mục"
+
+#. :src: bpy.types.FILE_OT_external_operation.operation:'FOLDER_OPEN'
+msgid "Open the folder"
+msgstr "Mở thư mục"
+
+#. :src: bpy.types.FILE_OT_external_operation.operation:'EDIT'
+msgid "Edit the file"
+msgstr "Biên soạn tập tin"
+
+#. :src: bpy.types.FILE_OT_external_operation.operation:'NEW'
+msgid "Create a new file of this type"
+msgstr "Tạo một tập tin mới thuộc loại này"
+
+#. :src: bpy.types.FILE_OT_external_operation.operation:'FIND'
+msgid "Find File"
+msgstr "Tìm Tập Tin"
+
+#. :src: bpy.types.FILE_OT_external_operation.operation:'FIND'
+msgid "Search for files of this type"
+msgstr "Tìm kiếm các tập tin thuộc loại này"
+
+#. :src: bpy.types.FILE_OT_external_operation.operation:'SHOW'
+#. :src: bpy.types.PAINT_OT_hide_show.action:'SHOW'
+#. :src: bpy.types.PAINT_OT_hide_show_all.action:'SHOW'
+#. :src: bpy.types.PAINT_OT_hide_show_lasso_gesture.action:'SHOW'
+#. :src: bpy.types.PAINT_OT_hide_show_line_gesture.action:'SHOW'
+#. :src: bpy.types.PAINT_OT_hide_show_masked.action:'SHOW'
+#. :src: bpy.types.PAINT_OT_hide_show_polyline_gesture.action:'SHOW'
+#: scripts/addons_core/viewport_vr_preview/gui.py:76
+#: scripts/startup/bl_ui/properties_data_armature.py:67
+#: scripts/startup/bl_ui/properties_data_camera.py:434
+#: scripts/startup/bl_ui/properties_object.py:211
+#: scripts/startup/bl_ui/space_sequencer.py:2050
+#: scripts/startup/bl_ui/space_time.py:265
+#: scripts/startup/bl_ui/space_userpref.py:313
+#: source/blender/modifiers/intern/MOD_explode.cc:1177
+#: source/blender/modifiers/intern/MOD_particleinstance.cc:555
+#: source/blender/nodes/geometry/nodes/node_geo_warning.cc:24
+#: source/blender/nodes/geometry/nodes/node_geo_warning.cc:25
+msgid "Show"
+msgstr "Hiển thị"
+
+#. :src: bpy.types.FILE_OT_external_operation.operation:'SHOW'
+msgid "Show this file"
+msgstr "Hiển thị tập tin này"
+
+#. :src: bpy.types.FILE_OT_external_operation.operation:'PLAY'
+#. :src: bpy.types.Prefs.spacebar_action:'PLAY'
+msgid "Play"
+msgstr "Chơi"
+
+#. :src: bpy.types.FILE_OT_external_operation.operation:'PLAY'
+msgid "Play this file"
+msgstr "Chơi tập tin này"
+
+#. :src: bpy.types.FILE_OT_external_operation.operation:'BROWSE'
+msgid "Browse"
+msgstr "Duyệt"
+
+#. :src: bpy.types.FILE_OT_external_operation.operation:'BROWSE'
+msgid "Browse this file"
+msgstr "Duyệt tập tin này"
+
+#. :src: bpy.types.FILE_OT_external_operation.operation:'PREVIEW'
+msgid "Preview this file"
+msgstr "Xem trước tập tin này"
+
+#. :src: bpy.types.FILE_OT_external_operation.operation:'PRINT'
+msgid "Print"
+msgstr "In Ấn"
+
+#. :src: bpy.types.FILE_OT_external_operation.operation:'PRINT'
+msgid "Print this file"
+msgstr "In tập tin này"
+
+#. :src: bpy.types.FILE_OT_external_operation.operation:'INSTALL'
+msgid "Install"
+msgstr "Cài Đặt"
+
+#. :src: bpy.types.FILE_OT_external_operation.operation:'INSTALL'
+msgid "Install this file"
+msgstr "Cài đặt tập tin này"
+
+#. :src: bpy.types.FILE_OT_external_operation.operation:'RUNAS'
+msgid "Run As User"
+msgstr "Chạy Với Tư Cách Người Dùng"
+
+#. :src: bpy.types.FILE_OT_external_operation.operation:'RUNAS'
+msgid "Run as specific user"
+msgstr "Chạy với tư cách người dùng cụ thể nào đó"
+
+#. :src: bpy.types.FILE_OT_external_operation.operation:'PROPERTIES'
+msgid "Show OS Properties for this item"
+msgstr "Hiển Thị các Tính Chất của Hệ Điều Hành cho mục này"
+
+#. :src: bpy.types.FILE_OT_external_operation.operation:'FOLDER_FIND'
+msgid "Find in Folder"
+msgstr "Tìm trong Thư Mục"
+
+#. :src: bpy.types.FILE_OT_external_operation.operation:'FOLDER_FIND'
+msgid "Search for items in this folder"
+msgstr "Tìm kiếm các mục trong thư mục này"
+
+#. :src: bpy.types.FILE_OT_external_operation.operation:'CMD'
+msgid "Command Prompt Here"
+msgstr "Dấu Nhắc Lệnh Ở Đây"
+
+#. :src: bpy.types.FILE_OT_external_operation.operation:'CMD'
+msgid "Open a command prompt here"
+msgstr "Mở một dấu nhắc lệnh ở đây"
+
+#. :src: bpy.types.FILE_OT_filenum
+msgctxt "Operator"
+msgid "Increment Number in Filename"
+msgstr "Số Tăng trong Tên Tập Tin"
+
+#. :src: bpy.types.FILE_OT_filenum
+msgid "Increment number in filename"
+msgstr "Số tăng dùng trong tên của tập tin"
+
+#. :src: bpy.types.FILE_OT_filenum.increment
+#. :src: bpy.types.TRANSFORM_OT_edge_slide.snap_elements:'INCREMENT'
+#. :src: bpy.types.TRANSFORM_OT_resize.snap_elements:'INCREMENT'
+#. :src: bpy.types.TRANSFORM_OT_rotate.snap_elements:'INCREMENT'
+#. :src: bpy.types.TRANSFORM_OT_skin_resize.snap_elements:'INCREMENT'
+#. :src: bpy.types.TRANSFORM_OT_transform.snap_elements:'INCREMENT'
+#. :src: bpy.types.TRANSFORM_OT_translate.snap_elements:'INCREMENT'
+#. :src: bpy.types.TRANSFORM_OT_vert_slide.snap_elements:'INCREMENT'
+#. :src: bpy.types.ToolSettings.snap_elements:'INCREMENT'
+#. :src: bpy.types.ToolSettings.snap_elements_base:'INCREMENT'
+#. :src: bpy.types.ToolSettings.snap_uv_element:'INCREMENT'
+#: source/blender/nodes/intern/node_util.cc:144
+#: source/blender/nodes/shader/nodes/node_shader_vector_math.cc:224
+msgid "Increment"
+msgstr "Phân Khoảng/Gia Lượng"
+
+#. :src: bpy.types.FILE_OT_filepath_drop
+msgctxt "Operator"
+msgid "File Selector Drop"
+msgstr "Thả Tập Tin vào Trình Lựa Chọn"
+
+#. :src: bpy.types.FILE_OT_find_missing_files
+msgctxt "Operator"
+msgid "Find Missing Files"
+msgstr "Lùng Tìm các Tập Tin Mất Tích"
+
+#. :src: bpy.types.FILE_OT_find_missing_files
+msgid "Try to find missing external files"
+msgstr "Thử lùng tìm các tập tin bên ngoài bị mất tích"
+
+#. :src: bpy.types.FILE_OT_find_missing_files.find_all
+#. :src: bpy.types.SpaceTextEditor.use_find_all
+msgid "Find All"
+msgstr "Lùng Tìm Toàn Bộ"
+
+#. :src: bpy.types.FILE_OT_find_missing_files.find_all
+msgid "Find all files in the search path (not just missing)"
+msgstr "Lùng tìm toàn bộ các tập tin trong đường dẫn tìm kiếm (không chỉ bản thiếu vắng mà thôi)"
+
+#. :src: bpy.types.FILE_OT_hidedot
+msgctxt "Operator"
+msgid "Toggle Hide Dot Files"
+msgstr "Bật/Tắt tính năng Ẩn Giấu các Tập Tin có Dấu Chấm Đầu"
+
+#. :src: bpy.types.FILE_OT_hidedot
+msgid "Toggle hide hidden dot files"
+msgstr "Bật/tắt tính năng ẩn giấu các tập tin bí ẩn có chấm đầu"
+
+#. :src: bpy.types.FILE_OT_highlight
+msgctxt "Operator"
+msgid "Highlight File"
+msgstr "Nêu Bật Tập Tin"
+
+#. :src: bpy.types.FILE_OT_highlight
+msgid "Highlight selected file(s)"
+msgstr "Nêu bật tập tin được chọn"
+
+#. :src: bpy.types.FILE_OT_make_paths_absolute
+msgctxt "Operator"
+msgid "Make Paths Absolute"
+msgstr "Biến các Đường Dẫn thành Đường Dẫn Tuyệt Đối"
+
+#. :src: bpy.types.FILE_OT_make_paths_absolute
+msgid "Make all paths to external files absolute"
+msgstr "Tuyệt đối hóa toàn bộ các đường dẫn tham chiếu đến những tập tin bên ngoài"
+
+#. :src: bpy.types.FILE_OT_make_paths_relative
+msgctxt "Operator"
+msgid "Make Paths Relative"
+msgstr "Tương Đối Hóa các Đường Dẫn"
+
+#. :src: bpy.types.FILE_OT_make_paths_relative
+msgid "Make all paths to external files relative to current .blend"
+msgstr "Tương đối hóa các đường dẫn đến những tập tin bên ngoài, làm cho chúng tương đối với tập tin .blend hiện tại"
+
+#. :src: bpy.types.FILE_OT_mouse_execute
+msgctxt "Operator"
+msgid "Execute File"
+msgstr "Thực Thi Tập Tin"
+
+#. :src: bpy.types.FILE_OT_mouse_execute
+msgid "Perform the current execute action for the file under the cursor (e.g. open the file)"
+msgstr "Thực hành hành động hiện tại cho tập tin ở dưới con trỏ (ví dụ: mở tập tin)"
+
+#. :src: bpy.types.FILE_OT_next
+msgctxt "Operator"
+msgid "Next Folder"
+msgstr "Thư Mục Tiếp Theo"
+
+#. :src: bpy.types.FILE_OT_next
+msgid "Move to next folder"
+msgstr "Di chuyển đến thư mục tiếp theo"
+
+#. :src: bpy.types.FILE_OT_pack_all
+msgctxt "Operator"
+msgid "Pack Resources"
+msgstr "Đóng Gói Tài Nguyên"
+
+#. :src: bpy.types.FILE_OT_pack_all
+msgid "Pack all used external files into this .blend"
+msgstr "Đóng gói toàn bộ các tập tin bên ngoài, mà hiện đang được sử dụng, vào trong tập tin .blend này"
+
+#. :src: bpy.types.FILE_OT_pack_libraries
+msgctxt "Operator"
+msgid "Pack Linked Libraries"
+msgstr "Đóng Gói Thư Viện Nối Kết"
+
+#. :src: bpy.types.FILE_OT_pack_libraries
+msgid "Store all data-blocks linked from other .blend files in the current .blend file. Library references are preserved so the linked data-blocks can be unpacked again"
+msgstr "Lưu trữ toàn bộ các khối dữ liệu liên kết tới các tập tin .blend khác trong tập tin .blend hiện tại. Các tham chiếu thư viện được bảo tồn để các khối dữ liệu liên kết có thể được tái giải nén một lần nữa"
+
+#. :src: bpy.types.FILE_OT_parent
+msgctxt "Operator"
+msgid "Parent Directory"
+msgstr "Thư Mục Phụ Huynh"
+
+#. :src: bpy.types.FILE_OT_parent
+msgid "Move to parent directory"
+msgstr "Di chuyển đến thư mục phụ huynh"
+
+#. :src: bpy.types.FILE_OT_previous
+msgctxt "Operator"
+msgid "Previous Folder"
+msgstr "Thư Mục Trước"
+
+#. :src: bpy.types.FILE_OT_previous
+msgid "Move to previous folder"
+msgstr "Di chuyển tới thư mục trước"
+
+#. :src: bpy.types.FILE_OT_refresh
+msgctxt "Operator"
+msgid "Refresh File List"
+msgstr "Cập Nhật Danh Sách Tập Tin"
+
+#. :src: bpy.types.FILE_OT_refresh
+msgid "Refresh the file list"
+msgstr "Cập nhật danh sách tập tin (lấy các thay đổi vào)"
+
+#. :src: bpy.types.FILE_OT_rename
+msgctxt "Operator"
+msgid "Rename File or Directory"
+msgstr "Đổi Tên Tập Tin hoặc Thư Mục"
+
+#. :src: bpy.types.FILE_OT_rename
+msgid "Rename file or file directory"
+msgstr "Đổi tên tập tin hoặc thư mục"
+
+#. :src: bpy.types.FILE_OT_report_missing_files
+msgctxt "Operator"
+msgid "Report Missing Files"
+msgstr "Thông Báo các Tập Tin bị Mất Tích"
+
+#. :src: bpy.types.FILE_OT_report_missing_files
+msgid "Report all missing external files"
+msgstr "Thông báo không tìm thấy toàn bộ các tập tin bên ngoài"
+
+#. :src: bpy.types.FILE_OT_reset_recent
+msgctxt "Operator"
+msgid "Reset Recent"
+msgstr "Hoàn Lại Gần Đây"
+
+#. :src: bpy.types.FILE_OT_reset_recent
+msgid "Reset recent files"
+msgstr "Hoàn lại các tập tin gần đây"
+
+#. :src: bpy.types.FILE_OT_select
+#. :src: bpy.types.OUTLINER_OT_item_activate
+msgid "Handle mouse clicks to select and activate items"
+msgstr "Xử lý các bấm chuột để lựa chọn và kích hoạt các phần tử"
+
+#. :src: bpy.types.FILE_OT_select.fill
+#. :src: bpy.types.FILE_OT_select_walk.fill
+#, fuzzy
+msgctxt "File browser"
+msgid "Fill"
+msgstr "Vùng/Tô Phủ Kín/Lấp Đầy"
+
+#. :src: bpy.types.FILE_OT_select.fill
+#. :src: bpy.types.FILE_OT_select_walk.fill
+msgid "Select everything beginning with the last selection"
+msgstr "Chọn mọi cái, khởi đầu với vùng chọn trước đây"
+
+#. :src: bpy.types.FILE_OT_select.only_activate_if_selected
+msgid "Only Activate if Selected"
+msgstr "Chỉ Kích Hoạt nếu Được Chọn"
+
+#. :src: bpy.types.FILE_OT_select.only_activate_if_selected
+msgid "Do not change selection if the item under the cursor is already selected, only activate it"
+msgstr "Không thay đổi vùng chọn nếu mục nằm dưới con trỏ đã được chọn rồi, chỉ kích hoạt nó thôi"
+
+#. :src: bpy.types.FILE_OT_select.open
+msgid "Open a directory when selecting it"
+msgstr "Mở thư mục khi đang chọn nó"
+
+#. :src: bpy.types.FILE_OT_select.pass_through
+msgid "Pass Through"
+msgstr "Cho Phép Đi Qua"
+
+#. :src: bpy.types.FILE_OT_select.pass_through
+msgid "Even on successful execution, pass the event on so other operators can execute on it as well"
+msgstr "Ngay cả khi thi hành thành công rồi đi chăng nữa thì cũng vẫn truyền các sự kiện tiếp đi, để các thao tác khác cũng có thể thi hành trên chúng nữa"
+
+#. :src: bpy.types.FILE_OT_select_all
+msgctxt "Operator"
+msgid "(De)select All Files"
+msgstr "Chọn/Hủy Chọn Toàn Bộ các Tập Tin"
+
+#. :src: bpy.types.FILE_OT_select_all
+msgid "Select or deselect all files"
+msgstr "Chọn và hủy chọn toàn bộ các tập tin"
+
+#. :src: bpy.types.FILE_OT_select_bookmark
+msgctxt "Operator"
+msgid "Select Directory"
+msgstr "Chọn Thư Mục"
+
+#. :src: bpy.types.FILE_OT_select_bookmark
+msgid "Select a bookmarked directory"
+msgstr "Chọn thư mục đã được đánh dấu trang"
+
+#. :src: bpy.types.FILE_OT_select_box
+msgid "Activate/select the file(s) contained in the border"
+msgstr "Kích hoạt/chọn (các) tập tin nằm trong ranh giới"
+
+#. :src: bpy.types.FILE_OT_select_walk
+msgctxt "Operator"
+msgid "Walk Select/Deselect File"
+msgstr "Tiến Bước Chọn/Hủy Chọn Tập Tin"
+
+#. :src: bpy.types.FILE_OT_select_walk
+msgid "Select/Deselect files by walking through them"
+msgstr "Chọn/Hủy chọn các tập tin bằng cách tiến bước thông xuyên qua chúng"
+
+#. :src: bpy.types.FILE_OT_select_walk.direction
+#. :src: bpy.types.OUTLINER_OT_select_walk.direction
+msgid "Walk Direction"
+msgstr "Chiều Hướng Tiến Bước"
+
+#. :src: bpy.types.FILE_OT_select_walk.direction
+#. :src: bpy.types.OUTLINER_OT_select_walk.direction
+msgid "Select/Deselect element in this direction"
+msgstr "Chọn/Hủy Chọn phần tử ở hướng này"
+
+#. :src: bpy.types.FILE_OT_select_walk.direction:'UP'
+#. :src: bpy.types.NODE_OT_select_same_type_step.prev
+#. :src: bpy.types.OUTLINER_OT_select_walk.direction:'UP'
+#. :src: bpy.types.SCREEN_OT_space_context_cycle.direction:'PREV'
+#. :src: bpy.types.SCREEN_OT_workspace_cycle.direction:'PREV'
+msgid "Previous"
+msgstr "Trước"
+
+#. :src: bpy.types.FILE_OT_select_walk.direction:'DOWN'
+#. :src: bpy.types.NODE_OT_nw_batch_change.blend_type:'NEXT'
+#. :src: bpy.types.OUTLINER_OT_select_walk.direction:'DOWN'
+#. :src: bpy.types.SCREEN_OT_space_context_cycle.direction:'NEXT'
+#. :src: bpy.types.SCREEN_OT_workspace_cycle.direction:'NEXT'
+msgid "Next"
+msgstr "Tiếp Theo"
+
+#. :src: bpy.types.FILE_OT_smoothscroll
+msgctxt "Operator"
+msgid "Smooth Scroll"
+msgstr "Cuộn Nhẹ Nhàng"
+
+#. :src: bpy.types.FILE_OT_smoothscroll
+msgid "Smooth scroll to make editable file visible"
+msgstr "Cuộn nhẹ nhàng để làm cho tập tin biên soạn có thể nhìn thấy được"
+
+#. :src: bpy.types.FILE_OT_sort_column_ui_context
+msgctxt "Operator"
+msgid "Sort from Column"
+msgstr "Sắp Thứ Tự dùng Cột"
+
+#. :src: bpy.types.FILE_OT_sort_column_ui_context
+msgid "Change sorting to use column under cursor"
+msgstr "Đổi thứ tự sắp xếp dùng cột nằm dưới con trỏ"
+
+#. :src: bpy.types.FILE_OT_unpack_all
+msgctxt "Operator"
+msgid "Unpack Resources"
+msgstr "Giải Nén Tài Nguyên"
+
+#. :src: bpy.types.FILE_OT_unpack_all
+msgid "Unpack all files packed into this .blend to external ones"
+msgstr "Mở gói toàn bộ các tập tin đã đóng gói vào tập tin .blend này ra các tập tin bên ngoài"
+
+#. :src: bpy.types.FILE_OT_unpack_all.method
+#. :src: bpy.types.FILE_OT_unpack_item.method
+#. :src: bpy.types.IMAGE_OT_unpack.method
+#. :src: bpy.types.OBJECT_OT_geometry_node_bake_unpack_single.method
+#. :src: bpy.types.SOUND_OT_unpack.method
+msgid "How to unpack"
+msgstr "Phương pháp mở gói"
+
+#. :src: bpy.types.FILE_OT_unpack_all.method:'USE_LOCAL'
+msgid "Use files in current directory (create when necessary)"
+msgstr "Sử dụng các tập tin trong thư mục hiện tại (kiến tạo bản mới khi cần)"
+
+#. :src: bpy.types.FILE_OT_unpack_all.method:'WRITE_LOCAL'
+msgid "Write files to current directory (overwrite existing files)"
+msgstr "Ghi các tập tin vào thư mục hiện tại (viết đè lên những tập tin hiện có)"
+
+#. :src: bpy.types.FILE_OT_unpack_all.method:'USE_ORIGINAL'
+msgid "Use files in original location (create when necessary)"
+msgstr "Dùng các tập tin từ vị trí gốc (kiến tạo bản mới khi cần)"
+
+#. :src: bpy.types.FILE_OT_unpack_all.method:'WRITE_ORIGINAL'
+msgid "Write files to original location (overwrite existing files)"
+msgstr "Ghi các tập tin vào vị trí gốc (viết đè lên những tập tin hiện có)"
+
+#. :src: bpy.types.FILE_OT_unpack_all.method:'KEEP'
+msgid "Disable auto-pack, keep all packed files"
+msgstr "Tắt đóng gói-tự động, duy trì toàn bộ các tập tin đã đóng gói"
+
+#. :src: bpy.types.FILE_OT_unpack_all.method:'REMOVE'
+#. :src: bpy.types.IMAGE_OT_unpack.method:'REMOVE'
+#. :src: bpy.types.SOUND_OT_unpack.method:'REMOVE'
+#: source/blender/editors/util/ed_util.cc:376
+msgid "Remove Pack"
+msgstr "Loại Bỏ Gói"
+
+#. :src: bpy.types.FILE_OT_unpack_item
+msgctxt "Operator"
+msgid "Unpack Item"
+msgstr "Mở Gói Phần Tử"
+
+#. :src: bpy.types.FILE_OT_unpack_item
+msgid "Unpack this file to an external file"
+msgstr "Mở gói tập tin này ra một tập tin ở bên ngoài"
+
+#. :src: bpy.types.FILE_OT_unpack_item.id_name
+msgid "Name of ID block to unpack"
+msgstr "Tên của khối ID để mở gói"
+
+#. :src: bpy.types.FILE_OT_unpack_item.id_type
+msgid "Identifier type of ID block"
+msgstr "Thể loại định danh nhận dạng của khối ID"
+
+#. :src: bpy.types.FILE_OT_unpack_item.method:'USE_LOCAL'
+msgid "Use file from current directory (create when necessary)"
+msgstr "Dùng tập tin từ thư mục hiện tại (kiến tạo bản mới khi cần)"
+
+#. :src: bpy.types.FILE_OT_unpack_item.method:'WRITE_LOCAL'
+msgid "Write file to current directory (overwrite existing file)"
+msgstr "Ghi tập tin vào thư mục hiện tại (viết đè lên những tập tin hiện có)"
+
+#. :src: bpy.types.FILE_OT_unpack_item.method:'USE_ORIGINAL'
+msgid "Use file in original location (create when necessary)"
+msgstr "Dùng tập tin tại vị trí gốc (kiến tạo bản mới khi cần)"
+
+#. :src: bpy.types.FILE_OT_unpack_item.method:'WRITE_ORIGINAL'
+msgid "Write file to original location (overwrite existing file)"
+msgstr "Ghi tập tin vào vị trí gốc (viết đè lên tập những tập tin hiện có)"
+
+#. :src: bpy.types.FILE_OT_unpack_libraries
+msgctxt "Operator"
+msgid "Unpack Linked Libraries"
+msgstr "Giải Nén các Thư Viện Kết Nối"
+
+#. :src: bpy.types.FILE_OT_unpack_libraries
+msgid "Restore all packed linked data-blocks to their original locations"
+msgstr "Khôi phục lại toàn bộ các khối dữ liệu kết nối đã được đóng gói về vị trí (trên ổ cứng) ban đầu của chúng"
+
+#. :src: bpy.types.FILE_OT_view_selected
+msgid "Scroll the selected files into view"
+msgstr "Đưa các tập tin đã chọn vào tầm nhìn"
+
+#. :src: bpy.types.FLUID_OT_bake_all
+#: scripts/startup/bl_ui/properties_physics_fluid.py:1326
+msgctxt "Operator"
+msgid "Bake All"
+msgstr "Nướng Toàn bộ các"
+
+#. :src: bpy.types.FLUID_OT_bake_all
+msgid "Bake Entire Fluid Simulation"
+msgstr "Nướng Toàn Thể Mô Phỏng Chất Lỏng"
+
+#. :src: bpy.types.FLUID_OT_bake_data
+#: scripts/startup/bl_ui/properties_physics_fluid.py:235
+msgctxt "Operator"
+msgid "Bake Data"
+msgstr "Nướng Dữ Liệu"
+
+#. :src: bpy.types.FLUID_OT_bake_data
+msgid "Bake Fluid Data"
+msgstr "Nướng Dữ Liệu Chất Lỏng"
+
+#. :src: bpy.types.FLUID_OT_bake_guides
+#: scripts/startup/bl_ui/properties_physics_fluid.py:1207
+msgctxt "Operator"
+msgid "Bake Guides"
+msgstr "Nướng Chỉ Dẫn"
+
+#. :src: bpy.types.FLUID_OT_bake_guides
+msgid "Bake Fluid Guiding"
+msgstr "Nướng Chỉ Dẫn Chất Lỏng"
+
+#. :src: bpy.types.FLUID_OT_bake_mesh
+#: scripts/startup/bl_ui/properties_physics_fluid.py:906
+msgctxt "Operator"
+msgid "Bake Mesh"
+msgstr "Nướng Khung Lưới"
+
+#. :src: bpy.types.FLUID_OT_bake_mesh
+msgid "Bake Fluid Mesh"
+msgstr "Nướng Khung Lưới Chất Lỏng"
+
+#. :src: bpy.types.FLUID_OT_bake_noise
+#: scripts/startup/bl_ui/properties_physics_fluid.py:807
+msgctxt "Operator"
+msgid "Bake Noise"
+msgstr "Nướng Nhiễu"
+
+#. :src: bpy.types.FLUID_OT_bake_noise
+msgid "Bake Fluid Noise"
+msgstr "Nướng Nhiễu Chất Lỏng"
+
+#. :src: bpy.types.FLUID_OT_bake_particles
+#: scripts/startup/bl_ui/properties_physics_fluid.py:1042
+msgctxt "Operator"
+msgid "Bake Particles"
+msgstr "Nướng Hạt"
+
+#. :src: bpy.types.FLUID_OT_bake_particles
+msgid "Bake Fluid Particles"
+msgstr "Nướng Hạt Chất Lỏng"
+
 #. :src: bpy.types.FLUID_OT_free_all
 #: scripts/startup/bl_ui/properties_physics_fluid.py:1328
 msgctxt "Operator"
